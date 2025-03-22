@@ -1,4 +1,3 @@
-// File: backend/src/app.js
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
@@ -9,11 +8,14 @@ import mongoose from "mongoose";
 import { createServer } from "http";
 import { initSocketServer } from "./websocket/socketServer.js";
 import twilioHandlers from "./controllers/twilioController.js";
+import testRoutes from "./testing/testingRoutes.js";
 
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
+app.use("/", testRoutes);
 
 app.use("/api/emergencies", emergencyRoutes);
 app.use("/api/patients", patientRoutes);
