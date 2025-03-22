@@ -3,6 +3,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
+  /* Dashboard colors */
+  --color-normal: #10b981;
+  --color-warning: #f59e0b;
+  --color-critical: #ef4444;
+  --color-pending: #3b82f6;
+  
+  /* Panel colors */
+  --panel-background: #ffffff;
+  --panel-border: #e5e7eb;
 }
 
 @theme inline {
@@ -16,11 +26,193 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    
+    /* Dark theme panel colors */
+    --panel-background: #1f2937;
+    --panel-border: #374151;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Dashboard Layout */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(350px, 1fr);
+  gap: 1rem;
+  height: calc(100vh - 2rem);
+  padding: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+}
+
+/* Panel styles */
+.panel {
+  background: var(--panel-background);
+  border: 1px solid var(--panel-border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-header {
+  border-bottom: 1px solid var(--panel-border);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-body {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+/* Health status indicators */
+.status-normal {
+  color: var(--color-normal);
+}
+
+.status-warning {
+  color: var(--color-warning);
+}
+
+.status-critical {
+  color: var(--color-critical);
+}
+
+.status-pending {
+  color: var(--color-pending);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Dashboard grid layout for different screen sizes */
+.dashboard-grid {
+  display: grid;
+  grid-template-areas:
+    "left-top right-top"
+    "left-bottom right-bottom";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: calc(100vh - 64px);
+}
+
+.left-top {
+  grid-area: left-top;
+  min-height: 0; /* For proper overflow handling */
+}
+
+.right-top {
+  grid-area: right-top;
+  min-height: 0;
+}
+
+.left-bottom {
+  grid-area: left-bottom;
+  min-height: 0;
+}
+
+.right-bottom {
+  grid-area: right-bottom;
+  min-height: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .dashboard-grid {
+    grid-template-columns: 55% 45%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .dashboard-grid {
+    grid-template-areas:
+      "left-top right-top"
+      "left-bottom left-bottom"
+      "right-bottom right-bottom";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 25% 25%;
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-areas:
+      "left-top"
+      "right-top"
+      "left-bottom"
+      "right-bottom";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+}
+
+.dashboard-loading-pulse {
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Improve dark mode appearance */
+.dark .dashboard-card {
+  background-color: rgba(17, 24, 39, 0.8);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(55, 65, 81, 0.5);
+}
+
+/* Add subtle animation to emergency alert */
+.emergency-alert {
+  transition: all 0.3s ease-in-out;
+}
+
+.emergency-alert.critical {
+  animation: pulse-warning 2s infinite;
+}
+
+@keyframes pulse-warning {
+  0%, 100% {
+    background-color: rgba(239, 68, 68, 0.1);
+  }
+  50% {
+    background-color: rgba(239, 68, 68, 0.2);
+  }
 }
