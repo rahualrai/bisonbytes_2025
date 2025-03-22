@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Socket Test</title>
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+  <h1>Listening for emergency updates...</h1>
+  <ul id="updates"></ul>
+  <script>
+    const socket = io("http://localhost:3001");
+    socket.on("emergency-update", (data) => {
+      const li = document.createElement("li");
+      li.textContent = JSON.stringify(data);
+      document.getElementById("updates").appendChild(li);
+    });
+  </script>
+</body>
+</html>
