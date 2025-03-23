@@ -9,7 +9,7 @@ export const isEmergency = async (req, res) => {
 
   console.log(req.body);
 
-  if (!req.body.emergencyTriggered) {
+  if (typeof req.body.emergencyTriggered !== "boolean") {
     console.log("Invalid input. Expected a boolean value.");
     return res.status(400).json({ error: "Invalid input. Expected a boolean value." });
   }
@@ -105,8 +105,8 @@ export const respondEmergency = async (req, res) => {
 };
 
 export const getEmergencies = async (req, res) => {
-  const emergencies = await Emergency.find().sort({ createdAt: -1 });
-  res.json(emergencies);
+  const testEmergencies = await testEmergency.find().sort({ triggeredAt: -1 }); 
+  res.status(200).json(testEmergencies);
 };
 
 // New function to handle timer expiration from frontend

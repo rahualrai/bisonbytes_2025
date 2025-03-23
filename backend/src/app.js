@@ -1,11 +1,10 @@
-// File: backend/src/app.js
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
 import mongoose from "mongoose";
 import { createServer } from "http";
 import { initSocketServer } from "./websocket/socketServer.js";
-import {isEmergency} from "./controllers/emergencyController.js";
+import { isEmergency } from "./controllers/emergencyController.js";
 import twilioHandlers from "./controllers/twilioController.js";
 import watchRoutes from "./watch/watchRoutes.js";
 import mlHandlers from "./controllers/mlController.js";
@@ -14,6 +13,7 @@ import patientRoutes from "./routes/patientRoutes.js";
 import twilioRoutes from "./routes/twilioRoutes.js";
 import vitalsRoutes from "./routes/vitalsRoutes.js";
 import geminiRoutes from "./routes/geminiRoutes.js";
+import connectDB from "./config/db.js"; 
 
 const app = express();
 app.use(cors({
@@ -25,10 +25,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+connectDB();
 
 app.use("/", watchRoutes);
 app.use("/api/emergencies", emergencyRoutes);
@@ -36,7 +33,7 @@ app.post("/trigger-emergency", isEmergency);
 app.use("/api/patients", patientRoutes);
 app.use("/api/twilio", twilioRoutes);
 app.use("/api/vitals", vitalsRoutes);
-app.use("/api/gemini", geminiRoutes); 
+app.use("/api/gemini", geminiRoutes);
 
 // Twilio test call and gather webhook routes from controller
 app.post("/api/twilio/test-call", twilioHandlers.callTwilio);
