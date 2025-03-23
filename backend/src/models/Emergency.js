@@ -2,11 +2,11 @@ import mongoose from "mongoose";
 
 const EmergencySchema = new mongoose.Schema(
   {
-    patientId: {
-      type: String,
-      required: true,
-      index: true
-    },
+    // patientId: {
+    //   type: String,
+    //   required: true,
+    //   index: true
+    // },
     anomalyType: {
       type: String,
       enum: ['heartRate', 'bloodPressure', 'spO2', 'fall', 'other'],
