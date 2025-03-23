@@ -3,15 +3,35 @@ import testEmergency from "../models/testEmergencyModel.js";
 import VitalsTesting from "../models/vitalsTestModel.js"; // Import the VitalsTesting model
 import { emitEmergencyUpdate } from "../websocket/socketServer.js";
 import { callTwilio } from "./twilioController.js";
+import getAddress from "../services/geocodingService.js";
 
 export const triggerEmergencyFromWatch = async (req, res) => {
 
+  console.log(req.body);
+
   // expect a responseId from the watch
   if (!req.body.responseId) {
+    console.log("Invalid input. Expected a responseId.");
     return res.status(400).json({ error: "Invalid input. Expected a responseId." });
   };
 
+  // check for lat and long from the watch
+  if (!req.body.latitude || !req.body.longitude) {
+    console.log("Invalid input. Expected a latitude and longitude.");
+    return res.status(400).json({ error: "Invalid input. Expected a latitude and longitude." });
+  }
+
   console.log("Emergency triggered from watch");
+
+  try {
+    // if called, use google maps api to get the address from the lat and long
+    const address = await getAddress(req.body.latitude, req.body.longitude);
+    console.log("Address from Google Maps API:", address);
+  }
+  catch (error) {
+    console.error("Error getting address from Google Maps API:", error);
+    return res.status(500).json({ error: "Failed to get address from Google Maps API." });
+  }
 
   try {
     // if called, pull the vitals from the database using responseId
@@ -23,8 +43,8 @@ export const triggerEmergencyFromWatch = async (req, res) => {
   }
 
   try {
-    // if called, call the Twilio test call function
-    const twilioResponse = await callTwilio();
+    // if called, call the Twilio test call function and pass the vitals
+    const twilioResponse = await `callTwilio`(vitals);
     if (twilioResponse.success) {
       res.status(200).json({ message: "Twilio call initiated.", sid: twilioResponse.sid });
     } else {
