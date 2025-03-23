@@ -5,6 +5,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import { createServer } from "http";
 import { initSocketServer } from "./websocket/socketServer.js";
+import { triggerEmergencyFromWatch } from "./controllers/emergencyController.js";
 import twilioHandlers from "./controllers/twilioController.js";
 import watchRoutes from "./watch/watchRoutes.js";
 import mlHandlers from "./controllers/mlController.js";
@@ -12,7 +13,7 @@ import emergencyRoutes from "./routes/emergencyRoutes.js";
 import patientRoutes from "./routes/patientRoutes.js";
 import twilioRoutes from "./routes/twilioRoutes.js";
 import vitalsRoutes from "./routes/vitalsRoutes.js";
-import { triggerEmergencyFromWatch } from "./controllers/emergencyController.js"; // Correct import
+import geminiRoutes from "./routes/geminiRoutes.js";
 
 const app = express();
 app.use(cors({
@@ -34,9 +35,8 @@ app.use("/api/emergencies", emergencyRoutes);
 app.post("/trigger-emergency", triggerEmergencyFromWatch);
 app.use("/api/patients", patientRoutes);
 app.use("/api/twilio", twilioRoutes);
-
-// Add to route registrations
 app.use("/api/vitals", vitalsRoutes);
+app.use("/api/gemini", geminiRoutes); 
 
 // Twilio test call and gather webhook routes from controller
 app.post("/api/twilio/test-call", twilioHandlers.callTwilio);
