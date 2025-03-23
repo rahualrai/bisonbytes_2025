@@ -15,14 +15,26 @@ module Rez {
 
             return [rez_cmp_local_text_heart] as Array<WatchUi.Drawable>;
         }
+
+        function TimerLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_Timer = new WatchUi.Text({:identifier=>"Timer", :color=>Graphics.COLOR_BLUE, :locX=>(416 * 0.5), :locY=>((416 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :text=>"10", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_text_Timer] as Array<WatchUi.Drawable>;
+        }
+
+        function EmergencyLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_EmergencyLabel = new WatchUi.Text({:identifier=>"EmergencyLabel", :color=>Graphics.COLOR_BLUE, :locX=>(416 * 0.5), :locY=>((416 - dc.getFontHeight(Graphics.FONT_MEDIUM)) * 0.5), :text=>"Emergency Initiated", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            return [rez_cmp_local_text_EmergencyLabel] as Array<WatchUi.Drawable>;
+        }
     } // Layouts
 
     module Menus {
         class MainMenu extends WatchUi.Menu {
             function initialize() {
                 Menu.initialize();
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_1) as String), :item_1);
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_2) as String), :item_2);
+                addItem("Simulator On", :item_1);
+                addItem("Simulator Off", :item_2);
             }
         }
     } // Menus

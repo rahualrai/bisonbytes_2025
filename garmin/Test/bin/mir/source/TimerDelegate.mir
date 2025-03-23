@@ -1,0 +1,287 @@
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Activity,3,14,22]; ]
+import Toybox.Activity;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 5; @symbol_classdef = [TimerDelegate,5,6,19]; @symbol_extends<0> = [WatchUi,5,28,35]; @symbol_extends<1> = [BehaviorDelegate,5,36,52]; ]
+class TimerDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 5; ]
+    <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 8 16 ]
+        %tmp.1 = newa 2;
+        %tmp.2 = 38.9237151236751;
+        %tmp.3 = dup %tmp.1;
+        %tmp.4 = aputv %tmp.3 0 %tmp.2;
+        %tmp.5 = -77.020863284267;
+        %tmp.6 = dup %tmp.4;
+        %tmp.7 = aputv %tmp.6 1 %tmp.5;
+        putv self :location %tmp.7;
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 7; @position = 16; @symbol_vardef = [responseId,7,16,26]; ]
+    private
+    var responseId;
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 8; @position = 16; @symbol_vardef = [location,8,16,24]; ]
+    private
+    var location;
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
+    function initialize() as Void {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_9_26_11_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 10 8 ]
+        symbol [ BehaviorDelegate %tmp.2 10 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 10 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_9_26_11_4_stop:
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 13; @symbol_functiondef = [setResponseId,13,13,26]; @symbol_param<0> = [id,13,27,29]; ]
+    function setResponseId(id) {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_13_31_15_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 14 8 ]
+        %tmp.1 = lgetv %id;
+        symbol [ id %tmp.1 14 21 23 ];
+        symbol [ responseId ? 14 8 18 ];
+        putv self :responseId %tmp.1;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_13_31_15_4_stop:
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 17; @symbol_functiondef = [onReceive,17,13,22]; @symbol_param<0> = [responseCode,17,23,35]; @symbol_param<0>_type<0> = [Number,17,39,45]; @symbol_param<1> = [data,17,47,51]; @symbol_param<1>_type<0> = [Dictionary,17,55,65]; ]
+    function onReceive(responseCode as Number, data as Dictionary or Null) as Void {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_17_76_27_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 18 8 ]
+        symbol [ WatchUi %tmp.1 18 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.2 18 16 29 ];
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 20 7 ]
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_20_7_25_7_if_stmt:
+        %tmp.3 = lgetv %responseCode;
+        symbol [ responseCode %tmp.3 20 11 23 ];
+        %tmp.4 = 200;
+        %tmp.5 = eq %tmp.3 %tmp.4;
+        bf %tmp.5 @_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_20_7_25_7_if_else_false;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_20_7_25_7_if_true:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_20_32_22_7_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 21 11 ]
+        symbol [ System %tmp.7 21 11 17 ];
+        %tmp.7 = getv ? :System;
+        symbol [ println %tmp.8 21 18 25 ];
+        %tmp.8 = getv function %tmp.7 :println;
+        %tmp.9 = "Request Successful Emergency";
+        invoke %tmp.7 %tmp.8(%tmp.9);
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_20_32_22_7_stop:
+        goto @_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_20_7_25_7_if_end;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_20_7_25_7_if_else_false:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_23_12_25_7_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 24 11 ]
+        symbol [ System %tmp.11 24 11 17 ];
+        %tmp.11 = getv ? :System;
+        symbol [ println %tmp.12 24 18 25 ];
+        %tmp.12 = getv function %tmp.11 :println;
+        %tmp.13 = "Response: ";
+        %tmp.14 = lgetv %responseCode;
+        symbol [ responseCode %tmp.14 24 41 53 ];
+        %tmp.15 = add %tmp.13 %tmp.14;
+        invoke %tmp.11 %tmp.12(%tmp.15);
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_23_12_25_7_stop:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_20_7_25_7_if_end:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_17_76_27_4_stop:
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 31; @symbol_functiondef = [makeRequest,31,13,24]; ]
+    function makeRequest() as Void {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_31_35_49_0_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 32 4 ]
+        [ "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_31_35_49_0_start" "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_31_35_49_0_stop" ]
+        %url.1 = local;
+        symbol [ url %url.1 32 8 11 ];
+        %tmp.1 = "https://c3f8-138-238-254-98.ngrok-free.app/trigger-emergency";
+        lputv %url.1 %tmp.1;
+        symbol [ url %url.1 32 8 11 ];
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 34 4 ]
+        [ "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_31_35_49_0_start" "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_31_35_49_0_stop" ]
+        %params.2 = local;
+        symbol [ params %params.2 34 8 14 ];
+        %tmp.2 = newd 3;
+        %tmp.3 = "responseId";
+        symbol [ responseId %tmp.5 35 24 34 ];
+        %tmp.5 = getv ? :responseId;
+        %tmp.6 = dup %tmp.2;
+        %tmp.7 = aputv %tmp.6 %tmp.3 %tmp.5;
+        %tmp.8 = "latitude";
+        symbol [ location %tmp.10 36 22 30 ];
+        %tmp.10 = getv ? :location;
+        %tmp.11 = 0;
+        %tmp.12 = agetv %tmp.10 %tmp.11;
+        %tmp.13 = dup %tmp.7;
+        %tmp.14 = aputv %tmp.13 %tmp.8 %tmp.12;
+        %tmp.15 = "longitude";
+        symbol [ location %tmp.17 37 23 31 ];
+        %tmp.17 = getv ? :location;
+        %tmp.18 = 1;
+        %tmp.19 = agetv %tmp.17 %tmp.18;
+        %tmp.20 = dup %tmp.14;
+        %tmp.21 = aputv %tmp.20 %tmp.15 %tmp.19;
+        lputv %params.2 %tmp.21;
+        symbol [ params %params.2 34 8 14 ];
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 40 4 ]
+        [ "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_31_35_49_0_start" "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_31_35_49_0_stop" ]
+        %options.3 = local;
+        symbol [ options %options.3 40 8 15 ];
+        %tmp.22 = newd 2;
+        %tmp.24 = const :method;
+        symbol [ method %tmp.24 41 9 15 const ];
+        symbol [ Communications %tmp.26 41 19 33 ];
+        %tmp.26 = getv ? :Communications;
+        symbol [ HTTP_REQUEST_METHOD_POST %tmp.27 41 34 58 ];
+        %tmp.27 = getv %tmp.26 :HTTP_REQUEST_METHOD_POST;
+        %tmp.28 = dup %tmp.22;
+        %tmp.29 = aputv %tmp.28 %tmp.24 %tmp.27;
+        %tmp.31 = const :headers;
+        symbol [ headers %tmp.31 42 9 16 const ];
+        %tmp.32 = newd 1;
+        %tmp.33 = "Content-Type";
+        symbol [ Communications %tmp.35 43 30 44 ];
+        %tmp.35 = getv ? :Communications;
+        symbol [ REQUEST_CONTENT_TYPE_JSON %tmp.36 43 45 70 ];
+        %tmp.36 = getv %tmp.35 :REQUEST_CONTENT_TYPE_JSON;
+        %tmp.37 = dup %tmp.32;
+        %tmp.38 = aputv %tmp.37 %tmp.33 %tmp.36;
+        %tmp.39 = dup %tmp.29;
+        %tmp.40 = aputv %tmp.39 %tmp.31 %tmp.38;
+        lputv %options.3 %tmp.40;
+        symbol [ options %options.3 40 8 15 ];
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 47 4 ]
+        [ "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_31_35_49_0_start" "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_31_35_49_0_stop" ]
+        %responseCallback.4 = local;
+        symbol [ responseCallback %responseCallback.4 47 8 24 ];
+        %tmp.41 = self;
+        symbol [ method %tmp.42 47 27 33 ];
+        %tmp.42 = getv function %tmp.41 :method;
+        %tmp.44 = const :onReceive;
+        symbol [ onReceive %tmp.44 47 35 44 const ];
+        %tmp.45 = invoke %tmp.41 %tmp.42(%tmp.44);
+        lputv %responseCallback.4 %tmp.45;
+        symbol [ responseCallback %responseCallback.4 47 8 24 ];
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 48 4 ]
+        symbol [ Communications %tmp.47 48 4 18 ];
+        %tmp.47 = getv ? :Communications;
+        symbol [ makeWebRequest %tmp.48 48 19 33 ];
+        %tmp.48 = getv function %tmp.47 :makeWebRequest;
+        %tmp.49 = lgetv %url.1;
+        symbol [ url %tmp.49 48 34 37 ];
+        %tmp.50 = lgetv %params.2;
+        symbol [ params %tmp.50 48 39 45 ];
+        %tmp.51 = lgetv %options.3;
+        symbol [ options %tmp.51 48 47 54 ];
+        %tmp.52 = lgetv %responseCallback.4;
+        symbol [ responseCallback %tmp.52 48 56 72 ];
+        invoke %tmp.47 %tmp.48(%tmp.49, %tmp.50, %tmp.51, %tmp.52);
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_31_35_49_0_stop:
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 51; @symbol_functiondef = [onKey,51,13,18]; @symbol_param<0> = [keyEvent,51,19,27]; @symbol_param<0>_type<0> = [WatchUi,51,31,38]; @symbol_param<0>_type<1> = [KeyEvent,51,39,47]; @symbol_return<0> = [Boolean,51,52,59]; ]
+    function onKey(keyEvent as WatchUi.KeyEvent) as Boolean {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_51_60_65_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 52 8 ]
+        [ "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_51_60_65_4_start" "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_51_60_65_4_stop" ]
+        %key.1 = local;
+        symbol [ key %key.1 52 12 15 ];
+        %tmp.1 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.1 52 18 26 ];
+        symbol [ getKey %tmp.2 52 27 33 ];
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %key.1 %tmp.3;
+        symbol [ key %key.1 52 12 15 ];
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 53 8 ]
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_53_8_57_8_if_stmt:
+        %tmp.4 = lgetv %key.1;
+        symbol [ key %tmp.4 53 12 15 ];
+        %tmp.5 = 5;
+        %tmp.6 = eq %tmp.4 %tmp.5;
+        bf %tmp.6 @_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_53_8_57_8_if_end;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_53_8_57_8_if_true:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_53_22_57_8_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 54 12 ]
+        symbol [ System %tmp.8 54 12 18 ];
+        %tmp.8 = getv ? :System;
+        symbol [ println %tmp.9 54 19 26 ];
+        %tmp.9 = getv function %tmp.8 :println;
+        %tmp.10 = "Stop";
+        invoke %tmp.8 %tmp.9(%tmp.10);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 55 12 ]
+        symbol [ WatchUi %tmp.11 55 12 19 ];
+        %tmp.11 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.12 55 20 28 ];
+        %tmp.12 = getv function %tmp.11 :pushView;
+        symbol [ TestView %tmp.16 55 33 41 ];
+        %tmp.16 = getv ? :TestView;
+        %tmp.13 = newc %tmp.16 ();
+        symbol [ TestDelegate %tmp.20 55 49 61 ];
+        %tmp.20 = getv ? :TestDelegate;
+        %tmp.17 = newc %tmp.20 ();
+        symbol [ WatchUi %tmp.21 55 65 72 ];
+        %tmp.21 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.22 55 73 81 ];
+        %tmp.22 = getv %tmp.21 :SLIDE_UP;
+        invoke %tmp.11 %tmp.12(%tmp.13, %tmp.17, %tmp.22);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 56 12 ]
+        %tmp.23 = true;
+        ret %tmp.23;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_53_22_57_8_stop:
+        goto @_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_53_8_57_8_if_end;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_53_8_57_8_if_end:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 58 8 ]
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_58_8_63_8_if_stmt:
+        %tmp.24 = lgetv %key.1;
+        symbol [ key %tmp.24 58 12 15 ];
+        %tmp.25 = 4;
+        %tmp.26 = eq %tmp.24 %tmp.25;
+        bf %tmp.26 @_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_58_8_63_8_if_end;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_58_8_63_8_if_true:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_58_22_63_8_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 59 12 ]
+        symbol [ System %tmp.28 59 12 18 ];
+        %tmp.28 = getv ? :System;
+        symbol [ println %tmp.29 59 19 26 ];
+        %tmp.29 = getv function %tmp.28 :println;
+        %tmp.30 = "Start";
+        invoke %tmp.28 %tmp.29(%tmp.30);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 60 12 ]
+        %tmp.31 = self;
+        symbol [ makeRequest %tmp.32 60 12 23 ];
+        %tmp.32 = getv function %tmp.31 :makeRequest;
+        invoke %tmp.31 %tmp.32();
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 61 12 ]
+        symbol [ WatchUi %tmp.33 61 12 19 ];
+        %tmp.33 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.34 61 20 28 ];
+        %tmp.34 = getv function %tmp.33 :pushView;
+        symbol [ EmergencyView %tmp.38 61 33 46 ];
+        %tmp.38 = getv ? :EmergencyView;
+        %tmp.35 = newc %tmp.38 ();
+        %tmp.39 = null;
+        symbol [ WatchUi %tmp.40 61 56 63 ];
+        %tmp.40 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.41 61 64 72 ];
+        %tmp.41 = getv %tmp.40 :SLIDE_UP;
+        invoke %tmp.33 %tmp.34(%tmp.35, %tmp.39, %tmp.41);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 62 12 ]
+        %tmp.42 = true;
+        ret %tmp.42;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_58_22_63_8_stop:
+        goto @_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_58_8_63_8_if_end;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_58_8_63_8_if_end:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc" 64 8 ]
+        %tmp.43 = false;
+        ret %tmp.43;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TimerDelegate_mc_51_60_65_4_stop:
+    }
+}
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerDelegate.mc"; @line = 1; ]
+<init> {
+}
