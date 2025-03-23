@@ -1,18 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f0f7fa;
+  --foreground: #2c5364;
   
   /* Dashboard colors */
-  --color-normal: #10b981;
-  --color-warning: #f59e0b;
-  --color-critical: #ef4444;
-  --color-pending: #3b82f6;
+  --color-normal: #3cba92;
+  --color-warning: #f8b195;
+  --color-critical: #f67280;
+  --color-pending: #6a9ec0;
+
+  --color-primary: #4ca1af;
+  --color-primary-light: rgba(76, 161, 175, 0.15);
+  --color-success: #3cba92;
+  --color-warning: #f8b195;
+  --color-danger: #f67280;
   
   /* Panel colors */
   --panel-background: #ffffff;
-  --panel-border: #e5e7eb;
+  --panel-border: #e0f2f7;
 }
 
 @theme inline {
@@ -22,14 +28,14 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media(prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #203a43;
+    --foreground: #f0f7fa;
     
     /* Dark theme panel colors */
-    --panel-background: #1f2937;
-    --panel-border: #374151;
+    --panel-background: #2c5364;
+    --panel-border: #4ca1af;
   }
 }
 
@@ -194,9 +200,9 @@ body {
 
 /* Improve dark mode appearance */
 .dark .dashboard-card {
-  background-color: rgba(17, 24, 39, 0.8);
+  background-color: var(--panel-background);
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(55, 65, 81, 0.5);
+  border: 1px solid var(--panel-border);
 }
 
 /* Add subtle animation to emergency alert */

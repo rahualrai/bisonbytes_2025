@@ -1,0 +1,67 @@
+/* Main Dashboard Layout */
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    height: calc(100vh - 64px);
+    padding: 1rem;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  /* Left column - Vitals */
+  .vitals-column {
+    grid-column: 1;
+    height: 100%;
+  }
+  
+  /* Right column - Info panels */
+  .info-column {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr; /* Changed from 1fr 1fr 1fr to 1fr 2fr */
+    gap: 1rem;
+    height: 100%;
+  }
+  
+  .patient-history-container,
+  .emergency-container {
+    min-height: 0; /* Important for proper scrolling */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .dashboard-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+    }
+    
+    .vitals-column {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    
+    .info-column {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  }
+  
+  /* Ensure cards take full height */
+  .vitals-column > div,
+  .patient-history-container > div,
+  .emergency-container > div {
+    height: 100%;
+  }
+  
+  /* Emergency tabs styling */
+  .emergency-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .emergency-content {
+    height: calc(100% - 40px);
+    overflow-y: auto;
+  }

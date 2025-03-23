@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { determineVitalStatus } from '@/lib/utils';
 
 export default function useVitals(refreshInterval = 5000) {
@@ -8,7 +8,7 @@ export default function useVitals(refreshInterval = 5000) {
   const [error, setError] = useState(null);
 
   // Fetch the latest vitals
-  const fetchVitals = async () => {
+  const fetchVitals = useCallback(async () => {
     try {
       const response = await fetch('/api/vitals');
       
@@ -33,10 +33,10 @@ export default function useVitals(refreshInterval = 5000) {
       setError(err.message);
       setLoading(false);
     }
-  };
+  }, []);
 
-  // Fetch historical data for a specific vital
-  const fetchVitalHistory = async (vitalType, hours = 24) => {
+  // Fetch historical data for a specific vital - now memoized with useCallback
+  const fetchVitalHistory = useCallback(async (vitalType, hours = 24) => {
     try {
       const response = await fetch(`/api/vitals?type=${vitalType}&hours=${hours}`);
       
@@ -46,10 +46,12 @@ export default function useVitals(refreshInterval = 5000) {
       
       const data = await response.json();
       setHistory(prev => ({ ...prev, [vitalType]: data }));
+      return data; // Return the data for the caller
     } catch (err) {
       setError(err.message);
+      return []; // Return empty array on error to avoid undefined
     }
-  };
+  }, []); // Empty dependency array to keep function reference stable
 
   // Initial fetch
   useEffect(() => {
@@ -59,7 +61,7 @@ export default function useVitals(refreshInterval = 5000) {
     const intervalId = setInterval(fetchVitals, refreshInterval);
     
     return () => clearInterval(intervalId);
-  }, [refreshInterval]);
+  }, [refreshInterval, fetchVitals]); // Added fetchVitals as dependency
 
   return {
     vitals,

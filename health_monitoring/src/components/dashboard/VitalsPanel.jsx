@@ -1,79 +1,202 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useDashboard } from '@/contexts/DashboardContext';
-import Card from '@/components/ui/Card';
-import VitalSign from '@/components/ui/VitalSign';
-import Button from '@/components/ui/Button';
-import { formatTimeAgo } from '@/lib/utils';
-import Tabs from '@/components/ui/Tabs';
+import { formatTimeAgo, getVitalTrend } from '@/lib/utils';
+import Card from '../ui/Card';
+import Button from '../ui/Button';
+import { 
+  LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, 
+  ResponsiveContainer, Area, ComposedChart, ReferenceLine 
+} from 'recharts';
+import { HeartPulse, Thermometer, Activity, BarChart, Clock, Droplets } from 'lucide-react';
+import './styles/VitalsPanel.css';
 
-// Icons for vitals (you can replace these with your own SVG icons)
-const HeartIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-  </svg>
-);
+// Vital reference ranges
+const REFERENCE_RANGES = {
+  heartRate: { min: 60, max: 100, unit: 'bpm', label: 'Heart Rate', color: '#FF5F5F' },
+  temperature: { min: 36.1, max: 37.2, unit: '°C', label: 'Temperature', color: '#FF9F40' },
+  bloodPressure: { 
+    systolic: { min: 90, max: 120, unit: 'mmHg', color: '#8884d8' },
+    diastolic: { min: 60, max: 80, unit: 'mmHg', color: '#82ca9d' },
+    label: 'Blood Pressure'
+  },
+  spO2: { min: 95, max: 100, unit: '%', label: 'SpO2', color: '#4C7FFF' },
+  steps: { min: 0, max: 10000, unit: 'steps', label: 'Steps', color: '#50C878' }
+};
 
-const BloodPressureIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
-  </svg>
-);
-
-const OxygenIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-  </svg>
-);
-
-const TemperatureIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-  </svg>
-);
-
-const StepsIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-  </svg>
-);
+// Array of vital types for easy iteration
+const VITAL_TYPES = ['heartRate', 'bloodPressure', 'temperature', 'spO2', 'steps'];
 
 export default function VitalsPanel() {
-  const { vitals, vitalsLoading, vitalsError, refreshVitals, fetchVitalHistory, activePanels, switchPanel } = useDashboard();
+  const { vitals, vitalsLoading, vitalsError, refreshVitals, fetchVitalHistory } = useDashboard();
   const [activeVital, setActiveVital] = useState('heartRate');
-  const [chartData, setChartData] = useState([]);
+  const [allVitalsHistory, setAllVitalsHistory] = useState({
+    heartRate: [],
+    bloodPressure: [],
+    temperature: [],
+    spO2: [],
+    steps: []
+  });
   const [timeRange, setTimeRange] = useState(24); // hours
+  const [expandedVital, setExpandedVital] = useState(null);
 
-  useEffect(() => {
-    if (activePanels.vitals) {
-      setActiveVital(activePanels.vitals);
+  // Define colors based on status
+  const getStatusColor = (status) => {
+    switch(status) {
+      case 'critical': return 'var(--color-danger)';
+      case 'warning': return 'var(--color-warning)';
+      default: return 'var(--color-success)';
     }
-  }, [activePanels.vitals]);
-
-  useEffect(() => {
-    if (activeVital) {
-      fetchVitalHistory(activeVital, timeRange);
-      switchPanel('vitals', activeVital);
-    }
-  }, [activeVital, timeRange, fetchVitalHistory, switchPanel]);
-
-  const handleVitalChange = (vital) => {
-    setActiveVital(vital);
   };
 
-  const handleTimeRangeChange = (hours) => {
-    setTimeRange(hours);
+  // Get appropriate icon for vital
+  const getVitalIcon = (vitalType, status) => {
+    const color = getStatusColor(status);
+    const className = `vital-icon ${status}`;
+    
+    switch(vitalType) {
+      case 'heartRate':
+        return <HeartPulse className={className} style={{color}} />;
+      case 'temperature':
+        return <Thermometer className={className} style={{color}} />;
+      case 'bloodPressure':
+        return <Activity className={className} style={{color}} />;
+      case 'spO2':
+        return <Droplets className={className} style={{color}} />;
+      case 'steps':
+        return <BarChart className={className} style={{color}} />;
+      default:
+        return <Activity className={className} style={{color}} />;
+    }
+  };
+
+  // Fetch history data for all vitals when time range changes
+  useEffect(() => {
+    const fetchAllHistory = async () => {
+      try {
+        const historyPromises = VITAL_TYPES.map(vitalType => 
+          fetchVitalHistory(vitalType, timeRange)
+        );
+        
+        const results = await Promise.all(historyPromises);
+        
+        const newHistoryData = VITAL_TYPES.reduce((acc, vitalType, index) => {
+          acc[vitalType] = results[index] || [];
+          return acc;
+        }, {});
+        
+        setAllVitalsHistory(newHistoryData);
+      } catch (error) {
+        console.error('Failed to fetch vital history', error);
+      }
+    };
+
+    fetchAllHistory();
+  }, [timeRange, fetchVitalHistory]);
+
+  // Handle expanded view
+  const toggleExpandVital = (vitalType) => {
+    if (expandedVital === vitalType) {
+      setExpandedVital(null);
+    } else {
+      setExpandedVital(vitalType);
+      setActiveVital(vitalType);
+    }
+  };
+
+  // Custom tooltip for chart
+  const CustomTooltip = ({ active, payload, label, vitalType }) => {
+    if (!active || !payload || !payload.length) return null;
+    
+    return (
+      <div className="custom-tooltip">
+        <p className="tooltip-time">{new Date(label).toLocaleString()}</p>
+        {payload.map((item, index) => (
+          <p key={index} style={{ color: item.stroke }}>
+            {item.name}: {item.value} {vitalType === 'bloodPressure' ? 'mmHg' : REFERENCE_RANGES[vitalType]?.unit}
+          </p>
+        ))}
+      </div>
+    );
+  };
+
+  // Generate reference lines for chart
+  const getReferenceLines = (vitalType) => {
+    if (vitalType === 'bloodPressure') {
+      return (
+        <>
+          <ReferenceLine y={REFERENCE_RANGES.bloodPressure.systolic.min} stroke="#8884d8" strokeDasharray="3 3" />
+          <ReferenceLine y={REFERENCE_RANGES.bloodPressure.systolic.max} stroke="#8884d8" strokeDasharray="3 3" />
+          <ReferenceLine y={REFERENCE_RANGES.bloodPressure.diastolic.min} stroke="#82ca9d" strokeDasharray="3 3" />
+          <ReferenceLine y={REFERENCE_RANGES.bloodPressure.diastolic.max} stroke="#82ca9d" strokeDasharray="3 3" />
+        </>
+      );
+    }
+    
+    const range = REFERENCE_RANGES[vitalType];
+    if (!range) return null;
+    
+    return (
+      <>
+        <ReferenceLine y={range.min} stroke={range.color} strokeDasharray="3 3" />
+        <ReferenceLine y={range.max} stroke={range.color} strokeDasharray="3 3" />
+      </>
+    );
+  };
+
+  // Render chart for a specific vital
+  const renderVitalChart = (vitalType, index) => {
+    const isExpanded = expandedVital === vitalType;
+    const chartClassName = `vital-chart ${isExpanded ? 'expanded' : ''} ${
+      expandedVital && expandedVital !== vitalType ? 'collapsed' : ''
+    }`;
+  
+    return (
+      <div 
+        key={vitalType} 
+        className={chartClassName}
+        onClick={() => toggleExpandVital(vitalType)}
+      >
+        <div className="chart-header">
+          <h3 className="chart-title">{REFERENCE_RANGES[vitalType]?.label || vitalType}</h3>
+        </div>
+        {/* Set explicit height for ResponsiveContainer */}
+        <div style={{ width: '100%', height: isExpanded ? '400px' : '200px' }}>
+          <ResponsiveContainer>
+            <ComposedChart data={allVitalsHistory[vitalType]}>
+              <CartesianGrid strokeDasharray="3 3" vertical={false} />
+              <XAxis 
+                dataKey="timestamp" 
+                tickFormatter={(time) => new Date(time).toLocaleTimeString()} 
+                tick={{fontSize: 12}}
+              />
+              <YAxis tick={{fontSize: 12}} />
+              <Tooltip content={(props) => <CustomTooltip {...props} vitalType={vitalType} />} />
+              
+              <Area 
+                type="monotone" 
+                name={REFERENCE_RANGES[vitalType]?.label || vitalType} 
+                dataKey="value" 
+                stroke={REFERENCE_RANGES[vitalType]?.color || 'var(--color-primary)'} 
+                fill={REFERENCE_RANGES[vitalType]?.color || 'var(--color-primary)'} 
+                fillOpacity={0.3}
+              />
+              
+              {getReferenceLines(vitalType)}
+            </ComposedChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+    );
   };
 
   if (vitalsLoading) {
     return (
       <Card title="Vital Signs" className="h-full">
-        <div className="h-full flex items-center justify-center">
-          <div className="animate-pulse flex flex-col items-center">
-            <div className="h-4 w-24 bg-gray-200 rounded mb-4"></div>
-            <div className="h-32 w-32 bg-gray-200 rounded-full"></div>
-          </div>
+        <div className="vitals-loading">
+          <div className="pulse-loader"></div>
+          <p>Loading vital signs...</p>
         </div>
       </Card>
     );
@@ -82,7 +205,7 @@ export default function VitalsPanel() {
   if (vitalsError || !vitals) {
     return (
       <Card title="Vital Signs" className="h-full">
-        <div className="h-full flex items-center justify-center flex-col">
+        <div className="vitals-error">
           <p className="text-red-500 mb-4">Error loading vital signs data</p>
           <Button onClick={refreshVitals}>Retry</Button>
         </div>
@@ -90,128 +213,149 @@ export default function VitalsPanel() {
     );
   }
 
-  // Create tabs for different vital sign categories
-  const vitalsTabs = [
-    {
-      label: "Current",
-      content: (
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
-          <VitalSign
-            title="Heart Rate"
-            value={vitals.heartRate.value}
-            unit="bpm"
-            status={vitals.heartRate.status}
-            icon={<HeartIcon />}
-            change={vitals.heartRate.trend}
-            time={formatTimeAgo(vitals.heartRate.lastUpdated)}
-            onClick={() => handleVitalChange('heartRate')}
-            active={activeVital === 'heartRate'}
-          />
-          <VitalSign
-            title="Blood Pressure"
-            value={`${vitals.bloodPressure.value.systolic}/${vitals.bloodPressure.value.diastolic}`}
-            unit="mmHg"
-            status={vitals.bloodPressure.status}
-            icon={<BloodPressureIcon />}
-            change={vitals.bloodPressure.trend}
-            time={formatTimeAgo(vitals.bloodPressure.lastUpdated)}
-            onClick={() => handleVitalChange('bloodPressure')}
-            active={activeVital === 'bloodPressure'}
-          />
-          <VitalSign
-            title="Oxygen Saturation"
-            value={vitals.spO2.value}
-            unit="%"
-            status={vitals.spO2.status}
-            icon={<OxygenIcon />}
-            change={vitals.spO2.trend}
-            time={formatTimeAgo(vitals.spO2.lastUpdated)}
-            onClick={() => handleVitalChange('spO2')}
-            active={activeVital === 'spO2'}
-          />
-          <VitalSign
-            title="Temperature"
-            value={vitals.temperature.value}
-            unit="°C"
-            status={vitals.temperature.status}
-            icon={<TemperatureIcon />}
-            change={vitals.temperature.trend}
-            time={formatTimeAgo(vitals.temperature.lastUpdated)}
-            onClick={() => handleVitalChange('temperature')}
-            active={activeVital === 'temperature'}
-          />
-          <VitalSign
-            title="Steps"
-            value={vitals.steps.value}
-            status="normal"
-            icon={<StepsIcon />}
-            time={formatTimeAgo(vitals.steps.lastUpdated)}
-            onClick={() => handleVitalChange('steps')}
-            active={activeVital === 'steps'}
-          />
-        </div>
-      )
-    },
-    {
-      label: "Trends",
-      content: (
-        <div className="h-64">
-          <div className="flex justify-between items-center mb-4">
-            <h3 className="text-lg font-medium">
-              {activeVital === 'heartRate' && 'Heart Rate History'}
-              {activeVital === 'bloodPressure' && 'Blood Pressure History'}
-              {activeVital === 'spO2' && 'Oxygen Saturation History'}
-              {activeVital === 'temperature' && 'Temperature History'}
-              {activeVital === 'steps' && 'Step Count History'}
-            </h3>
-            <div className="flex space-x-2">
+  return (
+    <Card title="Vital Signs" className="h-full">
+      <div className="vitals-panel">
+        <div className="vitals-content">
+          {/* Vital sign cards */}
+          <div className="vitals-cards">
+            {VITAL_TYPES.map((vitalType) => {
+              const isActive = activeVital === vitalType;
+              let status = 'normal';
+              let trend = null;
+              let animation = null;
+              
+              if (vitalType === 'heartRate') {
+                // Access the value property from the vital object
+                status = (vitals.heartRate.value < REFERENCE_RANGES.heartRate.min) ? 'critical' : 
+                         (vitals.heartRate.value > REFERENCE_RANGES.heartRate.max) ? 'critical' : 'normal';
+                trend = getVitalTrend('heartRate', vitals.heartRate.value);
+                animation = status === 'normal' ? `beat ${60 / vitals.heartRate.value}s infinite` : null;
+              } else if (vitalType === 'temperature') {
+                // Access the value property from the vital object
+                status = (vitals.temperature.value < REFERENCE_RANGES.temperature.min) ? 'warning' : 
+                         (vitals.temperature.value > REFERENCE_RANGES.temperature.max) ? 'critical' : 'normal';
+                trend = getVitalTrend('temperature', vitals.temperature.value);
+              } else if (vitalType === 'bloodPressure') {
+                // BloodPressure stays the same as it was already using the correct object structure
+                const systolicStatus = (vitals.bloodPressure.systolic < REFERENCE_RANGES.bloodPressure.systolic.min) ? 'warning' : 
+                                      (vitals.bloodPressure.systolic > REFERENCE_RANGES.bloodPressure.systolic.max) ? 'critical' : 'normal';
+                const diastolicStatus = (vitals.bloodPressure.diastolic < REFERENCE_RANGES.bloodPressure.diastolic.min) ? 'warning' : 
+                                       (vitals.bloodPressure.diastolic > REFERENCE_RANGES.bloodPressure.diastolic.max) ? 'critical' : 'normal';
+                status = (systolicStatus === 'critical' || diastolicStatus === 'critical') ? 'critical' : 
+                         (systolicStatus === 'warning' || diastolicStatus === 'warning') ? 'warning' : 'normal';
+                trend = getVitalTrend('bloodPressure', vitals.bloodPressure);
+              } else if (vitalType === 'spO2') {
+                // Access the value property from the vital object
+                status = (vitals.spO2.value < REFERENCE_RANGES.spO2.min) ? 'critical' : 'normal';
+                trend = getVitalTrend('spO2', vitals.spO2.value);
+              } else if (vitalType === 'steps') {
+                // Access the value property from the vital object
+                status = 'normal'; // Steps don't have critical values
+                trend = getVitalTrend('steps', vitals.steps.value);
+              }
+              
+              return (
+                <div 
+                  key={vitalType}
+                  className={`vital-card ${isActive ? 'active' : ''}`}
+                  onClick={() => {
+                    setActiveVital(vitalType);
+                    if (expandedVital !== vitalType) {
+                      setExpandedVital(null);
+                    }
+                  }}
+                >
+                  <div className="vital-header">
+                    <div className="vital-icon-container" style={animation ? {animation} : {}}>
+                      {getVitalIcon(vitalType, status)}
+                    </div>
+                    <span className="vital-title">{REFERENCE_RANGES[vitalType]?.label || vitalType}</span>
+                  </div>
+                  
+                  {vitalType === 'bloodPressure' ? (
+                    <div className="vital-value">
+                      <span className="value-number">{vitals.bloodPressure.systolic}/{vitals.bloodPressure.diastolic}</span>
+                      <span className="value-unit">mmHg</span>
+                      {trend && (
+                        <span className={`trend-indicator ${trend.direction}`}>
+                          {trend.icon} {trend.value}%
+                        </span>
+                      )}
+                    </div>
+                  ) : (
+                    <div className="vital-value">
+                      {/* Extract just the value from the vital object */}
+                      <span className="value-number">{vitals[vitalType].value}</span>
+                      <span className="value-unit">{REFERENCE_RANGES[vitalType]?.unit}</span>
+                      {trend && (
+                        <span className={`trend-indicator ${trend.direction}`}>
+                          {trend.icon} {trend.value}%
+                        </span>
+                      )}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+          
+          {/* Time range selector */}
+          <div className="time-selector-container">
+            <span className="time-label">Time Range:</span>
+            <div className="time-selector">
               <Button 
                 size="sm" 
-                variant={timeRange === 8 ? "primary" : "secondary"}
-                onClick={() => handleTimeRangeChange(8)}
+                variant={timeRange === 1 ? "filled" : "outline"}
+                onClick={() => setTimeRange(1)}
               >
-                8h
+                1h
               </Button>
               <Button 
                 size="sm" 
-                variant={timeRange === 24 ? "primary" : "secondary"}
-                onClick={() => handleTimeRangeChange(24)}
+                variant={timeRange === 6 ? "filled" : "outline"}
+                onClick={() => setTimeRange(6)}
+              >
+                6h
+              </Button>
+              <Button 
+                size="sm" 
+                variant={timeRange === 24 ? "filled" : "outline"}
+                onClick={() => setTimeRange(24)}
               >
                 24h
               </Button>
               <Button 
                 size="sm" 
-                variant={timeRange === 72 ? "primary" : "secondary"}
-                onClick={() => handleTimeRangeChange(72)}
+                variant={timeRange === 72 ? "filled" : "outline"}
+                onClick={() => setTimeRange(72)}
               >
                 3d
+              </Button>
+              <Button 
+                size="sm" 
+                variant={timeRange === 168 ? "filled" : "outline"}
+                onClick={() => setTimeRange(168)}
+              >
+                7d
               </Button>
             </div>
           </div>
           
-          {/* Placeholder for chart visualization - in a real app, you'd use Chart.js, recharts, etc. */}
-          <div className="h-40 w-full bg-gray-100 dark:bg-gray-800 rounded flex items-center justify-center">
-            {/* This would be replaced by an actual chart component */}
-            <p className="text-gray-500">
-              {activeVital.charAt(0).toUpperCase() + activeVital.slice(1)} data over the past {timeRange} hours
-            </p>
+          {/* Multi-vital charts */}
+          <div className="charts-container">
+            {VITAL_TYPES.map((vitalType, index) => 
+              renderVitalChart(vitalType, index)
+            )}
+          </div>
+          
+          {/* Last updated indicator */}
+          <div className="last-updated">
+            <Clock size={12} />
+            <span>Last updated {formatTimeAgo(Date.now())}</span>
           </div>
         </div>
-      )
-    }
-  ];
-
-  return (
-    <Card 
-      title="Vital Signs" 
-      className="h-full"
-      action={
-        <div className="text-sm text-gray-500 dark:text-gray-400">
-          Updated {formatTimeAgo(vitals.lastUpdated)}
-        </div>
-      }
-    >
-      <Tabs tabs={vitalsTabs} />
+      </div>
     </Card>
   );
 }

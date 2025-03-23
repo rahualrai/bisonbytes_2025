@@ -26,7 +26,7 @@ export function DashboardProvider({ children }) {
   const [activePanels, setActivePanels] = useState({
     vitals: 'heartRate',
     patientHistory: 'conditions',
-    emergencyHistory: 'recent'
+    emergency: 'alerts' // Changed from separate states to a single emergency state
   });
   
   // Use our custom hooks
@@ -67,29 +67,30 @@ export function DashboardProvider({ children }) {
   
   // Value object to provide through context
   const value = {
-    // Tab and panel state
+    // Active states
     activeTab,
     activePanels,
+    
+    // Actions
     switchTab,
     switchPanel,
     
-    // Data from hooks
+    // Vitals data
     vitals: vitalsData.vitals,
-    vitalsHistory: vitalsData.history,
     vitalsLoading: vitalsData.loading,
     vitalsError: vitalsData.error,
-    fetchVitalHistory: vitalsData.fetchVitalHistory,
+    vitalsHistory: vitalsData.history,
     refreshVitals: vitalsData.refreshVitals,
+    fetchVitalHistory: vitalsData.fetchVitalHistory,
     
+    // Patient data
     patient: patientData.patient,
-    contacts: patientData.contacts,
     patientLoading: patientData.loading,
     patientError: patientData.error,
     
-    // WebSocket state and methods
-    webSocketConnected: webSocket.isConnected,
-    lastRealTimeUpdate: webSocket.lastMessage,
-    sendWebSocketMessage: webSocket.sendMessage
+    // WebSocket
+    webSocketConnected: webSocket.connected,
+    lastMessage: webSocket.lastMessage
   };
   
   return (

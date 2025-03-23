@@ -102,9 +102,9 @@ export default function PatientHistoryPanel() {
             <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
               <thead>
                 <tr>
-                  <th className="px-4 py-2 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Condition</th>
-                  <th className="px-4 py-2 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Diagnosed</th>
-                  <th className="px-4 py-2 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Severity</th>
+                <th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--foreground)', opacity: 0.7 }}>Condition</th>
+<th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--foreground)', opacity: 0.7 }}>Diagnosed</th>
+<th className="px-4 py-2 text-left text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--foreground)', opacity: 0.7 }}>Severity</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
