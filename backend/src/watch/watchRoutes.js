@@ -1,5 +1,6 @@
 import express from "express";
 import Vitals from "../models/vitalsModel.js";
+import VitalsTesting from "../models/vitalsTestModel.js";
 import { predictEmergency } from "../controllers/mlController.js"; // Import the predictEmergency function
 
 const router = express.Router();
@@ -8,7 +9,7 @@ let currentHeartRate = -1;
 
 router.post("/viewVitals", async (req, res) => {
   try {
-    const latestVitals = await Vitals.findOne().sort({ timestamp: -1 });
+    const latestVitals = await VitalsTesting.findOne().sort({ timestamp: -1 });
     res.status(200).json({ heartRate: latestVitals ? latestVitals.heartRate : currentHeartRate });
   } catch (error) {
     res.status(500).json({ status: "error", message: error.message });
@@ -18,38 +19,22 @@ router.post("/viewVitals", async (req, res) => {
 router.post("/update-vitals", async (req, res) => {
   const {
     heartRate,
-    heartBeatIntervals,
-    calories,
-    distance,
-    floorsClimbed,
-    steps,
     stressScore,
-    respirationRate,
-    timeToRecovery,
     oxygenSaturation,
-    temperature,
-    cadence,
-    pressure
+    respirationRate,
+    temperature
   } = req.body;
 
   console.log("Received data:", req.body);
   currentHeartRate = heartRate;
 
   try {
-    const vitals = new Vitals({
+    const vitals = new VitalsTesting({
       heartRate,
-      heartBeatIntervals,
-      calories,
-      distance,
-      floorsClimbed,
-      steps,
       stressScore,
-      respirationRate,
-      timeToRecovery,
       oxygenSaturation,
-      temperature,
-      cadence,
-      pressure
+      respirationRate,
+      temperature
     });
     console.log("Saving to database:", vitals);
     await vitals.save();
@@ -68,7 +53,7 @@ router.post("/update-vitals", async (req, res) => {
     });
 
     console.log("Prediction response:", predictionResponse);
-    const emergencyDetected = predictionResponse.emergency_probability > 0.75;
+    const emergencyDetected = predictionResponse.emergency_probability > 0.60;
     res.status(200).json({
       status: "success",
       message: "Data saved successfully",
