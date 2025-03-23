@@ -1,6 +1,6 @@
 import express from "express";
 import { receiveVitals, getPatientVitals } from "../controllers/VitalsController.js";
-import { getVitals, getLatestVitals, getVitalsByResponseId } from "../controllers/dbCall.js"; // Import the getVitals function
+import { getVitals, getLatestVitals, getVitalsByResponseId } from "../controllers/vitalsQuery.js";
 
 const router = express.Router();
 
