@@ -32,7 +32,7 @@ def main():
 
         features = [
             data.get("heartRate"),
-            data.get("stressScore"),
+            data.get("stressScore", 25),
             data.get("oxygenSaturation"),
             data.get("respirationRate", 16),
             data.get("temperature")
