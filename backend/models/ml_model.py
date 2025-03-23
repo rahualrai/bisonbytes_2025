@@ -4,9 +4,13 @@ import joblib
 import numpy as np
 import os
 import traceback
+import warnings
 
 def main():
     try:
+        # Suppress specific warnings
+        warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
+
         script_dir = os.path.dirname(os.path.realpath(__file__))
         model_path = os.path.join(script_dir, "random_forest_model.pkl")
         scaler_path = os.path.join(script_dir, "scaler.pkl")
@@ -28,18 +32,10 @@ def main():
 
         features = [
             data.get("heartRate"),
-            data.get("heartBeatIntervals"),
-            data.get("calories"),
-            data.get("distance"),
-            data.get("floorsClimbed"),
-            data.get("steps"),
             data.get("stressScore"),
+            data.get("oxygenSaturation"),
             data.get("respirationRate", 16),
-            data.get("timeToRecovery", 1),
-            data.get("oxygenSaturation", 97),
-            data.get("temperature"),
-            data.get("cadence"),
-            data.get("pressure")
+            data.get("temperature")
         ]
 
         features = np.array(features).reshape(1, -1)
