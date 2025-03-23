@@ -10,6 +10,7 @@ app = Flask(__name__)
 model = joblib.load('random_forest_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
+
 @app.route('/predict', methods=['POST'])
 def predict_emergency():
     """
@@ -18,18 +19,11 @@ def predict_emergency():
     Expected JSON input format:
     {
         "heartRate": 75,
-        "heartBeatIntervals": 800,
-        "calories": 2000,
-        "distance": 5000,
-        "floorsClimbed": 5,
-        "steps": 8000,
         "stressScore": 50,
         "respirationRate": 15,
-        "timeToRecovery": 2,
         "oxygenSaturation": 98,
         "temperature": 36.6,
-        "cadence": 90,
-        "pressure": 101000
+      
     }
     """
     try:
@@ -54,18 +48,10 @@ def predict_emergency():
         # Feature selection: Ensure to use all the required features
         features = np.array([
             data['heartRate'], 
-            data['heartBeatIntervals'],
-            data['calories'],
-            data['distance'],
-            data['floorsClimbed'],
-            data['steps'],
             data['stressScore'],
             data['respirationRate'],
-            data['timeToRecovery'],
             data['oxygenSaturation'],
             data['temperature'],
-            data['cadence'],
-            data['pressure']
         ]).reshape(1, -1)
 
         # Scale the features using the scaler
