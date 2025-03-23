@@ -1,0 +1,9002 @@
+[
+  {
+    "heartRate": 88,
+    "stressScore": 61,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 38,
+    "respirationRate": 23,
+    "oxygenSaturation": 92,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 37,
+    "respirationRate": 18,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 57,
+    "respirationRate": 23,
+    "oxygenSaturation": 89,
+    "temperature": 37.2,
+    "label": "abnormal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 73,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 66,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 36,
+    "respirationRate": 18,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 54,
+    "respirationRate": 16,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 105,
+    "stressScore": 32,
+    "respirationRate": 25,
+    "oxygenSaturation": 78,
+    "temperature": 37.0,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 83,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 38.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 103,
+    "stressScore": 38,
+    "respirationRate": 25,
+    "oxygenSaturation": 81,
+    "temperature": 37.1,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 32,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 46,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 41,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 62,
+    "respirationRate": 23,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 33,
+    "respirationRate": 29,
+    "oxygenSaturation": 87,
+    "temperature": 36.6,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 31,
+    "respirationRate": 23,
+    "oxygenSaturation": 82,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 80,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 38.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 64,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 38.7,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 69,
+    "respirationRate": 22,
+    "oxygenSaturation": 95,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 55,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 86,
+    "stressScore": 43,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 39,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 54,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 95,
+    "stressScore": 54,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 35,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 34,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 33,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 43,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 30,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 49,
+    "respirationRate": 20,
+    "oxygenSaturation": 89,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 51,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 37.1,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 44,
+    "respirationRate": 16,
+    "oxygenSaturation": 93,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 48,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 81,
+    "respirationRate": 23,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 62,
+    "respirationRate": 24,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 53,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 49,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 37,
+    "respirationRate": 22,
+    "oxygenSaturation": 90,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 45,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 59,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 56,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 46,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 67,
+    "respirationRate": 20,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 45,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 85,
+    "respirationRate": 22,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 95,
+    "stressScore": 64,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 95,
+    "stressScore": 44,
+    "respirationRate": 24,
+    "oxygenSaturation": 78,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 43,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 48,
+    "respirationRate": 18,
+    "oxygenSaturation": 95,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 111,
+    "stressScore": 44,
+    "respirationRate": 26,
+    "oxygenSaturation": 76,
+    "temperature": 36.6,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 110,
+    "stressScore": 51,
+    "respirationRate": 29,
+    "oxygenSaturation": 86,
+    "temperature": 37.2,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 58,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 45,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 54,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 46,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 43,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 59,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 85,
+    "respirationRate": 19,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "abnormal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 43,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 93,
+    "respirationRate": 19,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "abnormal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 52,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 54,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 39,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 106,
+    "stressScore": 70,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 39.0,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 59,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 54,
+    "respirationRate": 18,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 100,
+    "stressScore": 64,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 39.0,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 40,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 43,
+    "respirationRate": 23,
+    "oxygenSaturation": 95,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 56,
+    "stressScore": 44,
+    "respirationRate": 11,
+    "oxygenSaturation": 99,
+    "temperature": 35.3,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 56,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 40,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 46,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 56,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 37,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 69,
+    "respirationRate": 22,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 58,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 75,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 38.8,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 49,
+    "respirationRate": 21,
+    "oxygenSaturation": 85,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 45,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 93,
+    "stressScore": 65,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 38.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 60,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 31,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 56,
+    "respirationRate": 23,
+    "oxygenSaturation": 91,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 51,
+    "respirationRate": 18,
+    "oxygenSaturation": 93,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 52,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 49,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 47,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 49,
+    "respirationRate": 22,
+    "oxygenSaturation": 84,
+    "temperature": 37.4,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 43,
+    "stressScore": 40,
+    "respirationRate": 11,
+    "oxygenSaturation": 97,
+    "temperature": 35.0,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 47,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 49,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 41,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 31,
+    "respirationRate": 19,
+    "oxygenSaturation": 94,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 35,
+    "respirationRate": 20,
+    "oxygenSaturation": 93,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 30,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 36,
+    "respirationRate": 19,
+    "oxygenSaturation": 91,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 55,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 79,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 32,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 55,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 85,
+    "respirationRate": 19,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 95,
+    "stressScore": 64,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 38.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 33,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 93,
+    "stressScore": 80,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 48,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 52,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 75,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 37,
+    "respirationRate": 18,
+    "oxygenSaturation": 90,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 57,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 40,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 41,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 56,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 57,
+    "respirationRate": 19,
+    "oxygenSaturation": 90,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 40,
+    "respirationRate": 19,
+    "oxygenSaturation": 89,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 55,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 57,
+    "respirationRate": 18,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 57,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 39,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 78,
+    "respirationRate": 21,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 31,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 55,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 52,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 51,
+    "respirationRate": 17,
+    "oxygenSaturation": 93,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 43,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 46,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 45,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 37,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 41,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 40,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 50,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 91,
+    "stressScore": 55,
+    "respirationRate": 23,
+    "oxygenSaturation": 80,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 89,
+    "stressScore": 72,
+    "respirationRate": 19,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 33,
+    "respirationRate": 23,
+    "oxygenSaturation": 94,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 47,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 90,
+    "stressScore": 60,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 30,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 36.5,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 35,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 113,
+    "stressScore": 36,
+    "respirationRate": 24,
+    "oxygenSaturation": 83,
+    "temperature": 36.6,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 51,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 41,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 65,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 40,
+    "respirationRate": 23,
+    "oxygenSaturation": 92,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 110,
+    "stressScore": 49,
+    "respirationRate": 25,
+    "oxygenSaturation": 84,
+    "temperature": 37.0,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 53,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 83,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 38.2,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 115,
+    "stressScore": 46,
+    "respirationRate": 29,
+    "oxygenSaturation": 81,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 101,
+    "stressScore": 57,
+    "respirationRate": 30,
+    "oxygenSaturation": 77,
+    "temperature": 37.4,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 89,
+    "stressScore": 67,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 38.5,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 58,
+    "respirationRate": 16,
+    "oxygenSaturation": 95,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 84,
+    "respirationRate": 21,
+    "oxygenSaturation": 95,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 52,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 53,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 38,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 58,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 45,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 53,
+    "respirationRate": 14,
+    "oxygenSaturation": 100,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 59,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 67,
+    "respirationRate": 19,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 60,
+    "stressScore": 42,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 60,
+    "stressScore": 50,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 50,
+    "respirationRate": 16,
+    "oxygenSaturation": 95,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 89,
+    "stressScore": 75,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 38.5,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 46,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 38,
+    "respirationRate": 16,
+    "oxygenSaturation": 89,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 36,
+    "respirationRate": 22,
+    "oxygenSaturation": 87,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 93,
+    "stressScore": 85,
+    "respirationRate": 20,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 52,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 91,
+    "stressScore": 84,
+    "respirationRate": 24,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 33,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 53,
+    "stressScore": 36,
+    "respirationRate": 8,
+    "oxygenSaturation": 96,
+    "temperature": 34.5,
+    "label": "normal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 48,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 44,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 65,
+    "respirationRate": 19,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 35,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 49,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 48,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 50,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 74,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 39.0,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 73,
+    "respirationRate": 22,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 47,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 88,
+    "respirationRate": 19,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 107,
+    "stressScore": 78,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 95,
+    "respirationRate": 23,
+    "oxygenSaturation": 100,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 74,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 107,
+    "stressScore": 71,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 37.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 90,
+    "stressScore": 60,
+    "respirationRate": 18,
+    "oxygenSaturation": 95,
+    "temperature": 38.0,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 45,
+    "stressScore": 39,
+    "respirationRate": 12,
+    "oxygenSaturation": 95,
+    "temperature": 33.5,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 54,
+    "respirationRate": 23,
+    "oxygenSaturation": 91,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 36,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 74,
+    "respirationRate": 22,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 43,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 91,
+    "respirationRate": 24,
+    "oxygenSaturation": 99,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 60,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 61,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 53,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 34,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 59,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 53,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 57,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 39,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 120,
+    "stressScore": 50,
+    "respirationRate": 28,
+    "oxygenSaturation": 87,
+    "temperature": 37.4,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 50,
+    "respirationRate": 14,
+    "oxygenSaturation": 100,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 36,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 45,
+    "stressScore": 59,
+    "respirationRate": 8,
+    "oxygenSaturation": 100,
+    "temperature": 33.4,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 58,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 45,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 33,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 45,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 43,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 89,
+    "stressScore": 51,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 40,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 108,
+    "stressScore": 71,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 61,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 43,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 119,
+    "stressScore": 34,
+    "respirationRate": 21,
+    "oxygenSaturation": 86,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 89,
+    "stressScore": 57,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "abnormal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 32,
+    "respirationRate": 20,
+    "oxygenSaturation": 94,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 40,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 39,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 34,
+    "respirationRate": 18,
+    "oxygenSaturation": 97,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 36,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 41,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 42,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 60,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 44,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 48,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 48,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 40,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 50,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 107,
+    "stressScore": 54,
+    "respirationRate": 29,
+    "oxygenSaturation": 87,
+    "temperature": 36.9,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 80,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 38.2,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 90,
+    "stressScore": 71,
+    "respirationRate": 23,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 49,
+    "respirationRate": 18,
+    "oxygenSaturation": 99,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 52,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 42,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 38,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 89,
+    "stressScore": 66,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 31,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 54,
+    "respirationRate": 19,
+    "oxygenSaturation": 92,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 56,
+    "stressScore": 59,
+    "respirationRate": 11,
+    "oxygenSaturation": 99,
+    "temperature": 33.5,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 60,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 39.5,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 115,
+    "stressScore": 44,
+    "respirationRate": 23,
+    "oxygenSaturation": 80,
+    "temperature": 37.1,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 41,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 43,
+    "respirationRate": 19,
+    "oxygenSaturation": 89,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 47,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 44,
+    "respirationRate": 17,
+    "oxygenSaturation": 92,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 44,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 78,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 38.4,
+    "label": "normal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 37,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 61,
+    "respirationRate": 19,
+    "oxygenSaturation": 95,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 93,
+    "respirationRate": 19,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 64,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 37,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 42,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 53,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 49,
+    "respirationRate": 18,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 59,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 77,
+    "respirationRate": 23,
+    "oxygenSaturation": 99,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 32,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 60,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 112,
+    "stressScore": 45,
+    "respirationRate": 30,
+    "oxygenSaturation": 76,
+    "temperature": 37.2,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 42,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 34,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 51,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 38,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 37,
+    "respirationRate": 20,
+    "oxygenSaturation": 90,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 43,
+    "respirationRate": 19,
+    "oxygenSaturation": 88,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 47,
+    "respirationRate": 17,
+    "oxygenSaturation": 92,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 31,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 47,
+    "respirationRate": 16,
+    "oxygenSaturation": 94,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 46,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 47,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 81,
+    "stressScore": 94,
+    "respirationRate": 21,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 72,
+    "respirationRate": 23,
+    "oxygenSaturation": 99,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 63,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 38.5,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 59,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 51,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 60,
+    "respirationRate": 18,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 49,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 60,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 91,
+    "stressScore": 66,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 42,
+    "respirationRate": 18,
+    "oxygenSaturation": 90,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 42,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 45,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 56,
+    "respirationRate": 19,
+    "oxygenSaturation": 90,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 81,
+    "respirationRate": 21,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 70,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 110,
+    "stressScore": 67,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 38,
+    "respirationRate": 20,
+    "oxygenSaturation": 82,
+    "temperature": 37.2,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 46,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 90,
+    "respirationRate": 22,
+    "oxygenSaturation": 98,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 55,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 45,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 118,
+    "stressScore": 33,
+    "respirationRate": 26,
+    "oxygenSaturation": 78,
+    "temperature": 37.1,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 69,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 37.9,
+    "label": "normal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 78,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 47,
+    "stressScore": 55,
+    "respirationRate": 9,
+    "oxygenSaturation": 98,
+    "temperature": 33.1,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 74,
+    "respirationRate": 20,
+    "oxygenSaturation": 99,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 49,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 37,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 77,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 49,
+    "stressScore": 49,
+    "respirationRate": 9,
+    "oxygenSaturation": 99,
+    "temperature": 35.1,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 31,
+    "respirationRate": 23,
+    "oxygenSaturation": 88,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 42,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 55,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 56,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 46,
+    "respirationRate": 18,
+    "oxygenSaturation": 100,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 47,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 116,
+    "stressScore": 51,
+    "respirationRate": 22,
+    "oxygenSaturation": 81,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 51,
+    "stressScore": 36,
+    "respirationRate": 11,
+    "oxygenSaturation": 96,
+    "temperature": 33.6,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 54,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 33,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 30,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 49,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 57,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 65,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 38.6,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 100,
+    "stressScore": 63,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 38.0,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 72,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 49,
+    "respirationRate": 19,
+    "oxygenSaturation": 92,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 34,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 32,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 40,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 100,
+    "stressScore": 36,
+    "respirationRate": 21,
+    "oxygenSaturation": 77,
+    "temperature": 37.4,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 51,
+    "respirationRate": 14,
+    "oxygenSaturation": 100,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 58,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 40,
+    "respirationRate": 18,
+    "oxygenSaturation": 90,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 44,
+    "respirationRate": 29,
+    "oxygenSaturation": 79,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 50,
+    "stressScore": 59,
+    "respirationRate": 8,
+    "oxygenSaturation": 95,
+    "temperature": 33.2,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 47,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 36,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 31,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 100,
+    "stressScore": 68,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 40,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 55,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 46,
+    "respirationRate": 23,
+    "oxygenSaturation": 90,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 30,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 91,
+    "stressScore": 41,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 83,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 38.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 55,
+    "respirationRate": 23,
+    "oxygenSaturation": 92,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 59,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 58,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 31,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 38,
+    "respirationRate": 29,
+    "oxygenSaturation": 78,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 91,
+    "stressScore": 79,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 38.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 36,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 39,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 50,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 52,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 35,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 95,
+    "stressScore": 64,
+    "respirationRate": 16,
+    "oxygenSaturation": 95,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 82,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 38.8,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 101,
+    "stressScore": 80,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 38.6,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 49,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 39,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 106,
+    "stressScore": 79,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 39.5,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 86,
+    "stressScore": 73,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 41,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 31,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 44,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 49,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 105,
+    "stressScore": 83,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 38.5,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 46,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 67,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 38.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 45,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 86,
+    "stressScore": 59,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 44,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 51,
+    "respirationRate": 16,
+    "oxygenSaturation": 94,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 40,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 60,
+    "stressScore": 53,
+    "respirationRate": 10,
+    "oxygenSaturation": 100,
+    "temperature": 35.3,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 67,
+    "respirationRate": 21,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 38,
+    "respirationRate": 12,
+    "oxygenSaturation": 95,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 59,
+    "respirationRate": 18,
+    "oxygenSaturation": 90,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 94,
+    "respirationRate": 22,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 90,
+    "stressScore": 64,
+    "respirationRate": 20,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 42,
+    "respirationRate": 17,
+    "oxygenSaturation": 89,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 93,
+    "respirationRate": 21,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 62,
+    "respirationRate": 20,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 53,
+    "respirationRate": 12,
+    "oxygenSaturation": 95,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 86,
+    "stressScore": 78,
+    "respirationRate": 24,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 82,
+    "respirationRate": 21,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 71,
+    "respirationRate": 22,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 54,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 31,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 100,
+    "stressScore": 78,
+    "respirationRate": 22,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 42,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 119,
+    "stressScore": 57,
+    "respirationRate": 27,
+    "oxygenSaturation": 79,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 36,
+    "respirationRate": 21,
+    "oxygenSaturation": 75,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 47,
+    "stressScore": 35,
+    "respirationRate": 10,
+    "oxygenSaturation": 96,
+    "temperature": 35.0,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 46,
+    "respirationRate": 18,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 81,
+    "stressScore": 75,
+    "respirationRate": 23,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 79,
+    "respirationRate": 21,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 46,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 49,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 39,
+    "respirationRate": 23,
+    "oxygenSaturation": 95,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 56,
+    "respirationRate": 30,
+    "oxygenSaturation": 76,
+    "temperature": 36.6,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 95,
+    "respirationRate": 19,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 37,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 44,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 50,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 36,
+    "respirationRate": 23,
+    "oxygenSaturation": 90,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 60,
+    "respirationRate": 22,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 41,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 58,
+    "respirationRate": 22,
+    "oxygenSaturation": 89,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 80,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 77,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 50,
+    "respirationRate": 14,
+    "oxygenSaturation": 100,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 34,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 33,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 78,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "abnormal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 53,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 93,
+    "stressScore": 60,
+    "respirationRate": 26,
+    "oxygenSaturation": 84,
+    "temperature": 37.0,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 63,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 34,
+    "respirationRate": 22,
+    "oxygenSaturation": 90,
+    "temperature": 36.5,
+    "label": "abnormal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 51,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 54,
+    "respirationRate": 17,
+    "oxygenSaturation": 88,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 53,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 44,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 42,
+    "respirationRate": 18,
+    "oxygenSaturation": 91,
+    "temperature": 37.0,
+    "label": "abnormal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 51,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 32,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 44,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 54,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 35,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 94,
+    "respirationRate": 22,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 33,
+    "respirationRate": 23,
+    "oxygenSaturation": 89,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 31,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 73,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 50,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 40,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 57,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 89,
+    "respirationRate": 19,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 30,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 54,
+    "respirationRate": 22,
+    "oxygenSaturation": 93,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 30,
+    "respirationRate": 22,
+    "oxygenSaturation": 94,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 35,
+    "respirationRate": 17,
+    "oxygenSaturation": 90,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 103,
+    "stressScore": 73,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 39.0,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 86,
+    "stressScore": 85,
+    "respirationRate": 19,
+    "oxygenSaturation": 99,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 45,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 52,
+    "stressScore": 30,
+    "respirationRate": 8,
+    "oxygenSaturation": 97,
+    "temperature": 35.1,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 33,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 45,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 91,
+    "stressScore": 63,
+    "respirationRate": 20,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 47,
+    "respirationRate": 16,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 37,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 39,
+    "respirationRate": 18,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 61,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 95,
+    "stressScore": 72,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 38.6,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 38,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 50,
+    "respirationRate": 16,
+    "oxygenSaturation": 95,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 38,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 45,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 41,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 51,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 82,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 38.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 68,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 32,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 46,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 59,
+    "respirationRate": 23,
+    "oxygenSaturation": 91,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 41,
+    "stressScore": 60,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 34.0,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 51,
+    "stressScore": 32,
+    "respirationRate": 10,
+    "oxygenSaturation": 98,
+    "temperature": 34.1,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 75,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 32,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 37,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 102,
+    "stressScore": 75,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 38.5,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 32,
+    "respirationRate": 23,
+    "oxygenSaturation": 83,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 51,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 30,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 59,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 47,
+    "stressScore": 45,
+    "respirationRate": 11,
+    "oxygenSaturation": 95,
+    "temperature": 34.5,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 59,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 59,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 60,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 46,
+    "respirationRate": 20,
+    "oxygenSaturation": 95,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 54,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 43,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 51,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 68,
+    "respirationRate": 21,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 40,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 62,
+    "respirationRate": 24,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 58,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 51,
+    "stressScore": 53,
+    "respirationRate": 10,
+    "oxygenSaturation": 97,
+    "temperature": 34.2,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 37,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 53,
+    "stressScore": 35,
+    "respirationRate": 10,
+    "oxygenSaturation": 95,
+    "temperature": 35.0,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 51,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 30,
+    "respirationRate": 23,
+    "oxygenSaturation": 89,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 40,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 50,
+    "respirationRate": 18,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 48,
+    "respirationRate": 18,
+    "oxygenSaturation": 92,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 42,
+    "stressScore": 32,
+    "respirationRate": 9,
+    "oxygenSaturation": 96,
+    "temperature": 33.8,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 55,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 55,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 57,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 103,
+    "stressScore": 75,
+    "respirationRate": 18,
+    "oxygenSaturation": 99,
+    "temperature": 38.7,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 80,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 39.2,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 39,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 51,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 85,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 38.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 83,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 39.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 110,
+    "stressScore": 82,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 56,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 38,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 51,
+    "respirationRate": 19,
+    "oxygenSaturation": 89,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 34,
+    "respirationRate": 21,
+    "oxygenSaturation": 92,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 36,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 81,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 38.0,
+    "label": "normal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 77,
+    "respirationRate": 23,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 45,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 62,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 38.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 44,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 81,
+    "stressScore": 82,
+    "respirationRate": 19,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 38,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 39,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 44,
+    "stressScore": 40,
+    "respirationRate": 10,
+    "oxygenSaturation": 96,
+    "temperature": 33.3,
+    "label": "normal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 73,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 90,
+    "respirationRate": 21,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 38,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 60,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 65,
+    "respirationRate": 23,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 102,
+    "stressScore": 68,
+    "respirationRate": 18,
+    "oxygenSaturation": 99,
+    "temperature": 38.2,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 32,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 95,
+    "stressScore": 52,
+    "respirationRate": 23,
+    "oxygenSaturation": 80,
+    "temperature": 37.4,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 51,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 40,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 38,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 41,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 56,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 32,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 60,
+    "respirationRate": 20,
+    "oxygenSaturation": 99,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 53,
+    "respirationRate": 18,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 44,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 44,
+    "stressScore": 40,
+    "respirationRate": 8,
+    "oxygenSaturation": 98,
+    "temperature": 34.1,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 34,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 45,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 101,
+    "stressScore": 34,
+    "respirationRate": 27,
+    "oxygenSaturation": 82,
+    "temperature": 36.6,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 49,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 46,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 64,
+    "respirationRate": 24,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 40,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 84,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 38.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 101,
+    "stressScore": 77,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 38.8,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 45,
+    "respirationRate": 18,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 87,
+    "respirationRate": 22,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 51,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 53,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 42,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 30,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 47,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 82,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 38.8,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 95,
+    "stressScore": 66,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 46,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 95,
+    "stressScore": 62,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 45,
+    "respirationRate": 20,
+    "oxygenSaturation": 92,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 117,
+    "stressScore": 54,
+    "respirationRate": 29,
+    "oxygenSaturation": 75,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 37,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 63,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 39.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 73,
+    "respirationRate": 19,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 106,
+    "stressScore": 69,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 45,
+    "stressScore": 30,
+    "respirationRate": 11,
+    "oxygenSaturation": 97,
+    "temperature": 33.2,
+    "label": "normal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 31,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 42,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 116,
+    "stressScore": 58,
+    "respirationRate": 25,
+    "oxygenSaturation": 85,
+    "temperature": 36.6,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 32,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 68,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 37.8,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 33,
+    "respirationRate": 17,
+    "oxygenSaturation": 91,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 58,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 43,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 73,
+    "respirationRate": 12,
+    "oxygenSaturation": 95,
+    "temperature": 38.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 81,
+    "stressScore": 78,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 32,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 77,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 39.2,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 54,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 53,
+    "respirationRate": 18,
+    "oxygenSaturation": 91,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 35,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 73,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 33,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 53,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 78,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 38.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 52,
+    "stressScore": 43,
+    "respirationRate": 8,
+    "oxygenSaturation": 96,
+    "temperature": 35.4,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 46,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 46,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 46,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 33,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 53,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 50,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 58,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 54,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 56,
+    "respirationRate": 18,
+    "oxygenSaturation": 92,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 36,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 111,
+    "stressScore": 40,
+    "respirationRate": 28,
+    "oxygenSaturation": 86,
+    "temperature": 37.0,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 55,
+    "stressScore": 33,
+    "respirationRate": 8,
+    "oxygenSaturation": 98,
+    "temperature": 35.2,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 81,
+    "stressScore": 66,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 33,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 51,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 58,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 38,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 39,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 79,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 34,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 54,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 93,
+    "stressScore": 93,
+    "respirationRate": 21,
+    "oxygenSaturation": 95,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 48,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 67,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 38.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 73,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 38.5,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 60,
+    "stressScore": 58,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 38,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 100,
+    "stressScore": 68,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 39,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 48,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 58,
+    "respirationRate": 17,
+    "oxygenSaturation": 93,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 106,
+    "stressScore": 75,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 37.8,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 44,
+    "stressScore": 52,
+    "respirationRate": 11,
+    "oxygenSaturation": 97,
+    "temperature": 33.9,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 42,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 38,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 51,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 106,
+    "stressScore": 83,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 41,
+    "respirationRate": 18,
+    "oxygenSaturation": 90,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 33,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 34,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 59,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 36,
+    "respirationRate": 19,
+    "oxygenSaturation": 88,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 60,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 90,
+    "stressScore": 73,
+    "respirationRate": 20,
+    "oxygenSaturation": 99,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 105,
+    "stressScore": 64,
+    "respirationRate": 18,
+    "oxygenSaturation": 99,
+    "temperature": 38.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 46,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 44,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 46,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 46,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 34,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 51,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 67,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 38.2,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 86,
+    "stressScore": 81,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 107,
+    "stressScore": 62,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 37.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 75,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 59,
+    "respirationRate": 19,
+    "oxygenSaturation": 95,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 107,
+    "stressScore": 51,
+    "respirationRate": 25,
+    "oxygenSaturation": 82,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 51,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 57,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 43,
+    "stressScore": 56,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 34.1,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 60,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 58,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 33,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 31,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 37,
+    "respirationRate": 24,
+    "oxygenSaturation": 93,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 100,
+    "stressScore": 49,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 34,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 65,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 38.8,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 39,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 50,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 41,
+    "stressScore": 42,
+    "respirationRate": 8,
+    "oxygenSaturation": 96,
+    "temperature": 33.9,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 110,
+    "stressScore": 80,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 38,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 43,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 52,
+    "respirationRate": 21,
+    "oxygenSaturation": 94,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 44,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 37,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 102,
+    "stressScore": 54,
+    "respirationRate": 28,
+    "oxygenSaturation": 84,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 52,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 110,
+    "stressScore": 62,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 38.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 47,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 33,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 114,
+    "stressScore": 37,
+    "respirationRate": 24,
+    "oxygenSaturation": 77,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 42,
+    "respirationRate": 22,
+    "oxygenSaturation": 94,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 35,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 51,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 55,
+    "stressScore": 45,
+    "respirationRate": 10,
+    "oxygenSaturation": 100,
+    "temperature": 33.0,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 101,
+    "stressScore": 71,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 39.3,
+    "label": "normal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 50,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 53,
+    "stressScore": 49,
+    "respirationRate": 11,
+    "oxygenSaturation": 98,
+    "temperature": 35.4,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 53,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 45,
+    "respirationRate": 27,
+    "oxygenSaturation": 80,
+    "temperature": 36.5,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 38,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 81,
+    "stressScore": 76,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 42,
+    "stressScore": 57,
+    "respirationRate": 9,
+    "oxygenSaturation": 96,
+    "temperature": 35.2,
+    "label": "normal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 105,
+    "stressScore": 61,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 38.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 114,
+    "stressScore": 33,
+    "respirationRate": 24,
+    "oxygenSaturation": 82,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 45,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 56,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 52,
+    "respirationRate": 20,
+    "oxygenSaturation": 90,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 115,
+    "stressScore": 48,
+    "respirationRate": 21,
+    "oxygenSaturation": 80,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 54,
+    "respirationRate": 14,
+    "oxygenSaturation": 100,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 45,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 58,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 70,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 45,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 46,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 56,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 34,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 61,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 59,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 91,
+    "stressScore": 79,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 38,
+    "respirationRate": 22,
+    "oxygenSaturation": 94,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 58,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 49,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 115,
+    "stressScore": 37,
+    "respirationRate": 22,
+    "oxygenSaturation": 78,
+    "temperature": 37.1,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 41,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 58,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 110,
+    "stressScore": 52,
+    "respirationRate": 27,
+    "oxygenSaturation": 83,
+    "temperature": 37.2,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 79,
+    "respirationRate": 19,
+    "oxygenSaturation": 99,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 52,
+    "stressScore": 31,
+    "respirationRate": 9,
+    "oxygenSaturation": 99,
+    "temperature": 34.4,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 102,
+    "stressScore": 73,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 55,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 39,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 67,
+    "respirationRate": 21,
+    "oxygenSaturation": 97,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 72,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 42,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 48,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 41,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 71,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 48,
+    "respirationRate": 22,
+    "oxygenSaturation": 88,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 35,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 66,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 39.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 62,
+    "respirationRate": 14,
+    "oxygenSaturation": 100,
+    "temperature": 38.0,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 38,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 42,
+    "respirationRate": 18,
+    "oxygenSaturation": 99,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 56,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 49,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 46,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 61,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 36,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 44,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 40,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 39,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 60,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 48,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 38,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 52,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 31,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 35,
+    "respirationRate": 27,
+    "oxygenSaturation": 80,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 83,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 38.5,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 37,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 38,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 93,
+    "respirationRate": 20,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 49,
+    "respirationRate": 18,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 36,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 33,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 32,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 33,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 60,
+    "stressScore": 37,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 81,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 38.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 59,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 58,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 48,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 44,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 42,
+    "respirationRate": 27,
+    "oxygenSaturation": 79,
+    "temperature": 36.5,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 40,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 49,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 44,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 106,
+    "stressScore": 85,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 43,
+    "stressScore": 43,
+    "respirationRate": 8,
+    "oxygenSaturation": 97,
+    "temperature": 33.1,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 60,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 74,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 43,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 72,
+    "respirationRate": 21,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 40,
+    "respirationRate": 16,
+    "oxygenSaturation": 95,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 67,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 39.0,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 81,
+    "stressScore": 71,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 39.2,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 104,
+    "stressScore": 83,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 39.0,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 32,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 32,
+    "respirationRate": 19,
+    "oxygenSaturation": 92,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 50,
+    "stressScore": 39,
+    "respirationRate": 11,
+    "oxygenSaturation": 98,
+    "temperature": 35.2,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 47,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 47,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 53,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 57,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 32,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 44,
+    "respirationRate": 16,
+    "oxygenSaturation": 94,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 89,
+    "respirationRate": 20,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 90,
+    "stressScore": 72,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 46,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 85,
+    "stressScore": 77,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 38.6,
+    "label": "normal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 42,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 48,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 50,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 46,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 57,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 50,
+    "respirationRate": 19,
+    "oxygenSaturation": 94,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 106,
+    "stressScore": 66,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 38.6,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 57,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 40,
+    "stressScore": 49,
+    "respirationRate": 9,
+    "oxygenSaturation": 96,
+    "temperature": 33.3,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 43,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 44,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 46,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 40,
+    "respirationRate": 23,
+    "oxygenSaturation": 92,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 33,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 90,
+    "stressScore": 73,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 93,
+    "stressScore": 75,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 45,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 43,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 57,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 32,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 36.5,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 62,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 40,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 38,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 50,
+    "stressScore": 57,
+    "respirationRate": 10,
+    "oxygenSaturation": 98,
+    "temperature": 33.0,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 57,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 42,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 57,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 105,
+    "stressScore": 44,
+    "respirationRate": 23,
+    "oxygenSaturation": 79,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 39,
+    "respirationRate": 20,
+    "oxygenSaturation": 91,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 32,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 41,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 61,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 52,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 47,
+    "respirationRate": 16,
+    "oxygenSaturation": 94,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 78,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 56,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 99,
+    "stressScore": 80,
+    "respirationRate": 20,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 92,
+    "respirationRate": 22,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 53,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 108,
+    "stressScore": 72,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 38.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 37,
+    "respirationRate": 21,
+    "oxygenSaturation": 92,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 70,
+    "respirationRate": 20,
+    "oxygenSaturation": 99,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 56,
+    "respirationRate": 13,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 69,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 38.8,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 47,
+    "respirationRate": 28,
+    "oxygenSaturation": 79,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 60,
+    "stressScore": 47,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 47,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 83,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 39.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 90,
+    "stressScore": 73,
+    "respirationRate": 24,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 58,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 42,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 35,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 54,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 42,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 38,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 46,
+    "respirationRate": 16,
+    "oxygenSaturation": 95,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 59,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 54,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 48,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 41,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 33,
+    "respirationRate": 18,
+    "oxygenSaturation": 99,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 75,
+    "respirationRate": 19,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 51,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 38,
+    "respirationRate": 19,
+    "oxygenSaturation": 94,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 48,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 93,
+    "respirationRate": 19,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 32,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 39,
+    "respirationRate": 24,
+    "oxygenSaturation": 91,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 43,
+    "respirationRate": 22,
+    "oxygenSaturation": 91,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 46,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 90,
+    "stressScore": 73,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 74,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 58,
+    "respirationRate": 14,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 46,
+    "respirationRate": 20,
+    "oxygenSaturation": 91,
+    "temperature": 36.5,
+    "label": "abnormal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 40,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 73,
+    "respirationRate": 14,
+    "oxygenSaturation": 100,
+    "temperature": 38.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 34,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 43,
+    "respirationRate": 20,
+    "oxygenSaturation": 93,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 50,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 53,
+    "stressScore": 42,
+    "respirationRate": 12,
+    "oxygenSaturation": 99,
+    "temperature": 33.9,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 36,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 49,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 53,
+    "respirationRate": 22,
+    "oxygenSaturation": 95,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 57,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 56,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 50,
+    "respirationRate": 15,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 56,
+    "respirationRate": 23,
+    "oxygenSaturation": 94,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 70,
+    "respirationRate": 18,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 38,
+    "respirationRate": 17,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 60,
+    "stressScore": 41,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 43,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 93,
+    "stressScore": 72,
+    "respirationRate": 23,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 34,
+    "respirationRate": 18,
+    "oxygenSaturation": 95,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 77,
+    "respirationRate": 20,
+    "oxygenSaturation": 95,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 45,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 46,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 82,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 39.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 55,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 106,
+    "stressScore": 45,
+    "respirationRate": 26,
+    "oxygenSaturation": 82,
+    "temperature": 36.7,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 44,
+    "respirationRate": 22,
+    "oxygenSaturation": 88,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 56,
+    "respirationRate": 13,
+    "oxygenSaturation": 100,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 33,
+    "respirationRate": 23,
+    "oxygenSaturation": 90,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 80,
+    "respirationRate": 15,
+    "oxygenSaturation": 98,
+    "temperature": 38.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 62,
+    "respirationRate": 14,
+    "oxygenSaturation": 100,
+    "temperature": 39.3,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 36,
+    "respirationRate": 14,
+    "oxygenSaturation": 100,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 71,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 32,
+    "respirationRate": 15,
+    "oxygenSaturation": 100,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 44,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 48,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 36,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 82,
+    "stressScore": 64,
+    "respirationRate": 22,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 38,
+    "respirationRate": 20,
+    "oxygenSaturation": 92,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 118,
+    "stressScore": 36,
+    "respirationRate": 27,
+    "oxygenSaturation": 79,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 46,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 36,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 65,
+    "respirationRate": 23,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 52,
+    "stressScore": 47,
+    "respirationRate": 10,
+    "oxygenSaturation": 96,
+    "temperature": 35.1,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 33,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 58,
+    "stressScore": 31,
+    "respirationRate": 9,
+    "oxygenSaturation": 98,
+    "temperature": 33.9,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 60,
+    "respirationRate": 20,
+    "oxygenSaturation": 94,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 44,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 35,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 40,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 87,
+    "respirationRate": 20,
+    "oxygenSaturation": 100,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 89,
+    "stressScore": 70,
+    "respirationRate": 23,
+    "oxygenSaturation": 97,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 56,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 116,
+    "stressScore": 38,
+    "respirationRate": 29,
+    "oxygenSaturation": 81,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 60,
+    "stressScore": 37,
+    "respirationRate": 15,
+    "oxygenSaturation": 95,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 35,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 37,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 48,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 109,
+    "stressScore": 69,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 38.8,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 115,
+    "stressScore": 56,
+    "respirationRate": 24,
+    "oxygenSaturation": 79,
+    "temperature": 37.2,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 56,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 56,
+    "respirationRate": 19,
+    "oxygenSaturation": 94,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 81,
+    "stressScore": 76,
+    "respirationRate": 16,
+    "oxygenSaturation": 95,
+    "temperature": 37.9,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 36,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 34,
+    "respirationRate": 17,
+    "oxygenSaturation": 92,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 96,
+    "stressScore": 64,
+    "respirationRate": 12,
+    "oxygenSaturation": 98,
+    "temperature": 38.6,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 110,
+    "stressScore": 71,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 38.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 47,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 36,
+    "respirationRate": 12,
+    "oxygenSaturation": 100,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 60,
+    "stressScore": 38,
+    "respirationRate": 12,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 102,
+    "stressScore": 31,
+    "respirationRate": 30,
+    "oxygenSaturation": 82,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 62,
+    "respirationRate": 18,
+    "oxygenSaturation": 95,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 58,
+    "respirationRate": 13,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 72,
+    "stressScore": 37,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 56,
+    "respirationRate": 17,
+    "oxygenSaturation": 91,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 45,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 100,
+    "stressScore": 92,
+    "respirationRate": 21,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 53,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 30,
+    "respirationRate": 18,
+    "oxygenSaturation": 99,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 34,
+    "respirationRate": 22,
+    "oxygenSaturation": 94,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 37,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 37,
+    "respirationRate": 17,
+    "oxygenSaturation": 94,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 58,
+    "stressScore": 34,
+    "respirationRate": 9,
+    "oxygenSaturation": 98,
+    "temperature": 34.9,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 30,
+    "respirationRate": 17,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 40,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 60,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 36,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 93,
+    "respirationRate": 20,
+    "oxygenSaturation": 95,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 85,
+    "respirationRate": 18,
+    "oxygenSaturation": 100,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 59,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 46,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 60,
+    "stressScore": 46,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 41,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 105,
+    "stressScore": 74,
+    "respirationRate": 14,
+    "oxygenSaturation": 99,
+    "temperature": 38.4,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 78,
+    "stressScore": 42,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 40,
+    "stressScore": 50,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 33.1,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 34,
+    "respirationRate": 22,
+    "oxygenSaturation": 92,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 46,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.4,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 53,
+    "respirationRate": 14,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 97,
+    "stressScore": 48,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 43,
+    "stressScore": 33,
+    "respirationRate": 9,
+    "oxygenSaturation": 96,
+    "temperature": 35.1,
+    "label": "abnormal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 79,
+    "stressScore": 83,
+    "respirationRate": 21,
+    "oxygenSaturation": 97,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 40,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 50,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 54,
+    "stressScore": 45,
+    "respirationRate": 11,
+    "oxygenSaturation": 96,
+    "temperature": 34.3,
+    "label": "normal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 45,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 70,
+    "stressScore": 33,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 38,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 66,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 43,
+    "respirationRate": 18,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 49,
+    "respirationRate": 14,
+    "oxygenSaturation": 95,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 54,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 53,
+    "respirationRate": 18,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 92,
+    "stressScore": 65,
+    "respirationRate": 21,
+    "oxygenSaturation": 96,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 83,
+    "stressScore": 82,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 98,
+    "stressScore": 71,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 39.1,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 38,
+    "respirationRate": 13,
+    "oxygenSaturation": 96,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 93,
+    "stressScore": 65,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 108,
+    "stressScore": 44,
+    "respirationRate": 27,
+    "oxygenSaturation": 81,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 75,
+    "stressScore": 48,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 64,
+    "stressScore": 54,
+    "respirationRate": 15,
+    "oxygenSaturation": 96,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 37,
+    "respirationRate": 16,
+    "oxygenSaturation": 98,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 71,
+    "stressScore": 43,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 114,
+    "stressScore": 50,
+    "respirationRate": 27,
+    "oxygenSaturation": 80,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 95,
+    "stressScore": 75,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 89,
+    "stressScore": 41,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 35,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "abnormal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 67,
+    "stressScore": 32,
+    "respirationRate": 17,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 89,
+    "stressScore": 87,
+    "respirationRate": 19,
+    "oxygenSaturation": 100,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 46,
+    "respirationRate": 16,
+    "oxygenSaturation": 97,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 62,
+    "stressScore": 43,
+    "respirationRate": 17,
+    "oxygenSaturation": 99,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 66,
+    "stressScore": 52,
+    "respirationRate": 23,
+    "oxygenSaturation": 93,
+    "temperature": 36.9,
+    "label": "abnormal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 74,
+    "stressScore": 32,
+    "respirationRate": 18,
+    "oxygenSaturation": 95,
+    "temperature": 37.2,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 80,
+    "stressScore": 46,
+    "respirationRate": 23,
+    "oxygenSaturation": 95,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "ChronicLungDisease"
+  },
+  {
+    "heartRate": 107,
+    "stressScore": 78,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 39.0,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 61,
+    "stressScore": 46,
+    "respirationRate": 15,
+    "oxygenSaturation": 97,
+    "temperature": 36.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 65,
+    "stressScore": 46,
+    "respirationRate": 14,
+    "oxygenSaturation": 98,
+    "temperature": 37.5,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 48,
+    "respirationRate": 16,
+    "oxygenSaturation": 99,
+    "temperature": 37.3,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 73,
+    "stressScore": 52,
+    "respirationRate": 14,
+    "oxygenSaturation": 97,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 94,
+    "stressScore": 83,
+    "respirationRate": 21,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 69,
+    "stressScore": 50,
+    "respirationRate": 16,
+    "oxygenSaturation": 96,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 60,
+    "respirationRate": 16,
+    "oxygenSaturation": 95,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 63,
+    "stressScore": 35,
+    "respirationRate": 16,
+    "oxygenSaturation": 100,
+    "temperature": 36.8,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 76,
+    "stressScore": 60,
+    "respirationRate": 17,
+    "oxygenSaturation": 98,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 53,
+    "stressScore": 41,
+    "respirationRate": 11,
+    "oxygenSaturation": 96,
+    "temperature": 35.1,
+    "label": "normal",
+    "condition": "Hypothermia"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 71,
+    "respirationRate": 24,
+    "oxygenSaturation": 96,
+    "temperature": 37.1,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 84,
+    "stressScore": 77,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 36.6,
+    "label": "normal",
+    "condition": "HeartCondition"
+  },
+  {
+    "heartRate": 87,
+    "stressScore": 78,
+    "respirationRate": 13,
+    "oxygenSaturation": 97,
+    "temperature": 39.5,
+    "label": "abnormal",
+    "condition": "Fever"
+  },
+  {
+    "heartRate": 113,
+    "stressScore": 37,
+    "respirationRate": 26,
+    "oxygenSaturation": 78,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 88,
+    "stressScore": 60,
+    "respirationRate": 19,
+    "oxygenSaturation": 96,
+    "temperature": 37.4,
+    "label": "normal",
+    "condition": "AnxietyDisorder"
+  },
+  {
+    "heartRate": 112,
+    "stressScore": 31,
+    "respirationRate": 22,
+    "oxygenSaturation": 75,
+    "temperature": 37.2,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 77,
+    "stressScore": 35,
+    "respirationRate": 17,
+    "oxygenSaturation": 96,
+    "temperature": 36.9,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 101,
+    "stressScore": 54,
+    "respirationRate": 28,
+    "oxygenSaturation": 76,
+    "temperature": 37.3,
+    "label": "abnormal",
+    "condition": "Hypoxia"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 60,
+    "respirationRate": 13,
+    "oxygenSaturation": 98,
+    "temperature": 37.0,
+    "label": "normal",
+    "condition": "Healthy"
+  },
+  {
+    "heartRate": 68,
+    "stressScore": 50,
+    "respirationRate": 12,
+    "oxygenSaturation": 97,
+    "temperature": 36.7,
+    "label": "normal",
+    "condition": "Healthy"
+  }
+]
