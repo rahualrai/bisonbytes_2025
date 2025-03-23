@@ -1,5 +1,6 @@
 // File: backend/src/controllers/emergencyController.js
 import testEmergency from "../models/testEmergencyModel.js";
+import VitalsTesting from "../models/vitalsTestModel.js"; // Import the VitalsTesting model
 import { emitEmergencyUpdate } from "../websocket/socketServer.js";
 import { callTwilio } from "./twilioController.js";
 
@@ -11,6 +12,15 @@ export const triggerEmergencyFromWatch = async (req, res) => {
   };
 
   console.log("Emergency triggered from watch");
+
+  try {
+    // if called, pull the vitals from the database using responseID
+    const vitals = await VitalsTesting.findOne({ responseID: req.body.responseID });
+    console.log("Vitals from database:", vitals);
+  } catch (error) {
+    console.error("Error getting vitals from database:", error);
+    return res.status(500).json({ error: "Failed to get vitals from database." });
+  }
 
   try {
     // if called, call the Twilio test call function
