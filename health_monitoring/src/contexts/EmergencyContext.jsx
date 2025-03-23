@@ -1,4 +1,3 @@
-// File: /c:/Users/raira/Documents/helllo/bisonbytes_2025/health_monitoring/src/contexts/EmergencyContext.jsx
 'use client';
 
 import { createContext, useContext, useEffect, useState } from 'react';
@@ -28,7 +27,7 @@ export function EmergencyProvider({ children }) {
   const [emergencyAlertActive, setEmergencyAlertActive] = useState(false);
   
   // Real WebSocket connection to backend
-  const backendWsUrl = process.env.PORT || 'http://localhost:3001';
+  const backendWsUrl = process.env.NEXT_PUBLIC_BACKEND_WS_URL || 'http://localhost:4000';
   const webSocket = useWebSocket(`${backendWsUrl}/emergency`, {
     onMessage: (data) => {
       console.log('WebSocket message received:', data);
@@ -114,7 +113,7 @@ export function EmergencyProvider({ children }) {
     
     // Make API call to backend to notify timer expiration
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/emergencies/test/timer-expired`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/emergencies/timer-expired`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
