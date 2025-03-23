@@ -9,6 +9,7 @@ const authToken = process.env.TWILIO_AUTH_TOKEN;
 const twilioPhone = process.env.TWILIO_PHONE_NUMBER;
 
 const client = twilio(accountSid, authToken);
+const ngrokUrl = process.env.NGROK_URL;
 
 export const processGather = (req, res) => {
   const pressed = req.body.Digits;
@@ -41,13 +42,13 @@ export const callTwilio = async (location, vitals) => {
       twiml: `
         <Response>
           <Say voice="Google.en-US-Wavenet-F">
-            This is an emergency alert from the health monitoring system. Please listen carefully.
+            This is an emergency alert from the health monitoring system for Jane Doe. Please listen carefully.
             Patient location: ${location}.
             Heart rate: ${vitals.heartRate}.
             Oxygen saturation: ${vitals.oxygenSaturation}.
             Temperature: ${vitals.temperature}.
           </Say>
-          <Gather numDigits="1" action="https://c3f8-138-238-254-98.ngrok-free.app/process-gather" method="POST" timeout="10">
+          <Gather numDigits="1" action="${ngrokUrl}/process-gather" method="POST" timeout="10">
             <Say voice="Google.en-US-Wavenet-F">
               If you would like to be immediately connected to emergency medical services, please press 1.
             </Say>
