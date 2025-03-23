@@ -1,4 +1,5 @@
 import express from "express";
+import { v4 as uuidv4 } from "uuid"; // Import the uuid library
 import Vitals from "../models/vitalsModel.js";
 import VitalsTesting from "../models/vitalsTestModel.js";
 import { predictEmergency } from "../controllers/mlController.js"; // Import the predictEmergency function
@@ -29,12 +30,16 @@ router.post("/update-vitals", async (req, res) => {
   currentHeartRate = heartRate;
 
   try {
+
+    const responseID = uuidv4();
+
     const vitals = new VitalsTesting({
       heartRate,
       stressScore,
       oxygenSaturation,
       respirationRate,
-      temperature
+      temperature,
+      responseID,
     });
     console.log("Saving to database:", vitals);
     await vitals.save();
@@ -42,14 +47,14 @@ router.post("/update-vitals", async (req, res) => {
 
     // Call the predictEmergency function
     const predictionResponse = await new Promise((resolve, reject) => {
-      const reqMock = { body: req.body };
-      const resMock = {
+      const reqPredict = { body: req.body };
+      const resPredict = {
         json: (data) => resolve(data),
         status: (statusCode) => ({
           json: (data) => reject({ statusCode, data }),
         }),
       };
-      predictEmergency(reqMock, resMock);
+      predictEmergency(reqPredict, resPredict);
     });
 
     console.log("Prediction response:", predictionResponse);
@@ -59,6 +64,7 @@ router.post("/update-vitals", async (req, res) => {
       message: "Data saved successfully",
       emergency_probability: predictionResponse.emergency_probability,
       emergency_detected: emergencyDetected,
+      responseID: responseID
     });
   } catch (error) {
     console.error("Error saving to database:", error);

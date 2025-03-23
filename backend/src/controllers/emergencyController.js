@@ -1,9 +1,15 @@
 // File: backend/src/controllers/emergencyController.js
-import Emergency from "../models/Emergency.js";
+import testEmergency from "../models/testEmergencyModel.js";
 import { emitEmergencyUpdate } from "../websocket/socketServer.js";
 import { callTwilio } from "./twilioController.js";
 
 export const triggerEmergencyFromWatch = async (req, res) => {
+
+  // expect a responseID from the watch
+  if (!req.body.responseID) {
+    return res.status(400).json({ error: "Invalid input. Expected a responseID." });
+  };
+
   console.log("Emergency triggered from watch");
 
   try {
@@ -18,6 +24,16 @@ export const triggerEmergencyFromWatch = async (req, res) => {
     console.error("Error triggering emergency:", error);
     res.status(500).json({ error: "Failed to trigger emergency." });
   }
+
+  // save the emergency to the database
+  const testemergency = new testEmergency({
+    status: "initiated",
+    timestamps: { triggeredAt: new Date() },
+    responseID: req.body.responseID
+  });
+
+  await testemergency.save();
+  emitEmergencyUpdate(testemergency);
 };
 
 export const triggerEmergency = async (req, res) => {

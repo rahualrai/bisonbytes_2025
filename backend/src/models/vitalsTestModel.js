@@ -1,3 +1,4 @@
+import { response } from "express";
 import mongoose from "mongoose";
 
 const vitalsTestSchema = new mongoose.Schema({
@@ -24,6 +25,10 @@ const vitalsTestSchema = new mongoose.Schema({
   timestamp: {
     type: Date,
     default: Date.now,
+  },
+  responseID: {
+    type: String,
+    required: true,
   },
 });
 
