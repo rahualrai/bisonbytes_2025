@@ -28,13 +28,14 @@ class TimerDelegate extends WatchUi.BehaviorDelegate {
 
 
 
-    function makeRequest() as Void {
+    function makeRequest(emergencyTriggered) as Void {
     var url = "https://c3f8-138-238-254-98.ngrok-free.app/trigger-emergency";
 
     var params = {
         "responseId" => responseId,
         "latitude" => location[0],
-        "longitude" => location[1]
+        "longitude" => location[1],
+        "emergencyTriggered" => emergencyTriggered
     };
 
     var options = {
@@ -52,12 +53,13 @@ class TimerDelegate extends WatchUi.BehaviorDelegate {
         var key = keyEvent.getKey();
         if (key == 5) {
             System.println("Stop");
+            makeRequest(false);
             WatchUi.pushView(new TestView(), new TestDelegate(), WatchUi.SLIDE_UP);
             return true;
         }
         if (key == 4) {
             System.println("Start");
-            makeRequest();
+            makeRequest(true);
             WatchUi.pushView(new EmergencyView(), null, WatchUi.SLIDE_UP);
             return true;
         }

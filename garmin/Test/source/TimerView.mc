@@ -29,7 +29,7 @@ class TimerView extends WatchUi.View {
         myCount -= 1;
         if (myCount == 0){
             myTimer.stop();
-            makeRequest();
+            makeRequest(true);
             // Do to different screen
             WatchUi.pushView(new EmergencyView(), null, WatchUi.SLIDE_UP);
         }
@@ -70,14 +70,15 @@ class TimerView extends WatchUi.View {
 
 
 
-    function makeRequest() as Void {
+    function makeRequest(emergencyTriggered) as Void {
     var url = "https://c3f8-138-238-254-98.ngrok-free.app/trigger-emergency";
 
 
     var params = {
         "responseId" => responseId,
         "latitude" => location[0],
-        "longitude" => location[1]
+        "longitude" => location[1],
+        "emergencyTriggered" => emergencyTriggered
     };
     var options = {
         :method => Communications.HTTP_REQUEST_METHOD_POST,
