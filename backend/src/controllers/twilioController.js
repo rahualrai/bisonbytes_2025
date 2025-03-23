@@ -32,15 +32,20 @@ export const processGather = (req, res) => {
 };
 
 
-export const callTwilio = async () => {
+export const callTwilio = async (location, vitals) => {
   try {
+    if (!vitals || !vitals.heartRate || !vitals.oxygenSaturation || !vitals.temperature) {
+      throw new Error("Invalid vitals data");
+    }
     const call = await client.calls.create({
       twiml: `
         <Response>
           <Say voice="Google.en-US-Wavenet-F">
             This is an emergency alert from the health monitoring system. Please listen carefully.
-            Patient name: Aaryan Panthi.
-            Location: 426 Florida Ave NW, Washington, D C.
+            Patient location: ${location}.
+            Heart rate: ${vitals.heartRate}.
+            Oxygen saturation: ${vitals.oxygenSaturation}.
+            Temperature: ${vitals.temperature}.
           </Say>
           <Gather numDigits="1" action="https://c3f8-138-238-254-98.ngrok-free.app/process-gather" method="POST" timeout="10">
             <Say voice="Google.en-US-Wavenet-F">
