@@ -10,7 +10,6 @@ app = Flask(__name__)
 model = joblib.load('random_forest_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
-
 @app.route('/predict', methods=['POST'])
 def predict_emergency():
     """
