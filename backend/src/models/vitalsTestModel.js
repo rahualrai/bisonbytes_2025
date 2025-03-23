@@ -7,16 +7,14 @@ const vitalsTestSchema = new mongoose.Schema({
     required: true,
   },
   stressScore: {
-    type: Number,
-    required: true,
+    type: Number
   },
   oxygenSaturation: {
     type: Number,
     required: true,
   },
   respirationRate: {
-    type: Number,
-    required: true,
+    type: Number
   },
   temperature: {
     type: Number,

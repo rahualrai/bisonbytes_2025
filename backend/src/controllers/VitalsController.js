@@ -1,6 +1,5 @@
 import VitalsService from '../services/VitalsService.js';
 import EmergencyService from '../services/EmergencyService.js';
-import { emitVitalsUpdate } from '../websocket/socketServer.js';
 import ThresholdChecker from '../utils/ThresholdChecker.js';
 
 // Receives vital sign data from Garmin

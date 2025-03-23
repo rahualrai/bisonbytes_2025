@@ -3,7 +3,7 @@ import VitalsTesting from "../models/vitalsTestModel.js"; // Import the VitalsTe
 // get all vitals from the viraltesting
 export const getVitals = async (req, res) => {
     try {
-        const vitals = await VitalsTesting.find();
+        const vitals = await VitalsTesting.find().sort({ timestamp: -1 });
         res.status(200).json(vitals);
     } catch (error) {
         res.status(500).json({ status: "error", message: error.message });
