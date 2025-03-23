@@ -1,22 +1,27 @@
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
-import emergencyRoutes from "./routes/emergencyRoutes.js";
-import patientRoutes from "./routes/patientRoutes.js";
-import twilioRoutes from "./routes/twilioRoutes.js";
 import mongoose from "mongoose";
 import { createServer } from "http";
 import { initSocketServer } from "./websocket/socketServer.js";
 import twilioHandlers from "./controllers/twilioController.js";
-import testRoutes from "./testing/testingRoutes.js";
+import watchRoutes from "./watch/watchRoutes.js";
+import emergencyRoutes from "./routes/emergencyRoutes.js";
+import patientRoutes from "./routes/patientRoutes.js";
+import twilioRoutes from "./routes/twilioRoutes.js";
 
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use("/", testRoutes);
+// MongoDB connection
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
+app.use("/", watchRoutes);
 app.use("/api/emergencies", emergencyRoutes);
 app.use("/api/patients", patientRoutes);
 app.use("/api/twilio", twilioRoutes);
