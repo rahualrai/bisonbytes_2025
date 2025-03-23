@@ -34,7 +34,7 @@ class TestView extends WatchUi.View {
 
         if (heartRate != null) {
             _hrString = heartRate.toString() + "bpm";
-            hrNum = heartRate;
+            hrNum = heartRate.toNumber();
 
             // Add value to graph
         } 
@@ -45,7 +45,6 @@ class TestView extends WatchUi.View {
 
         if (ox != null) {
             bloodOx = ox;
-            hrNum = heartRate;
             // Add value to graph
         } 
 
@@ -84,10 +83,16 @@ class TestView extends WatchUi.View {
        }
 
        var emergencyDetected = data["emergency_detected"] as Boolean;
+       var response_id = data["responseId"] as String;
+         System.println(response_id);
 
          System.println(emergencyDetected);
          if (emergencyDetected) {
-              WatchUi.pushView(new TimerView(), null, WatchUi.SLIDE_UP);
+            var timerView = new TimerView();
+            var timerDelegate = new TimerDelegate();
+            timerView.setResponseId(response_id);
+            timerDelegate.setResponseId(response_id);
+              WatchUi.pushView(timerView, timerDelegate, WatchUi.SLIDE_UP);
          }
 
 

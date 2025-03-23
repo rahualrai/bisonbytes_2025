@@ -13,53 +13,79 @@ class TestApp extends Application.AppBase {
     static
     <init> {
     }
-    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 6; @position = 16; @symbol_vardef = [myView,6,16,22]; ]
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 6; @position = 16; @symbol_vardef = [testView,6,16,24]; ]
     private
-    var myView;
-    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
+    var testView;
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 7; @position = 16; @symbol_vardef = [testDelegate,7,16,28]; ]
+    private
+    var testDelegate;
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
     function initialize() as Void {
-_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_8_26_10_4_start:
-[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" 9 8 ]
-        symbol [ AppBase %tmp.2 9 8 15 ];
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_9_26_11_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" 10 8 ]
+        symbol [ AppBase %tmp.2 10 8 15 ];
         %tmp.2 = getv ? :AppBase;
-        symbol [ initialize %tmp.3 9 16 26 ];
+        symbol [ initialize %tmp.3 10 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_8_26_10_4_stop:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_9_26_11_4_stop:
     }
-    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 13; @symbol_functiondef = [onStart,13,13,20]; @symbol_param<0> = [state,13,21,26]; @symbol_param<0>_type<0> = [Dictionary,13,30,40]; ]
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 14; @symbol_functiondef = [onStart,14,13,20]; @symbol_param<0> = [state,14,21,26]; @symbol_param<0>_type<0> = [Dictionary,14,30,40]; ]
     function onStart(state as Dictionary or Null) as Void {
     }
-    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 17; @symbol_functiondef = [onStop,17,13,19]; @symbol_param<0> = [state,17,20,25]; @symbol_param<0>_type<0> = [Dictionary,17,29,39]; ]
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 18; @symbol_functiondef = [onStop,18,13,19]; @symbol_param<0> = [state,18,20,25]; @symbol_param<0>_type<0> = [Dictionary,18,29,39]; ]
     function onStop(state as Dictionary or Null) as Void {
     }
-    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 21; @symbol_functiondef = [getInitialView,21,13,27]; ]
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 22; @symbol_functiondef = [getInitialView,22,13,27]; ]
     function getInitialView() {
-_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_21_29_23_4_start:
-[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" 22 8 ]
-        %tmp.1 = newa 1;
-        symbol [ TestView %tmp.5 22 21 29 ];
-        %tmp.5 = getv ? :TestView;
-        %tmp.2 = newc %tmp.5 ();
-        %tmp.6 = dup %tmp.1;
-        %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        ret %tmp.7;
-_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_21_29_23_4_stop:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_22_29_28_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" 23 8 ]
+        symbol [ TestView %tmp.4 23 23 31 ];
+        %tmp.4 = getv ? :TestView;
+        %tmp.1 = newc %tmp.4 ();
+        symbol [ testView ? 23 8 16 ];
+        putv self :testView %tmp.1;
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" 24 8 ]
+        symbol [ TestDelegate %tmp.8 24 27 39 ];
+        %tmp.8 = getv ? :TestDelegate;
+        %tmp.5 = newc %tmp.8 ();
+        symbol [ testDelegate ? 24 8 20 ];
+        putv self :testDelegate %tmp.5;
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" 25 8 ]
+        symbol [ testDelegate %tmp.10 25 8 20 ];
+        %tmp.10 = getv ? :testDelegate;
+        symbol [ initTestView %tmp.11 25 21 33 ];
+        %tmp.11 = getv function %tmp.10 :initTestView;
+        symbol [ testView %tmp.13 25 34 42 ];
+        %tmp.13 = getv ? :testView;
+        invoke %tmp.10 %tmp.11(%tmp.13);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" 27 8 ]
+        %tmp.14 = newa 2;
+        symbol [ testView %tmp.16 27 17 25 ];
+        %tmp.16 = getv ? :testView;
+        %tmp.17 = dup %tmp.14;
+        %tmp.18 = aputv %tmp.17 0 %tmp.16;
+        symbol [ testDelegate %tmp.20 27 27 39 ];
+        %tmp.20 = getv ? :testDelegate;
+        %tmp.21 = dup %tmp.18;
+        %tmp.22 = aputv %tmp.21 1 %tmp.20;
+        ret %tmp.22;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_22_29_28_4_stop:
     }
 }
-[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 27; @symbol_functiondef = [getApp,27,9,15]; @symbol_return<0> = [TestApp,27,21,28]; ]
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 32; @symbol_functiondef = [getApp,32,9,15]; @symbol_return<0> = [TestApp,32,21,28]; ]
 function getApp() as TestApp {
-_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_27_29_29_0_start:
-[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" 28 4 ]
-    symbol [ Application %tmp.1 28 11 22 ];
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_32_29_34_0_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" 33 4 ]
+    symbol [ Application %tmp.1 33 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
-    symbol [ getApp %tmp.2 28 23 29 ];
+    symbol [ getApp %tmp.2 33 23 29 ];
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 TestApp;
-    symbol [ TestApp %tmp.4 28 35 42 ];
+    symbol [ TestApp %tmp.4 33 35 42 ];
     ret %tmp.4;
-_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_27_29_29_0_stop:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestApp_mc_32_29_34_0_stop:
 }
 [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc"; @line = 1; ]
 <init> {

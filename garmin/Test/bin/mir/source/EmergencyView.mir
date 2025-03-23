@@ -1,0 +1,76 @@
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Sensor,3,14,20]; ]
+import Toybox.Sensor;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Lang,4,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Communications,5,14,28]; ]
+import Toybox.Communications;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [ActivityMonitor,6,14,29]; ]
+import Toybox.ActivityMonitor;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Timer,7,14,19]; ]
+import Toybox.Timer;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 9; @symbol_classdef = [EmergencyView,9,6,19]; @symbol_extends<0> = [WatchUi,9,28,35]; @symbol_extends<1> = [View,9,36,40]; ]
+class EmergencyView extends WatchUi.View {
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 9; ]
+    <init> {
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 9; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; ]
+    function initialize() as Void {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_EmergencyView_mc_11_26_13_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc" 12 8 ]
+        symbol [ View %tmp.2 12 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 12 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_EmergencyView_mc_11_26_13_4_stop:
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 18; @symbol_functiondef = [onLayout,18,13,21]; @symbol_param<0> = [dc,18,22,24]; @symbol_param<0>_type<0> = [Dc,18,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_EmergencyView_mc_18_40_20_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc" 19 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 19 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 19 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 19 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ EmergencyLayout %tmp.6 19 30 45 ];
+        %tmp.6 = getv function %tmp.5 :EmergencyLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 19 46 48 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_EmergencyView_mc_18_40_20_4_stop:
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 25; @symbol_functiondef = [onShow,25,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 29; @symbol_functiondef = [onUpdate,29,13,21]; @symbol_param<0> = [dc,29,22,24]; @symbol_param<0>_type<0> = [Dc,29,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_EmergencyView_mc_29_40_31_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc" 30 8 ]
+        symbol [ View %tmp.2 30 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ onUpdate %tmp.3 30 13 21 ];
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 30 22 24 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_EmergencyView_mc_29_40_31_4_stop:
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 34; @symbol_functiondef = [onHide,34,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/EmergencyView.mc"; @line = 1; ]
+<init> {
+}
