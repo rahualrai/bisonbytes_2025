@@ -4,6 +4,7 @@ import Toybox.Sensor;
 import Toybox.Lang;
 import Toybox.Communications;
 import Toybox.ActivityMonitor;
+import Toybox.Timer;
 
 class MainView extends WatchUi.View {
 
@@ -13,12 +14,26 @@ class MainView extends WatchUi.View {
     private var bloodOx = 0;
     private var isEmergencySimulation = false;
     var info = ActivityMonitor.getInfo();
+    var myTimer;
+    var myCount = 0;
 
     function initialize() {
         View.initialize();
         Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE, Sensor.SENSOR_TEMPERATURE, Sensor.SENSOR_PULSE_OXIMETRY]);
         Sensor.enableSensorEvents(method(:onSnsr));
+        myTimer = new Timer.Timer();
+
     }
+    function timerCallback() as Void{
+        myCount -= 1;
+        if (myCount % 15 == 0){
+            makeRequest();
+            // Do to different screen
+        }
+        self.requestUpdate();
+    `}
+
+
 
     function setIsEmergency(emergency) as Void {
         isEmergencySimulation = emergency;
@@ -49,12 +64,13 @@ class MainView extends WatchUi.View {
         } 
 
         self.requestUpdate();
-        // makeRequest();
+
     }
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.MainLayout(dc));
+        myTimer.start(method(:timerCallback), 1000, true);
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -69,6 +85,7 @@ class MainView extends WatchUi.View {
         // Call the parent onUpdate function to redraw the layout
         var view = View.findDrawableById("heart") as Text;
         view.setText(_hrString);
+        // makeRequest();
         View.onUpdate(dc);
     }
 
@@ -135,6 +152,7 @@ class MainView extends WatchUi.View {
 
 
     function onHide() as Void {
+        myTimer.stop();
     }
 
 }

@@ -1,0 +1,93 @@
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 4; @symbol_classdef = [MainDelegate,4,6,18]; @symbol_extends<0> = [WatchUi,4,27,34]; @symbol_extends<1> = [BehaviorDelegate,4,35,51]; ]
+class MainDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 6; @position = 16; @symbol_vardef = [mainView,6,16,24]; ]
+    private
+    var mainView;
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 7; @position = 16; @symbol_vardef = [mainMenuDelegate,7,16,32]; ]
+    private
+    var mainMenuDelegate;
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
+    function initialize() as Void {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Main_source_MainDelegate_mc_8_26_10_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" 9 8 ]
+        symbol [ BehaviorDelegate %tmp.2 9 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 9 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Main_source_MainDelegate_mc_8_26_10_4_stop:
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 12; @symbol_functiondef = [initMainView,12,13,25]; @symbol_param<0> = [view,12,26,30]; ]
+    function initMainView(view) {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Main_source_MainDelegate_mc_12_32_15_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" 13 8 ]
+        %tmp.1 = lgetv %view;
+        symbol [ view %tmp.1 13 19 23 ];
+        symbol [ mainView ? 13 8 16 ];
+        putv self :mainView %tmp.1;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Main_source_MainDelegate_mc_12_32_15_4_stop:
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 17; @symbol_functiondef = [onMenu,17,13,19]; @symbol_return<0> = [Boolean,17,25,32]; ]
+    function onMenu() as Boolean {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Main_source_MainDelegate_mc_17_33_23_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" 18 8 ]
+        symbol [ MainMenuDelegate %tmp.4 18 31 47 ];
+        %tmp.4 = getv ? :MainMenuDelegate;
+        %tmp.1 = newc %tmp.4 ();
+        symbol [ mainMenuDelegate ? 18 8 24 ];
+        putv self :mainMenuDelegate %tmp.1;
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" 19 8 ]
+        symbol [ mainMenuDelegate %tmp.6 19 8 24 ];
+        %tmp.6 = getv ? :mainMenuDelegate;
+        symbol [ initMainView %tmp.7 19 25 37 ];
+        %tmp.7 = getv function %tmp.6 :initMainView;
+        symbol [ mainView %tmp.9 19 38 46 ];
+        %tmp.9 = getv ? :mainView;
+        invoke %tmp.6 %tmp.7(%tmp.9);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" 20 8 ]
+        symbol [ mainMenuDelegate %tmp.11 20 8 24 ];
+        %tmp.11 = getv ? :mainMenuDelegate;
+        symbol [ initMainDelegate %tmp.12 20 25 41 ];
+        %tmp.12 = getv function %tmp.11 :initMainDelegate;
+        %tmp.13 = self;
+        symbol [ self %tmp.13 20 42 46 ];
+        invoke %tmp.11 %tmp.12(%tmp.13);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" 21 8 ]
+        symbol [ WatchUi %tmp.14 21 8 15 ];
+        %tmp.14 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.15 21 16 24 ];
+        %tmp.15 = getv function %tmp.14 :pushView;
+        symbol [ Rez %tmp.19 21 29 32 ];
+        %tmp.19 = getv ? :Rez;
+        symbol [ Menus %tmp.20 21 33 38 ];
+        %tmp.20 = getv %tmp.19 :Menus;
+        symbol [ MainMenu %tmp.21 21 39 47 ];
+        %tmp.21 = getv function ? %tmp.20 :MainMenu;
+        %tmp.16 = newc %tmp.21 ();
+        symbol [ mainMenuDelegate %tmp.23 21 51 67 ];
+        %tmp.23 = getv ? :mainMenuDelegate;
+        symbol [ WatchUi %tmp.24 21 69 76 ];
+        %tmp.24 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.25 21 77 85 ];
+        %tmp.25 = getv %tmp.24 :SLIDE_UP;
+        invoke %tmp.14 %tmp.15(%tmp.16, %tmp.23, %tmp.25);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" 22 8 ]
+        %tmp.26 = true;
+        ret %tmp.26;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Main_source_MainDelegate_mc_17_33_23_4_stop:
+    }
+}
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc"; @line = 1; ]
+<init> {
+}

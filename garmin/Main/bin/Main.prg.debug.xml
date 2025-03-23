@@ -5,8 +5,8 @@
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="1" lineNum="32" parent="globals" pc="268435460" symbol="getApp"/>
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="1" lineNum="33" parent="globals" pc="268435470" symbol="getApp"/>
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" id="2" lineNum="4" parent="globals/MainDelegate" pc="268435481" symbol="&lt;init&gt;"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="3" lineNum="8" parent="globals/MainView" pc="268435493" symbol="&lt;init&gt;"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="3" lineNum="15" parent="globals/MainView" pc="268435504" symbol="&lt;init&gt;"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="3" lineNum="9" parent="globals/MainView" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="3" lineNum="16" parent="globals/MainView" pc="268435504" symbol="&lt;init&gt;"/>
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="4" lineNum="5" parent="globals/TimerDelegate" pc="268435522" symbol="&lt;init&gt;"/>
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="5" lineNum="10" parent="globals/TimerView" pc="268435534" symbol="&lt;init&gt;"/>
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435546" symbol="&lt;init&gt;"/>
@@ -23,159 +23,168 @@
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" id="11" lineNum="13" parent="globals/MainDelegate" pc="268435723" symbol="initMainView"/>
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" id="12" lineNum="8" parent="globals/MainDelegate" pc="268435733" symbol="initialize"/>
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainDelegate.mc" id="12" lineNum="9" parent="globals/MainDelegate" pc="268435735" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="13" lineNum="63" parent="globals/MainView" pc="268435748" symbol="onShow"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="13" lineNum="64" parent="globals/MainView" pc="268435750" symbol="onShow"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="29" parent="globals/MainView" pc="268435758" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="30" parent="globals/MainView" pc="268435761" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="31" parent="globals/MainView" pc="268435769" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="32" parent="globals/MainView" pc="268435777" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="35" parent="globals/MainView" pc="268435785" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="36" parent="globals/MainView" pc="268435791" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="37" parent="globals/MainView" pc="268435812" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="42" parent="globals/MainView" pc="268435830" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="43" parent="globals/MainView" pc="268435836" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="46" parent="globals/MainView" pc="268435848" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="47" parent="globals/MainView" pc="268435854" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="51" parent="globals/MainView" pc="268435866" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="15" lineNum="56" parent="globals/MainView" pc="268435874" symbol="onLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="15" lineNum="57" parent="globals/MainView" pc="268435876" symbol="onLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="75" parent="globals/MainView" pc="268435910" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="76" parent="globals/MainView" pc="268435913" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="78" parent="globals/MainView" pc="268435924" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="79" parent="globals/MainView" pc="268435933" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="82" parent="globals/MainView" pc="268435954" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="85" parent="globals/MainView" pc="268435975" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="86" parent="globals/MainView" pc="268435985" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="87" parent="globals/MainView" pc="268435995" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="89" parent="globals/MainView" pc="268436010" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="90" parent="globals/MainView" pc="268436025" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="91" parent="globals/MainView" pc="268436030" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="92" parent="globals/MainView" pc="268436054" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="93" parent="globals/MainView" pc="268436078" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="94" parent="globals/MainView" pc="268436090" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="95" parent="globals/MainView" pc="268436102" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="103" parent="globals/MainView" pc="268436125" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="104" parent="globals/MainView" pc="268436128" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="105" parent="globals/MainView" pc="268436135" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="113" parent="globals/MainView" pc="268436207" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="114" parent="globals/MainView" pc="268436215" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="125" parent="globals/MainView" pc="268436225" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="132" parent="globals/MainView" pc="268436251" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="133" parent="globals/MainView" pc="268436266" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="18" lineNum="23" parent="globals/MainView" pc="268436288" symbol="setIsEmergency"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="18" lineNum="24" parent="globals/MainView" pc="268436290" symbol="setIsEmergency"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="19" lineNum="17" parent="globals/MainView" pc="268436300" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="19" lineNum="18" parent="globals/MainView" pc="268436302" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="19" lineNum="19" parent="globals/MainView" pc="268436314" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="19" lineNum="20" parent="globals/MainView" pc="268436332" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="21" lineNum="68" parent="globals/MainView" pc="268436359" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="21" lineNum="70" parent="globals/MainView" pc="268436362" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="21" lineNum="71" parent="globals/MainView" pc="268436382" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="21" lineNum="72" parent="globals/MainView" pc="268436397" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="22" lineNum="13" parent="globals/TimerDelegate" pc="268436414" symbol="setResponseId"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="22" lineNum="14" parent="globals/TimerDelegate" pc="268436416" symbol="setResponseId"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="23" lineNum="9" parent="globals/TimerDelegate" pc="268436426" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="23" lineNum="10" parent="globals/TimerDelegate" pc="268436428" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="24" lineNum="17" parent="globals/TimerDelegate" pc="268436441" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="24" lineNum="18" parent="globals/TimerDelegate" pc="268436443" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="24" lineNum="20" parent="globals/TimerDelegate" pc="268436454" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="24" lineNum="21" parent="globals/TimerDelegate" pc="268436463" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="24" lineNum="24" parent="globals/TimerDelegate" pc="268436484" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="31" parent="globals/TimerDelegate" pc="268436506" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="32" parent="globals/TimerDelegate" pc="268436509" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="34" parent="globals/TimerDelegate" pc="268436516" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="41" parent="globals/TimerDelegate" pc="268436569" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="48" parent="globals/TimerDelegate" pc="268436595" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="49" parent="globals/TimerDelegate" pc="268436610" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="52" parent="globals/TimerDelegate" pc="268436632" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="53" parent="globals/TimerDelegate" pc="268436635" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="54" parent="globals/TimerDelegate" pc="268436644" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="55" parent="globals/TimerDelegate" pc="268436652" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="56" parent="globals/TimerDelegate" pc="268436670" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="57" parent="globals/TimerDelegate" pc="268436680" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="58" parent="globals/TimerDelegate" pc="268436739" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="60" parent="globals/TimerDelegate" pc="268436744" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="61" parent="globals/TimerDelegate" pc="268436752" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="62" parent="globals/TimerDelegate" pc="268436770" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="63" parent="globals/TimerDelegate" pc="268436780" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="64" parent="globals/TimerDelegate" pc="268436818" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="66" parent="globals/TimerDelegate" pc="268436823" symbol="onKey"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="28" lineNum="40" parent="globals/TimerView" pc="268436825" symbol="onLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="28" lineNum="41" parent="globals/TimerView" pc="268436827" symbol="onLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="28" lineNum="42" parent="globals/TimerView" pc="268436860" symbol="onLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="29" lineNum="59" parent="globals/TimerView" pc="268436892" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="29" lineNum="60" parent="globals/TimerView" pc="268436894" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="29" lineNum="62" parent="globals/TimerView" pc="268436905" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="29" lineNum="63" parent="globals/TimerView" pc="268436914" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="29" lineNum="66" parent="globals/TimerView" pc="268436935" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="73" parent="globals/TimerView" pc="268436957" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="74" parent="globals/TimerView" pc="268436960" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="77" parent="globals/TimerView" pc="268436967" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="83" parent="globals/TimerView" pc="268437020" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="90" parent="globals/TimerView" pc="268437046" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="91" parent="globals/TimerView" pc="268437061" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="28" parent="globals/TimerView" pc="268437083" symbol="timerCallback"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="29" parent="globals/TimerView" pc="268437085" symbol="timerCallback"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="30" parent="globals/TimerView" pc="268437100" symbol="timerCallback"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="31" parent="globals/TimerView" pc="268437110" symbol="timerCallback"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="32" parent="globals/TimerView" pc="268437122" symbol="timerCallback"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="34" parent="globals/TimerView" pc="268437132" symbol="timerCallback"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="36" parent="globals/TimerView" pc="268437173" symbol="timerCallback"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="32" lineNum="22" parent="globals/TimerView" pc="268437181" symbol="setResponseId"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="32" lineNum="23" parent="globals/TimerView" pc="268437183" symbol="setResponseId"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="33" lineNum="16" parent="globals/TimerView" pc="268437193" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="33" lineNum="17" parent="globals/TimerView" pc="268437195" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="33" lineNum="18" parent="globals/TimerView" pc="268437207" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="34" lineNum="94" parent="globals/TimerView" pc="268437237" symbol="onHide"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="34" lineNum="95" parent="globals/TimerView" pc="268437239" symbol="onHide"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="35" lineNum="52" parent="globals/TimerView" pc="268437252" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="35" lineNum="54" parent="globals/TimerView" pc="268437255" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="35" lineNum="55" parent="globals/TimerView" pc="268437275" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="35" lineNum="56" parent="globals/TimerView" pc="268437296" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="37" lineNum="18" parent="globals/EmergencyView" pc="268437313" symbol="onLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="37" lineNum="19" parent="globals/EmergencyView" pc="268437315" symbol="onLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="38" lineNum="11" parent="globals/EmergencyView" pc="268437349" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="38" lineNum="12" parent="globals/EmergencyView" pc="268437351" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="40" lineNum="29" parent="globals/EmergencyView" pc="268437364" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="40" lineNum="30" parent="globals/EmergencyView" pc="268437366" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="41" lineNum="14" parent="globals/MainApp" pc="268437383" symbol="onStart"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="42" lineNum="22" parent="globals/MainApp" pc="268437386" symbol="getInitialView"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="42" lineNum="23" parent="globals/MainApp" pc="268437388" symbol="getInitialView"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="42" lineNum="24" parent="globals/MainApp" pc="268437417" symbol="getInitialView"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="42" lineNum="25" parent="globals/MainApp" pc="268437446" symbol="getInitialView"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="42" lineNum="27" parent="globals/MainApp" pc="268437465" symbol="getInitialView"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="43" lineNum="9" parent="globals/MainApp" pc="268437486" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="43" lineNum="10" parent="globals/MainApp" pc="268437488" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="44" lineNum="18" parent="globals/MainApp" pc="268437501" symbol="onStop"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="45" lineNum="13" parent="globals/MainMenuDelegate" pc="268437504" symbol="initMainView"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="45" lineNum="14" parent="globals/MainMenuDelegate" pc="268437506" symbol="initMainView"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="19" parent="globals/MainMenuDelegate" pc="268437516" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="20" parent="globals/MainMenuDelegate" pc="268437518" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="21" parent="globals/MainMenuDelegate" pc="268437529" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="22" parent="globals/MainMenuDelegate" pc="268437544" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="23" parent="globals/MainMenuDelegate" pc="268437569" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="25" parent="globals/MainMenuDelegate" pc="268437590" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="26" parent="globals/MainMenuDelegate" pc="268437601" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="27" parent="globals/MainMenuDelegate" pc="268437616" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="28" parent="globals/MainMenuDelegate" pc="268437641" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="9" parent="globals/MainMenuDelegate" pc="268437663" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="10" parent="globals/MainMenuDelegate" pc="268437665" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="48" lineNum="16" parent="globals/MainMenuDelegate" pc="268437678" symbol="initMainDelegate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="48" lineNum="17" parent="globals/MainMenuDelegate" pc="268437680" symbol="initMainDelegate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="49" lineNum="25" parent="globals/Rez/Layouts" pc="268437690" symbol="EmergencyLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="49" lineNum="26" parent="globals/Rez/Layouts" pc="268437701" symbol="EmergencyLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="49" lineNum="28" parent="globals/Rez/Layouts" pc="268437816" symbol="EmergencyLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="50" lineNum="19" parent="globals/Rez/Layouts" pc="268437826" symbol="TimerLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="50" lineNum="20" parent="globals/Rez/Layouts" pc="268437837" symbol="TimerLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="50" lineNum="22" parent="globals/Rez/Layouts" pc="268437952" symbol="TimerLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="51" lineNum="13" parent="globals/Rez/Layouts" pc="268437962" symbol="MainLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="51" lineNum="14" parent="globals/Rez/Layouts" pc="268437973" symbol="MainLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="51" lineNum="16" parent="globals/Rez/Layouts" pc="268438077" symbol="MainLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="52" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268438087" symbol="&lt;init&gt;"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="53" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268438099" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="53" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268438101" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="53" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268438113" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="53" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268438132" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="13" lineNum="79" parent="globals/MainView" pc="268435748" symbol="onShow"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="13" lineNum="80" parent="globals/MainView" pc="268435750" symbol="onShow"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="44" parent="globals/MainView" pc="268435758" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="45" parent="globals/MainView" pc="268435761" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="46" parent="globals/MainView" pc="268435769" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="47" parent="globals/MainView" pc="268435777" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="50" parent="globals/MainView" pc="268435785" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="51" parent="globals/MainView" pc="268435791" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="52" parent="globals/MainView" pc="268435812" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="57" parent="globals/MainView" pc="268435830" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="58" parent="globals/MainView" pc="268435836" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="61" parent="globals/MainView" pc="268435848" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="62" parent="globals/MainView" pc="268435854" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="14" lineNum="66" parent="globals/MainView" pc="268435866" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="15" lineNum="71" parent="globals/MainView" pc="268435874" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="15" lineNum="72" parent="globals/MainView" pc="268435876" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="15" lineNum="73" parent="globals/MainView" pc="268435909" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="92" parent="globals/MainView" pc="268435941" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="93" parent="globals/MainView" pc="268435944" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="95" parent="globals/MainView" pc="268435955" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="96" parent="globals/MainView" pc="268435964" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="99" parent="globals/MainView" pc="268435985" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="102" parent="globals/MainView" pc="268436006" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="103" parent="globals/MainView" pc="268436016" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="104" parent="globals/MainView" pc="268436026" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="106" parent="globals/MainView" pc="268436041" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="107" parent="globals/MainView" pc="268436056" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="108" parent="globals/MainView" pc="268436061" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="109" parent="globals/MainView" pc="268436085" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="110" parent="globals/MainView" pc="268436109" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="111" parent="globals/MainView" pc="268436121" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="16" lineNum="112" parent="globals/MainView" pc="268436133" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="120" parent="globals/MainView" pc="268436156" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="121" parent="globals/MainView" pc="268436159" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="122" parent="globals/MainView" pc="268436166" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="130" parent="globals/MainView" pc="268436238" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="131" parent="globals/MainView" pc="268436246" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="142" parent="globals/MainView" pc="268436256" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="149" parent="globals/MainView" pc="268436282" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="17" lineNum="150" parent="globals/MainView" pc="268436297" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="18" lineNum="27" parent="globals/MainView" pc="268436319" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="18" lineNum="28" parent="globals/MainView" pc="268436321" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="18" lineNum="29" parent="globals/MainView" pc="268436336" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="18" lineNum="30" parent="globals/MainView" pc="268436349" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="18" lineNum="33" parent="globals/MainView" pc="268436359" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="19" lineNum="38" parent="globals/MainView" pc="268436367" symbol="setIsEmergency"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="19" lineNum="39" parent="globals/MainView" pc="268436369" symbol="setIsEmergency"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="20" lineNum="20" parent="globals/MainView" pc="268436379" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="20" lineNum="21" parent="globals/MainView" pc="268436381" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="20" lineNum="22" parent="globals/MainView" pc="268436393" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="20" lineNum="23" parent="globals/MainView" pc="268436411" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="20" lineNum="24" parent="globals/MainView" pc="268436437" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="21" lineNum="154" parent="globals/MainView" pc="268436467" symbol="onHide"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="21" lineNum="155" parent="globals/MainView" pc="268436469" symbol="onHide"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="22" lineNum="84" parent="globals/MainView" pc="268436482" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="22" lineNum="86" parent="globals/MainView" pc="268436485" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="22" lineNum="87" parent="globals/MainView" pc="268436505" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainView.mc" id="22" lineNum="89" parent="globals/MainView" pc="268436520" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="23" lineNum="13" parent="globals/TimerDelegate" pc="268436537" symbol="setResponseId"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="23" lineNum="14" parent="globals/TimerDelegate" pc="268436539" symbol="setResponseId"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="24" lineNum="9" parent="globals/TimerDelegate" pc="268436549" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="24" lineNum="10" parent="globals/TimerDelegate" pc="268436551" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="17" parent="globals/TimerDelegate" pc="268436564" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="18" parent="globals/TimerDelegate" pc="268436566" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="20" parent="globals/TimerDelegate" pc="268436577" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="21" parent="globals/TimerDelegate" pc="268436586" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="25" lineNum="24" parent="globals/TimerDelegate" pc="268436607" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="31" parent="globals/TimerDelegate" pc="268436629" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="32" parent="globals/TimerDelegate" pc="268436632" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="34" parent="globals/TimerDelegate" pc="268436639" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="41" parent="globals/TimerDelegate" pc="268436692" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="48" parent="globals/TimerDelegate" pc="268436718" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="26" lineNum="49" parent="globals/TimerDelegate" pc="268436733" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="52" parent="globals/TimerDelegate" pc="268436755" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="53" parent="globals/TimerDelegate" pc="268436758" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="54" parent="globals/TimerDelegate" pc="268436767" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="55" parent="globals/TimerDelegate" pc="268436775" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="56" parent="globals/TimerDelegate" pc="268436793" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="57" parent="globals/TimerDelegate" pc="268436803" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="58" parent="globals/TimerDelegate" pc="268436862" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="60" parent="globals/TimerDelegate" pc="268436867" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="61" parent="globals/TimerDelegate" pc="268436875" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="62" parent="globals/TimerDelegate" pc="268436893" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="63" parent="globals/TimerDelegate" pc="268436903" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="64" parent="globals/TimerDelegate" pc="268436941" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerDelegate.mc" id="27" lineNum="66" parent="globals/TimerDelegate" pc="268436946" symbol="onKey"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="29" lineNum="40" parent="globals/TimerView" pc="268436948" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="29" lineNum="41" parent="globals/TimerView" pc="268436950" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="29" lineNum="42" parent="globals/TimerView" pc="268436983" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="59" parent="globals/TimerView" pc="268437015" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="60" parent="globals/TimerView" pc="268437017" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="62" parent="globals/TimerView" pc="268437028" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="63" parent="globals/TimerView" pc="268437037" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="30" lineNum="66" parent="globals/TimerView" pc="268437058" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="73" parent="globals/TimerView" pc="268437080" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="74" parent="globals/TimerView" pc="268437083" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="77" parent="globals/TimerView" pc="268437090" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="83" parent="globals/TimerView" pc="268437143" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="90" parent="globals/TimerView" pc="268437169" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="31" lineNum="91" parent="globals/TimerView" pc="268437184" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="32" lineNum="28" parent="globals/TimerView" pc="268437206" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="32" lineNum="29" parent="globals/TimerView" pc="268437208" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="32" lineNum="30" parent="globals/TimerView" pc="268437223" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="32" lineNum="31" parent="globals/TimerView" pc="268437233" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="32" lineNum="32" parent="globals/TimerView" pc="268437245" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="32" lineNum="34" parent="globals/TimerView" pc="268437255" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="32" lineNum="36" parent="globals/TimerView" pc="268437296" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="33" lineNum="22" parent="globals/TimerView" pc="268437304" symbol="setResponseId"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="33" lineNum="23" parent="globals/TimerView" pc="268437306" symbol="setResponseId"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="34" lineNum="16" parent="globals/TimerView" pc="268437316" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="34" lineNum="17" parent="globals/TimerView" pc="268437318" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="34" lineNum="18" parent="globals/TimerView" pc="268437330" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="35" lineNum="94" parent="globals/TimerView" pc="268437360" symbol="onHide"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="35" lineNum="95" parent="globals/TimerView" pc="268437362" symbol="onHide"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="36" lineNum="52" parent="globals/TimerView" pc="268437375" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="36" lineNum="54" parent="globals/TimerView" pc="268437378" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="36" lineNum="55" parent="globals/TimerView" pc="268437398" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/TimerView.mc" id="36" lineNum="56" parent="globals/TimerView" pc="268437419" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="38" lineNum="18" parent="globals/EmergencyView" pc="268437436" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="38" lineNum="19" parent="globals/EmergencyView" pc="268437438" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="39" lineNum="11" parent="globals/EmergencyView" pc="268437472" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="39" lineNum="12" parent="globals/EmergencyView" pc="268437474" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="41" lineNum="29" parent="globals/EmergencyView" pc="268437487" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/EmergencyView.mc" id="41" lineNum="30" parent="globals/EmergencyView" pc="268437489" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="42" lineNum="14" parent="globals/MainApp" pc="268437506" symbol="onStart"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="43" lineNum="22" parent="globals/MainApp" pc="268437509" symbol="getInitialView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="43" lineNum="23" parent="globals/MainApp" pc="268437511" symbol="getInitialView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="43" lineNum="24" parent="globals/MainApp" pc="268437540" symbol="getInitialView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="43" lineNum="25" parent="globals/MainApp" pc="268437569" symbol="getInitialView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="43" lineNum="27" parent="globals/MainApp" pc="268437588" symbol="getInitialView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="44" lineNum="9" parent="globals/MainApp" pc="268437609" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="44" lineNum="10" parent="globals/MainApp" pc="268437611" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainApp.mc" id="45" lineNum="18" parent="globals/MainApp" pc="268437624" symbol="onStop"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="13" parent="globals/MainMenuDelegate" pc="268437627" symbol="initMainView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="46" lineNum="14" parent="globals/MainMenuDelegate" pc="268437629" symbol="initMainView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="19" parent="globals/MainMenuDelegate" pc="268437639" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="20" parent="globals/MainMenuDelegate" pc="268437641" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="21" parent="globals/MainMenuDelegate" pc="268437652" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="22" parent="globals/MainMenuDelegate" pc="268437667" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="23" parent="globals/MainMenuDelegate" pc="268437692" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="25" parent="globals/MainMenuDelegate" pc="268437713" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="26" parent="globals/MainMenuDelegate" pc="268437724" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="27" parent="globals/MainMenuDelegate" pc="268437739" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="47" lineNum="28" parent="globals/MainMenuDelegate" pc="268437764" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="48" lineNum="9" parent="globals/MainMenuDelegate" pc="268437786" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="48" lineNum="10" parent="globals/MainMenuDelegate" pc="268437788" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="49" lineNum="16" parent="globals/MainMenuDelegate" pc="268437801" symbol="initMainDelegate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/source/MainMenuDelegate.mc" id="49" lineNum="17" parent="globals/MainMenuDelegate" pc="268437803" symbol="initMainDelegate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="50" lineNum="25" parent="globals/Rez/Layouts" pc="268437813" symbol="EmergencyLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="50" lineNum="26" parent="globals/Rez/Layouts" pc="268437824" symbol="EmergencyLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="50" lineNum="28" parent="globals/Rez/Layouts" pc="268437939" symbol="EmergencyLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="51" lineNum="19" parent="globals/Rez/Layouts" pc="268437949" symbol="TimerLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="51" lineNum="20" parent="globals/Rez/Layouts" pc="268437960" symbol="TimerLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="51" lineNum="22" parent="globals/Rez/Layouts" pc="268438075" symbol="TimerLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="52" lineNum="13" parent="globals/Rez/Layouts" pc="268438085" symbol="MainLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="52" lineNum="14" parent="globals/Rez/Layouts" pc="268438096" symbol="MainLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="52" lineNum="16" parent="globals/Rez/Layouts" pc="268438200" symbol="MainLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="53" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268438210" symbol="&lt;init&gt;"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="54" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268438222" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="54" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268438224" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="54" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268438236" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Main/bin/gen/006-B3943-00/source/Rez.mcgen" id="54" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268438255" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="12" object="true" symbol="TimerDelegate"/>
@@ -188,85 +197,87 @@
         <entry field="true" id="20" symbol="&lt;globals/MainView/&lt;&gt;isEmergencySimulation&gt;"/>
         <entry field="true" id="18" symbol="&lt;globals/MainView/&lt;&gt;bloodOx&gt;"/>
         <entry id="9" object="true" symbol="MainDelegate"/>
-        <entry id="26" symbol="&lt;globals/TimerDelegate/&lt;&gt;location&gt;"/>
+        <entry id="29" symbol="&lt;globals/TimerDelegate/&lt;&gt;location&gt;"/>
         <entry id="7" object="true" symbol="EmergencyView"/>
-        <entry id="43" method="true" symbol="MainLayout"/>
+        <entry field="true" id="22" symbol="myCount"/>
+        <entry id="45" method="true" symbol="MainLayout"/>
         <entry id="10" object="true" symbol="MainMenuDelegate"/>
-        <entry id="38" method="true" symbol="initMainDelegate"/>
-        <entry field="true" id="40" symbol="&lt;globals/MainMenuDelegate/&lt;&gt;mainView&gt;"/>
+        <entry id="40" method="true" symbol="initMainDelegate"/>
+        <entry field="true" id="42" symbol="&lt;globals/MainMenuDelegate/&lt;&gt;mainView&gt;"/>
         <entry field="true" id="17" symbol="&lt;globals/MainView/&lt;&gt;_hrString&gt;"/>
-        <entry field="true" id="36" symbol="&lt;globals/MainApp/&lt;&gt;mainDelegate&gt;"/>
+        <entry field="true" id="38" symbol="&lt;globals/MainApp/&lt;&gt;mainDelegate&gt;"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="46" symbol="AppName"/>
+        <entry field="true" id="48" symbol="AppName"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389594" symbol="headers"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="44" method="true" symbol="TimerLayout"/>
+        <entry id="46" method="true" symbol="TimerLayout"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="49" symbol="prompt"/>
+        <entry field="true" id="51" symbol="prompt"/>
         <entry id="11" object="true" symbol="MainView"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="37" symbol="&lt;globals/MainApp/&lt;&gt;mainView&gt;"/>
-        <entry field="true" id="39" symbol="&lt;globals/MainMenuDelegate/&lt;&gt;mainDelegate&gt;"/>
+        <entry field="true" id="39" symbol="&lt;globals/MainApp/&lt;&gt;mainView&gt;"/>
+        <entry field="true" id="41" symbol="&lt;globals/MainMenuDelegate/&lt;&gt;mainDelegate&gt;"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="51" symbol="item_2"/>
-        <entry id="50" symbol="item_1"/>
-        <entry id="35" module="true" symbol="Menus"/>
+        <entry id="53" symbol="item_2"/>
+        <entry id="52" symbol="item_1"/>
+        <entry id="37" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="31" symbol="&lt;globals/TimerView/&lt;&gt;myTimer&gt;"/>
-        <entry id="24" method="true" symbol="setIsEmergency"/>
+        <entry field="true" id="34" symbol="&lt;globals/TimerView/&lt;&gt;myTimer&gt;"/>
+        <entry id="26" method="true" symbol="setIsEmergency"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
         <entry field="true" id="19" symbol="&lt;globals/MainView/&lt;&gt;hrNum&gt;"/>
-        <entry field="true" id="27" symbol="&lt;globals/TimerDelegate/&lt;&gt;responseId&gt;"/>
+        <entry field="true" id="30" symbol="&lt;globals/TimerDelegate/&lt;&gt;responseId&gt;"/>
         <entry id="21" method="true" symbol="makeRequest"/>
         <entry id="8388637" module="true" symbol="Communications"/>
         <entry id="8" object="true" symbol="MainApp"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="45" object="true" symbol="MainMenu"/>
+        <entry id="47" object="true" symbol="MainMenu"/>
         <entry id="8388786" method="true" symbol="method"/>
-        <entry id="28" method="true" symbol="setResponseId"/>
+        <entry id="31" method="true" symbol="setResponseId"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="42" method="true" symbol="EmergencyLayout"/>
-        <entry id="22" method="true" symbol="onReceive"/>
-        <entry id="33" method="true" symbol="timerCallback"/>
+        <entry id="44" method="true" symbol="EmergencyLayout"/>
+        <entry id="24" method="true" symbol="onReceive"/>
+        <entry id="28" method="true" symbol="timerCallback"/>
         <entry id="14" method="true" symbol="initMainView"/>
-        <entry id="29" symbol="&lt;globals/TimerView/&lt;&gt;location&gt;"/>
+        <entry id="32" symbol="&lt;globals/TimerView/&lt;&gt;location&gt;"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="41" symbol="LauncherIcon"/>
+        <entry field="true" id="43" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8388643" module="true" symbol="Sensor"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry id="23" method="true" symbol="onSnsr"/>
+        <entry field="true" id="23" symbol="myTimer"/>
+        <entry id="25" method="true" symbol="onSnsr"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry field="true" id="32" symbol="&lt;globals/TimerView/&lt;&gt;responseId&gt;"/>
+        <entry field="true" id="35" symbol="&lt;globals/TimerView/&lt;&gt;responseId&gt;"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry field="true" id="25" symbol="&lt;globals/MainView/&lt;&gt;temperature&gt;"/>
+        <entry field="true" id="27" symbol="&lt;globals/MainView/&lt;&gt;temperature&gt;"/>
         <entry id="8389097" method="true" symbol="onKey"/>
-        <entry field="true" id="30" symbol="&lt;globals/TimerView/&lt;&gt;myCount&gt;"/>
+        <entry field="true" id="33" symbol="&lt;globals/TimerView/&lt;&gt;myCount&gt;"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
-        <entry id="34" module="true" symbol="Layouts"/>
+        <entry id="36" module="true" symbol="Layouts"/>
         <entry field="true" id="16" symbol="&lt;globals/MainDelegate/&lt;&gt;mainView&gt;"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="15" symbol="&lt;globals/MainDelegate/&lt;&gt;mainMenuDelegate&gt;"/>
-        <entry field="true" id="48" symbol="menu_label_2"/>
-        <entry field="true" id="47" symbol="menu_label_1"/>
+        <entry field="true" id="50" symbol="menu_label_2"/>
+        <entry field="true" id="49" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435732" name="view" stackId="1" startPc="268435721"/>
@@ -274,52 +285,52 @@
         <entry endPc="268435872" name="heartRate" stackId="2" startPc="268435761"/>
         <entry endPc="268435872" name="temp" stackId="3" startPc="268435761"/>
         <entry endPc="268435872" name="ox" stackId="4" startPc="268435761"/>
-        <entry arg="true" endPc="268435909" name="dc" stackId="1" startPc="268435874"/>
-        <entry arg="true" endPc="268436124" name="responseCode" stackId="1" startPc="268435910"/>
-        <entry arg="true" endPc="268436124" name="data" stackId="2" startPc="268435910"/>
-        <entry endPc="268436123" name="emergencyDetected" stackId="3" startPc="268435913"/>
-        <entry endPc="268436123" name="response_id" stackId="4" startPc="268435913"/>
-        <entry endPc="268436120" name="timerView" stackId="5" startPc="268436030"/>
-        <entry endPc="268436120" name="timerDelegate" stackId="6" startPc="268436030"/>
-        <entry endPc="268436286" name="url" stackId="1" startPc="268436128"/>
-        <entry endPc="268436286" name="params" stackId="2" startPc="268436128"/>
-        <entry endPc="268436286" name="options" stackId="3" startPc="268436128"/>
-        <entry endPc="268436286" name="responseCallback" stackId="4" startPc="268436128"/>
-        <entry arg="true" endPc="268436299" name="emergency" stackId="1" startPc="268436288"/>
-        <entry arg="true" endPc="268436413" name="dc" stackId="1" startPc="268436359"/>
-        <entry endPc="268436412" name="view" stackId="2" startPc="268436362"/>
-        <entry arg="true" endPc="268436425" name="id" stackId="1" startPc="268436414"/>
-        <entry arg="true" endPc="268436505" name="responseCode" stackId="1" startPc="268436441"/>
-        <entry arg="true" endPc="268436505" name="data" stackId="2" startPc="268436441"/>
-        <entry arg="true" endPc="268436631" name="emergencyTriggered" stackId="1" startPc="268436506"/>
-        <entry endPc="268436630" name="url" stackId="2" startPc="268436509"/>
-        <entry endPc="268436630" name="params" stackId="3" startPc="268436509"/>
-        <entry endPc="268436630" name="options" stackId="4" startPc="268436509"/>
-        <entry endPc="268436630" name="responseCallback" stackId="5" startPc="268436509"/>
-        <entry arg="true" endPc="268436824" name="keyEvent" stackId="1" startPc="268436632"/>
-        <entry endPc="268436824" name="key" stackId="2" startPc="268436635"/>
-        <entry arg="true" endPc="268436891" name="dc" stackId="1" startPc="268436825"/>
-        <entry arg="true" endPc="268436956" name="responseCode" stackId="1" startPc="268436892"/>
-        <entry arg="true" endPc="268436956" name="data" stackId="2" startPc="268436892"/>
-        <entry arg="true" endPc="268437082" name="emergencyTriggered" stackId="1" startPc="268436957"/>
-        <entry endPc="268437081" name="url" stackId="2" startPc="268436960"/>
-        <entry endPc="268437081" name="params" stackId="3" startPc="268436960"/>
-        <entry endPc="268437081" name="options" stackId="4" startPc="268436960"/>
-        <entry endPc="268437081" name="responseCallback" stackId="5" startPc="268436960"/>
-        <entry arg="true" endPc="268437192" name="id" stackId="1" startPc="268437181"/>
-        <entry arg="true" endPc="268437312" name="dc" stackId="1" startPc="268437252"/>
-        <entry endPc="268437311" name="timerLabel" stackId="2" startPc="268437255"/>
-        <entry arg="true" endPc="268437348" name="dc" stackId="1" startPc="268437313"/>
-        <entry arg="true" endPc="268437382" name="dc" stackId="1" startPc="268437364"/>
-        <entry arg="true" endPc="268437515" name="view" stackId="1" startPc="268437504"/>
-        <entry arg="true" endPc="268437662" name="item" stackId="1" startPc="268437516"/>
-        <entry arg="true" endPc="268437689" name="delegate" stackId="1" startPc="268437678"/>
-        <entry arg="true" endPc="268437825" name="dc" stackId="1" startPc="268437690"/>
-        <entry endPc="268437825" name="rez_cmp_local_text_EmergencyLabel" stackId="2" startPc="268437701"/>
-        <entry arg="true" endPc="268437961" name="dc" stackId="1" startPc="268437826"/>
-        <entry endPc="268437961" name="rez_cmp_local_text_Timer" stackId="2" startPc="268437837"/>
-        <entry arg="true" endPc="268438086" name="dc" stackId="1" startPc="268437962"/>
-        <entry endPc="268438086" name="rez_cmp_local_text_heart" stackId="2" startPc="268437973"/>
+        <entry arg="true" endPc="268435940" name="dc" stackId="1" startPc="268435874"/>
+        <entry arg="true" endPc="268436155" name="responseCode" stackId="1" startPc="268435941"/>
+        <entry arg="true" endPc="268436155" name="data" stackId="2" startPc="268435941"/>
+        <entry endPc="268436154" name="emergencyDetected" stackId="3" startPc="268435944"/>
+        <entry endPc="268436154" name="response_id" stackId="4" startPc="268435944"/>
+        <entry endPc="268436151" name="timerView" stackId="5" startPc="268436061"/>
+        <entry endPc="268436151" name="timerDelegate" stackId="6" startPc="268436061"/>
+        <entry endPc="268436317" name="url" stackId="1" startPc="268436159"/>
+        <entry endPc="268436317" name="params" stackId="2" startPc="268436159"/>
+        <entry endPc="268436317" name="options" stackId="3" startPc="268436159"/>
+        <entry endPc="268436317" name="responseCallback" stackId="4" startPc="268436159"/>
+        <entry arg="true" endPc="268436378" name="emergency" stackId="1" startPc="268436367"/>
+        <entry arg="true" endPc="268436536" name="dc" stackId="1" startPc="268436482"/>
+        <entry endPc="268436535" name="view" stackId="2" startPc="268436485"/>
+        <entry arg="true" endPc="268436548" name="id" stackId="1" startPc="268436537"/>
+        <entry arg="true" endPc="268436628" name="responseCode" stackId="1" startPc="268436564"/>
+        <entry arg="true" endPc="268436628" name="data" stackId="2" startPc="268436564"/>
+        <entry arg="true" endPc="268436754" name="emergencyTriggered" stackId="1" startPc="268436629"/>
+        <entry endPc="268436753" name="url" stackId="2" startPc="268436632"/>
+        <entry endPc="268436753" name="params" stackId="3" startPc="268436632"/>
+        <entry endPc="268436753" name="options" stackId="4" startPc="268436632"/>
+        <entry endPc="268436753" name="responseCallback" stackId="5" startPc="268436632"/>
+        <entry arg="true" endPc="268436947" name="keyEvent" stackId="1" startPc="268436755"/>
+        <entry endPc="268436947" name="key" stackId="2" startPc="268436758"/>
+        <entry arg="true" endPc="268437014" name="dc" stackId="1" startPc="268436948"/>
+        <entry arg="true" endPc="268437079" name="responseCode" stackId="1" startPc="268437015"/>
+        <entry arg="true" endPc="268437079" name="data" stackId="2" startPc="268437015"/>
+        <entry arg="true" endPc="268437205" name="emergencyTriggered" stackId="1" startPc="268437080"/>
+        <entry endPc="268437204" name="url" stackId="2" startPc="268437083"/>
+        <entry endPc="268437204" name="params" stackId="3" startPc="268437083"/>
+        <entry endPc="268437204" name="options" stackId="4" startPc="268437083"/>
+        <entry endPc="268437204" name="responseCallback" stackId="5" startPc="268437083"/>
+        <entry arg="true" endPc="268437315" name="id" stackId="1" startPc="268437304"/>
+        <entry arg="true" endPc="268437435" name="dc" stackId="1" startPc="268437375"/>
+        <entry endPc="268437434" name="timerLabel" stackId="2" startPc="268437378"/>
+        <entry arg="true" endPc="268437471" name="dc" stackId="1" startPc="268437436"/>
+        <entry arg="true" endPc="268437505" name="dc" stackId="1" startPc="268437487"/>
+        <entry arg="true" endPc="268437638" name="view" stackId="1" startPc="268437627"/>
+        <entry arg="true" endPc="268437785" name="item" stackId="1" startPc="268437639"/>
+        <entry arg="true" endPc="268437812" name="delegate" stackId="1" startPc="268437801"/>
+        <entry arg="true" endPc="268437948" name="dc" stackId="1" startPc="268437813"/>
+        <entry endPc="268437948" name="rez_cmp_local_text_EmergencyLabel" stackId="2" startPc="268437824"/>
+        <entry arg="true" endPc="268438084" name="dc" stackId="1" startPc="268437949"/>
+        <entry endPc="268438084" name="rez_cmp_local_text_Timer" stackId="2" startPc="268437960"/>
+        <entry arg="true" endPc="268438209" name="dc" stackId="1" startPc="268438085"/>
+        <entry endPc="268438209" name="rez_cmp_local_text_heart" stackId="2" startPc="268438096"/>
     </localVars>
     <deviceInfo deviceVersion="6dcd7b8e5f5b4076e877ee6ed9889becbccbd260" partNumber="006-B3943-00"/>
     <annotations>
@@ -333,17 +344,17 @@
         <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
         <dataEntry label="globals/MainDelegate" offset="179" parentId="globals" symbolId="MainDelegate" type="class"/>
         <dataEntry label="globals/MainView" offset="259" parentId="globals" symbolId="MainView" type="class"/>
-        <dataEntry label="globals/TimerDelegate" offset="429" parentId="globals" symbolId="TimerDelegate" type="class"/>
-        <dataEntry label="globals/TimerView" offset="527" parentId="globals" symbolId="TimerView" type="class"/>
-        <dataEntry label="globals/Rez" offset="679" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/EmergencyView" offset="741" parentId="globals" symbolId="EmergencyView" type="class"/>
-        <dataEntry label="globals/MainApp" offset="821" parentId="globals" symbolId="MainApp" type="class"/>
-        <dataEntry label="globals/MainMenuDelegate" offset="910" parentId="globals" symbolId="MainMenuDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="999" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="1034" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="1087" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1122" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1184" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/TimerDelegate" offset="456" parentId="globals" symbolId="TimerDelegate" type="class"/>
+        <dataEntry label="globals/TimerView" offset="554" parentId="globals" symbolId="TimerView" type="class"/>
+        <dataEntry label="globals/Rez" offset="706" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/EmergencyView" offset="768" parentId="globals" symbolId="EmergencyView" type="class"/>
+        <dataEntry label="globals/MainApp" offset="848" parentId="globals" symbolId="MainApp" type="class"/>
+        <dataEntry label="globals/MainMenuDelegate" offset="937" parentId="globals" symbolId="MainMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1026" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1061" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1114" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1149" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1211" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
@@ -390,82 +401,85 @@
             <param id="sensorInfo"/>
             <documentation><![CDATA[<div class="description"> Handle sensor updates<br/> <div class="param"> sensorInfo Updated sensor data</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435909" name="onLayout" parent="MainView" startPc="268435874">
+        <functionEntry accessMode="public" endPc="268435940" name="onLayout" parent="MainView" startPc="268435874">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436124" name="onReceive" parent="MainView" startPc="268435910">
+        <functionEntry accessMode="public" endPc="268436155" name="onReceive" parent="MainView" startPc="268435941">
             <param id="responseCode"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436287" name="makeRequest" parent="MainView" startPc="268436125">
+        <functionEntry accessMode="public" endPc="268436318" name="makeRequest" parent="MainView" startPc="268436156">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436299" name="setIsEmergency" parent="MainView" startPc="268436288">
+        <functionEntry accessMode="public" endPc="268436366" name="timerCallback" parent="MainView" startPc="268436319">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436378" name="setIsEmergency" parent="MainView" startPc="268436367">
             <param id="emergency"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436358" name="initialize" parent="MainView" startPc="268436300">
+        <functionEntry accessMode="public" endPc="268436466" name="initialize" parent="MainView" startPc="268436379">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onHide" parent="MainView">
+        <functionEntry accessMode="public" endPc="268436481" name="onHide" parent="MainView" startPc="268436467">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436413" name="onUpdate" parent="MainView" startPc="268436359">
+        <functionEntry accessMode="public" endPc="268436536" name="onUpdate" parent="MainView" startPc="268436482">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436425" name="setResponseId" parent="TimerDelegate" startPc="268436414">
+        <functionEntry accessMode="public" endPc="268436548" name="setResponseId" parent="TimerDelegate" startPc="268436537">
             <param id="id"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436440" name="initialize" parent="TimerDelegate" startPc="268436426">
+        <functionEntry accessMode="public" endPc="268436563" name="initialize" parent="TimerDelegate" startPc="268436549">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436505" name="onReceive" parent="TimerDelegate" startPc="268436441">
+        <functionEntry accessMode="public" endPc="268436628" name="onReceive" parent="TimerDelegate" startPc="268436564">
             <param id="responseCode"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436631" name="makeRequest" parent="TimerDelegate" startPc="268436506">
+        <functionEntry accessMode="public" endPc="268436754" name="makeRequest" parent="TimerDelegate" startPc="268436629">
             <param id="emergencyTriggered"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436824" name="onKey" parent="TimerDelegate" startPc="268436632">
+        <functionEntry accessMode="public" endPc="268436947" name="onKey" parent="TimerDelegate" startPc="268436755">
             <param id="keyEvent"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="TimerView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436891" name="onLayout" parent="TimerView" startPc="268436825">
+        <functionEntry accessMode="public" endPc="268437014" name="onLayout" parent="TimerView" startPc="268436948">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436956" name="onReceive" parent="TimerView" startPc="268436892">
+        <functionEntry accessMode="public" endPc="268437079" name="onReceive" parent="TimerView" startPc="268437015">
             <param id="responseCode"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437082" name="makeRequest" parent="TimerView" startPc="268436957">
+        <functionEntry accessMode="public" endPc="268437205" name="makeRequest" parent="TimerView" startPc="268437080">
             <param id="emergencyTriggered"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437180" name="timerCallback" parent="TimerView" startPc="268437083">
+        <functionEntry accessMode="public" endPc="268437303" name="timerCallback" parent="TimerView" startPc="268437206">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437192" name="setResponseId" parent="TimerView" startPc="268437181">
+        <functionEntry accessMode="public" endPc="268437315" name="setResponseId" parent="TimerView" startPc="268437304">
             <param id="id"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437236" name="initialize" parent="TimerView" startPc="268437193">
+        <functionEntry accessMode="public" endPc="268437359" name="initialize" parent="TimerView" startPc="268437316">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437251" name="onHide" parent="TimerView" startPc="268437237">
+        <functionEntry accessMode="public" endPc="268437374" name="onHide" parent="TimerView" startPc="268437360">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437312" name="onUpdate" parent="TimerView" startPc="268437252">
+        <functionEntry accessMode="public" endPc="268437435" name="onUpdate" parent="TimerView" startPc="268437375">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -484,65 +498,65 @@
         <functionEntry accessMode="public" name="onShow" parent="EmergencyView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437348" name="onLayout" parent="EmergencyView" startPc="268437313">
+        <functionEntry accessMode="public" endPc="268437471" name="onLayout" parent="EmergencyView" startPc="268437436">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437363" name="initialize" parent="EmergencyView" startPc="268437349">
+        <functionEntry accessMode="public" endPc="268437486" name="initialize" parent="EmergencyView" startPc="268437472">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="EmergencyView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437382" name="onUpdate" parent="EmergencyView" startPc="268437364">
+        <functionEntry accessMode="public" endPc="268437505" name="onUpdate" parent="EmergencyView" startPc="268437487">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437385" name="onStart" parent="MainApp" startPc="268437383">
+        <functionEntry accessMode="public" endPc="268437508" name="onStart" parent="MainApp" startPc="268437506">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437485" name="getInitialView" parent="MainApp" startPc="268437386">
+        <functionEntry accessMode="public" endPc="268437608" name="getInitialView" parent="MainApp" startPc="268437509">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437500" name="initialize" parent="MainApp" startPc="268437486">
+        <functionEntry accessMode="public" endPc="268437623" name="initialize" parent="MainApp" startPc="268437609">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437503" name="onStop" parent="MainApp" startPc="268437501">
+        <functionEntry accessMode="public" endPc="268437626" name="onStop" parent="MainApp" startPc="268437624">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437515" name="initMainView" parent="MainMenuDelegate" startPc="268437504">
+        <functionEntry accessMode="public" endPc="268437638" name="initMainView" parent="MainMenuDelegate" startPc="268437627">
             <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437662" name="onMenuItem" parent="MainMenuDelegate" startPc="268437516">
+        <functionEntry accessMode="public" endPc="268437785" name="onMenuItem" parent="MainMenuDelegate" startPc="268437639">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437677" name="initialize" parent="MainMenuDelegate" startPc="268437663">
+        <functionEntry accessMode="public" endPc="268437800" name="initialize" parent="MainMenuDelegate" startPc="268437786">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437689" name="initMainDelegate" parent="MainMenuDelegate" startPc="268437678">
+        <functionEntry accessMode="public" endPc="268437812" name="initMainDelegate" parent="MainMenuDelegate" startPc="268437801">
             <param id="delegate"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437825" name="EmergencyLayout" parent="Layouts" startPc="268437690">
+        <functionEntry accessMode="public" endPc="268437948" name="EmergencyLayout" parent="Layouts" startPc="268437813">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437961" name="TimerLayout" parent="Layouts" startPc="268437826">
+        <functionEntry accessMode="public" endPc="268438084" name="TimerLayout" parent="Layouts" startPc="268437949">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438086" name="MainLayout" parent="Layouts" startPc="268437962">
+        <functionEntry accessMode="public" endPc="268438209" name="MainLayout" parent="Layouts" startPc="268438085">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438098" name="&lt;init&gt;" parent="MainMenu" startPc="268438087">
+        <functionEntry accessMode="public" endPc="268438221" name="&lt;init&gt;" parent="MainMenu" startPc="268438210">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438151" name="initialize" parent="MainMenu" startPc="268438099">
+        <functionEntry accessMode="public" endPc="268438274" name="initialize" parent="MainMenu" startPc="268438222">
             <documentation/>
         </functionEntry>
     </functions>
