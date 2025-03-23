@@ -35,6 +35,8 @@ export default function useEmergencies(refreshInterval = 5000) {
       if (!response.ok) {
         throw new Error('Failed to fetch emergency history');
       }
+
+      console.log('response: ', response);
       
       const data = await response.json();
       setHistory(data);

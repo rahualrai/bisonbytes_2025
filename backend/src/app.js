@@ -1,3 +1,4 @@
+// File: backend/src/app.js
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
@@ -11,6 +12,7 @@ import emergencyRoutes from "./routes/emergencyRoutes.js";
 import patientRoutes from "./routes/patientRoutes.js";
 import twilioRoutes from "./routes/twilioRoutes.js";
 import vitalsRoutes from "./routes/vitalsRoutes.js";
+import { triggerEmergencyFromWatch } from "./controllers/emergencyController.js"; // Correct import
 
 const app = express();
 app.use(cors({
@@ -29,6 +31,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 
 app.use("/", watchRoutes);
 app.use("/api/emergencies", emergencyRoutes);
+app.post("/trigger-emergency", triggerEmergencyFromWatch);
 app.use("/api/patients", patientRoutes);
 app.use("/api/twilio", twilioRoutes);
 
@@ -36,7 +39,7 @@ app.use("/api/twilio", twilioRoutes);
 app.use("/api/vitals", vitalsRoutes);
 
 // Twilio test call and gather webhook routes from controller
-app.post("/api/twilio/test-call", twilioHandlers.testTwilioCall);
+app.post("/api/twilio/test-call", twilioHandlers.callTwilio);
 app.post("/process-gather", twilioHandlers.processGather);
 
 // Healthcheck endpoint

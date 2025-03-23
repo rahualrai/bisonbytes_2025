@@ -1,6 +1,24 @@
 // File: backend/src/controllers/emergencyController.js
 import Emergency from "../models/Emergency.js";
 import { emitEmergencyUpdate } from "../websocket/socketServer.js";
+import { callTwilio } from "./twilioController.js";
+
+export const triggerEmergencyFromWatch = async (req, res) => {
+  console.log("Emergency triggered from watch");
+
+  try {
+    // if called, call the Twilio test call function
+    const twilioResponse = await callTwilio();
+    if (twilioResponse.success) {
+      res.status(200).json({ message: "Twilio call initiated.", sid: twilioResponse.sid });
+    } else {
+      res.status(500).json({ error: twilioResponse.error });
+    }
+  } catch (error) {
+    console.error("Error triggering emergency:", error);
+    res.status(500).json({ error: "Failed to trigger emergency." });
+  }
+};
 
 export const triggerEmergency = async (req, res) => {
   const emergency = new Emergency({
