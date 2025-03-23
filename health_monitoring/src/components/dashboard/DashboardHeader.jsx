@@ -32,12 +32,20 @@ export default function DashboardHeader({ hasActiveEmergency }) {
   };
   
   return (
-    <header className="bg-white dark:bg-gray-800 shadow-sm py-3 px-4">
+    <header style={{ 
+        background: 'var(--panel-background)',
+        borderBottom: '1px solid var(--panel-border)'
+      }} className="shadow-sm py-3 px-4">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <h1 className="text-xl font-semibold">Health Monitoring Dashboard</h1>
+          <h1 className="text-xl font-semibold">Guardian</h1>
           {hasActiveEmergency && (
-            <span className="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300 animate-pulse">
+            <span className="text-xs font-medium px-2.5 py-0.5 rounded-full animate-pulse" 
+            style={{ 
+              background: 'var(--color-danger)', 
+              color: 'white',
+              opacity: 0.9
+            }}>
               Active Emergency
             </span>
           )}
@@ -56,12 +64,16 @@ export default function DashboardHeader({ hasActiveEmergency }) {
           
           {patient && (
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center text-gray-600">
+              <div className="w-10 h-10 rounded-full flex items-center justify-center" 
+  style={{ 
+    background: 'var(--color-primary-light)', 
+    color: 'var(--color-primary)' 
+  }}>
                 {patient.personalInfo.firstName.charAt(0)}{patient.personalInfo.lastName.charAt(0)}
               </div>
               <div>
                 <div className="font-medium">{patient.personalInfo.firstName} {patient.personalInfo.lastName}</div>
-                <div className="text-xs text-gray-500 dark:text-gray-400">ID: {patient.id}</div>
+                <div className="text-xs" style={{ color: 'var(--foreground)', opacity: 0.7 }}>ID: {patient.id}</div>
               </div>
             </div>
           )}

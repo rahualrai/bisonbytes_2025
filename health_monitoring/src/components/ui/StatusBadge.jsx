@@ -1,6 +1,6 @@
 export default function StatusBadge({ status }) {
     const getStatusClasses = (status) => {
-      switch (status.toLowerCase()) {
+      switch (status?.toLowerCase()) {
         case 'normal':
         case 'ok':
         case 'resolved':
@@ -22,6 +22,8 @@ export default function StatusBadge({ status }) {
     };
   
     const formatStatus = (status) => {
+      if (!status) return 'Unknown';
+      
       return status
         .replace(/_/g, ' ')
         .replace(/\b\w/g, char => char.toUpperCase());

@@ -1,14 +1,13 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useEmergency } from '@/contexts/EmergencyContext';
-import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import StatusBadge from '@/components/ui/StatusBadge';
 import { formatDate, formatTimeAgo } from '@/lib/utils';
 import Tabs from '@/components/ui/Tabs';
 
-export default function EmergencyHistoryPanel() {
+export default function EmergencyHistoryContent() {
   const { emergencyHistory, loadingEmergency, selectedEmergency, selectEmergency, fetchEmergencyDetails } = useEmergency();
   const [filter, setFilter] = useState('all');
   const [timeframe, setTimeframe] = useState('week');
@@ -46,46 +45,48 @@ export default function EmergencyHistoryPanel() {
 
   if (loadingEmergency) {
     return (
-      <Card title="Emergency History" className="h-full">
-        <div className="h-full flex items-center justify-center">
-          <div className="animate-pulse flex flex-col w-full max-w-md">
-            <div className="h-4 bg-gray-200 rounded w-1/4 mb-4"></div>
-            <div className="h-12 bg-gray-200 rounded mb-3"></div>
-            <div className="h-12 bg-gray-200 rounded mb-3"></div>
-            <div className="h-12 bg-gray-200 rounded"></div>
-          </div>
+      <div className="h-full flex items-center justify-center">
+        <div className="animate-pulse flex flex-col w-full max-w-md">
+          <div className="h-4 bg-gray-200 rounded w-1/4 mb-4"></div>
+          <div className="h-12 bg-gray-200 rounded mb-3"></div>
+          <div className="h-12 bg-gray-200 rounded mb-3"></div>
+          <div className="h-12 bg-gray-200 rounded"></div>
         </div>
-      </Card>
+      </div>
     );
   }
 
   const EmergencyList = () => (
     <div className="space-y-2 overflow-y-auto max-h-[400px]">
       {filteredHistory.length === 0 ? (
-        <div className="text-center p-4 text-gray-500 dark:text-gray-400">
+        <div className="text-center p-4" style={{ color: 'var(--foreground)', opacity: 0.7 }}>
           No emergencies found for the selected filters.
         </div>
       ) : (
         filteredHistory.map(emergency => (
-          <div 
-            key={emergency.id} 
-            className={`p-3 border rounded-lg cursor-pointer transition-colors ${
-              selectedEmergency && selectedEmergency.id === emergency.id 
-                ? 'bg-blue-50 border-blue-200 dark:bg-blue-900 dark:border-blue-700' 
-                : 'bg-white border-gray-200 hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'
-            }`}
-            onClick={() => handleSelectEmergency(emergency)}
-          >
+      <div 
+        key={emergency.id} 
+        className="p-3 border rounded-lg cursor-pointer transition-colors"
+        style={{
+          background: selectedEmergency && selectedEmergency.id === emergency.id 
+            ? 'var(--color-primary-light)' 
+            : 'var(--panel-background)',
+          borderColor: selectedEmergency && selectedEmergency.id === emergency.id 
+            ? 'var(--color-primary)' 
+            : 'var(--panel-border)'
+        }}
+        onClick={() => handleSelectEmergency(emergency)}
+      >
             <div className="flex justify-between items-start">
               <div>
                 <h4 className="font-medium">
                   {emergency.type.replace(/([A-Z])/g, ' $1').trim()} Emergency
                 </h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <div className="text-sm text-gray-600 dark:text-gray-400">
                   {formatDate(emergency.createdAt, { includeTime: true })}
-                </p>
+                </div>
               </div>
-              <StatusBadge status={emergency.status?.toLowerCase() || 'unknown'} />
+              <StatusBadge status={emergency.status?.toLowerCase()} />
             </div>
             <div className="mt-2 text-sm">
               {emergency.detectedValue.type === "heartRate" && 
@@ -110,30 +111,42 @@ export default function EmergencyHistoryPanel() {
   const EmergencyDetails = () => {
     if (!selectedEmergency) {
       return (
-        <div className="h-full flex items-center justify-center flex-col text-gray-500 dark:text-gray-400">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <p>Select an emergency to view details</p>
+        <div className="flex flex-col items-center justify-center h-full text-center p-4">
+          <div className="text-gray-400 mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <p className="text-gray-600 dark:text-gray-400">
+            Select an emergency from the list to view details
+          </p>
         </div>
       );
     }
-
+    
     return (
-      <div className="overflow-y-auto max-h-[400px]">
+      <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700 overflow-y-auto h-full">
+        <h3 className="text-lg font-medium mb-3">Emergency Details</h3>
+        
         <div className="mb-4">
-          <h3 className="font-medium text-lg mb-1">
+          <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">Type</h4>
+          <p className="text-lg font-medium">
             {selectedEmergency.type.replace(/([A-Z])/g, ' $1').trim()} Emergency
-          </h3>
-          <div className="flex space-x-2 text-sm text-gray-600 dark:text-gray-400">
-            <span>{formatDate(selectedEmergency.createdAt, { includeTime: true })}</span>
-            <span>•</span>
-            <span>ID: {selectedEmergency.id}</span>
-          </div>
+          </p>
+        </div>
+        
+        <div className="mb-4">
+          <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">Time</h4>
+          <p>{formatDate(selectedEmergency.createdAt, { includeTime: true })}</p>
+        </div>
+        
+        <div className="mb-4">
+          <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">Status</h4>
+          <StatusBadge status={selectedEmergency.status?.toLowerCase() || 'unknown'} />
         </div>
         
         <div className="grid grid-cols-2 gap-4 mb-4">
-          <div className="bg-gray-50 dark:bg-gray-800 p-3 rounded">
+          <div className="bg-gray-50 dark:bg-gray-700 p-3 rounded">
             <h4 className="text-sm font-medium mb-1">Detected Value</h4>
             <p className="text-lg">
               {selectedEmergency.detectedValue.type === "heartRate" && 
@@ -150,7 +163,7 @@ export default function EmergencyHistoryPanel() {
               }
             </p>
           </div>
-          <div className="bg-gray-50 dark:bg-gray-800 p-3 rounded">
+          <div style={{ background: 'var(--color-primary-light)', borderRadius: '0.375rem' }} className="p-3">
             <h4 className="text-sm font-medium mb-1">Patient Response</h4>
             <p className="text-lg">
               {selectedEmergency.patientResponse.timestamp 
@@ -163,38 +176,35 @@ export default function EmergencyHistoryPanel() {
           </div>
         </div>
         
-        {selectedEmergency.timeline && (
+        {selectedEmergency.contactsNotified && selectedEmergency.contactsNotified.length > 0 && (
           <div className="mb-4">
-            <h4 className="text-sm font-medium mb-2">Timeline</h4>
-            <div className="space-y-3">
-              {selectedEmergency.timeline.map((event, index) => (
-                <div key={index} className="flex">
-                  <div className="flex-shrink-0 w-12 text-xs text-gray-500">
-                    {new Date(event.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                  </div>
-                  <div className="flex-grow pb-4 pl-4 border-l border-gray-300 dark:border-gray-700">
-                    <div className="font-medium">{event.event}</div>
-                    {event.details && (
-                      <div className="text-sm text-gray-600 dark:text-gray-400">
-                        {event.details}
-                      </div>
-                    )}
-                  </div>
+            <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">Contacts Notified</h4>
+            <div className="space-y-2">
+              {selectedEmergency.contactsNotified.map((contact, index) => (
+                <div key={index} className="flex justify-between items-center p-2 bg-gray-50 dark:bg-gray-700 rounded text-sm">
+                  <span>{contact.name}</span>
+                  <StatusBadge 
+                    status={
+                      contact.status === 'completed' 
+                        ? 'normal' 
+                        : contact.status === 'in-progress' 
+                          ? 'pending' 
+                          : 'warning'
+                    } 
+                  />
                 </div>
               ))}
             </div>
           </div>
         )}
         
-        {selectedEmergency.resolution && (
-          <div className="bg-gray-50 dark:bg-gray-800 p-3 rounded mb-4">
-            <h4 className="text-sm font-medium mb-1">Resolution</h4>
-            <div className="text-sm">
-              <p>{selectedEmergency.resolution.notes}</p>
-              <p className="text-xs text-gray-500 mt-2">
-                Resolved at {formatDate(selectedEmergency.resolution.timestamp, { includeTime: true })}
-              </p>
-            </div>
+        {selectedEmergency.resolution && selectedEmergency.resolution.timestamp && (
+          <div className="p-3 bg-green-50 dark:bg-green-900 rounded-lg border border-green-100 dark:border-green-800">
+            <h4 className="text-sm font-medium text-green-800 dark:text-green-300 mb-1">Resolution</h4>
+            <p>{selectedEmergency.resolution.notes}</p>
+            <p className="text-xs text-gray-500 mt-2">
+              Resolved at {formatDate(selectedEmergency.resolution.timestamp, { includeTime: true })}
+            </p>
           </div>
         )}
       </div>
@@ -252,10 +262,8 @@ export default function EmergencyHistoryPanel() {
   ];
 
   return (
-    <Card 
-      title="Emergency History" 
-      className="h-full"
-      action={
+    <div className="h-full">
+      <div className="mb-3 flex justify-end">
         <Button 
           size="sm" 
           variant="secondary" 
@@ -265,9 +273,8 @@ export default function EmergencyHistoryPanel() {
         >
           Clear Selection
         </Button>
-      }
-    >
+      </div>
       <Tabs tabs={tabs} />
-    </Card>
+    </div>
   );
 }
