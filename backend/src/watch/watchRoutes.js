@@ -1,8 +1,9 @@
 import express from "express";
 import { v4 as uuidv4 } from "uuid"; // Import the uuid library
-import Vitals from "../models/vitalsModel.js";
+import { emitVitalsUpdate } from "../websocket/socketServer.js";
 import VitalsTesting from "../models/vitalsTestModel.js";
 import { predictEmergency } from "../controllers/mlController.js"; // Import the predictEmergency function
+import { getVitals } from "../controllers/vitalsQuery.js"; // Import the getAlerts function
 
 const router = express.Router();
 
@@ -20,32 +21,37 @@ router.post("/viewVitals", async (req, res) => {
 router.post("/update-vitals", async (req, res) => {
   const {
     heartRate,
-    stressScore,
+    stressScore = null,
     oxygenSaturation,
-    respirationRate,
+    respirationRate = null,
     temperature
   } = req.body;
 
   console.log("Received data:", req.body);
-  currentHeartRate = heartRate;
 
   try {
-
     const responseId = uuidv4();
 
-    const vitals = new VitalsTesting({
+    const vitalsData = {
       heartRate,
       stressScore,
       oxygenSaturation,
       respirationRate,
       temperature,
       responseId,
-    });
+      timestamp: new Date()
+    };
+
+    const vitals = new VitalsTesting({ ...vitalsData });
     console.log("Saving to database:", vitals);
     await vitals.save();
     console.log("Data saved to database successfully");
 
-    // Call the predictEmergency function
+    // i want to call the getAlerts function here and pass the data received from getAlerts to the emitVitalsUpdate function
+    const all_vitals = await VitalsTesting.find().sort({ timestamp: -1 }).limit(100);
+
+    emitVitalsUpdate({ vitals: all_vitals });
+
     const predictionResponse = await new Promise((resolve, reject) => {
       const reqPredict = { body: req.body };
       const resPredict = {

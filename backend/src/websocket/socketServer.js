@@ -4,6 +4,7 @@ import { Server } from "socket.io";
 let io;
 
 export const initSocketServer = (server) => {
+  console.log("Initializing socket server");
   io = new Server(server, {
     cors: {
       origin: "*", // Or your frontend URL for better security
@@ -12,11 +13,27 @@ export const initSocketServer = (server) => {
     path: '/socket.io', // Default Socket.IO path
   });
   
+  io.on('connection', (socket) => {
+    console.log(`Client connected: ${socket.id}`);
+    
+    // Send JSON data on connection
+    const jsonData = { message: "Welcome to the main namespace", timestamp: new Date() };
+    socket.emit('welcome', jsonData);
+    
+    socket.on('disconnect', () => {
+      console.log(`Client disconnected: ${socket.id}`);
+    });
+  });
+  
   // Create a namespace for emergency events
   const emergencyNamespace = io.of('/emergency');
   
   emergencyNamespace.on('connection', (socket) => {
     console.log(`Emergency client connected: ${socket.id}`);
+    
+    // Send JSON data on connection
+    const jsonData = { message: "Welcome to the emergency namespace", timestamp: new Date() };
+    socket.emit('welcome', jsonData);
     
     socket.on('disconnect', () => {
       console.log(`Emergency client disconnected: ${socket.id}`);
@@ -38,11 +55,13 @@ export const emitEmergencyAlert = (data) => {
 
 // Emit vitals update to frontend
 export const emitVitalsUpdate = (data) => {
+  console.log("Emitting vitals update:", data);
   if (io) io.emit("vitals-update", data);
 };
 
 // Emit emergency update to frontend
 export const emitEmergencyUpdate = (data) => {
+  console.log("Emitting emergency update:", data);
   if (io) io.emit("emergency-update", data);
 };
 

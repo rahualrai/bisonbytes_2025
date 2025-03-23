@@ -1,6 +1,5 @@
 // File: backend/src/routes/emergencyRoutes.js
 import express from "express";
-import { emitTimerStart } from "../websocket/socketServer.js";
 import {
   triggerEmergency,
   respondEmergency,

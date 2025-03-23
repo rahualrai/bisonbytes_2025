@@ -1,7 +1,6 @@
 import Emergency from '../models/Emergency.js';
 import Patient from '../models/Patient.js';
 import TimerManager from '../utils/TimerManager.js';
-import { emitTimerStart } from '../websocket/socketServer.js';
 
 class EmergencyService {
   // Start potential emergency workflow
