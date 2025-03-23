@@ -5,7 +5,7 @@ import { getVitals, getLatestVitals, getVitalsByResponseId } from "../controller
 const router = express.Router();
 
 router.post("/", receiveVitals);
-router.get("/get-vitals", getVitals); 
+router.get("/get-all-vitals", getVitals); 
 router.get("/get-latest-vitals", getLatestVitals);
 router.post("/get-vitals-by-responseId", getVitalsByResponseId);
 
