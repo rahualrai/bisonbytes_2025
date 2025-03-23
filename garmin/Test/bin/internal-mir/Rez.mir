@@ -1,0 +1,1577 @@
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Layouts,12,11,18]; ]
+    module Layouts {
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 13; @symbol_functiondef = [MainLayout,13,17,27]; @symbol_param<0> = [dc,13,28,30]; @symbol_param<0>_type<0> = [Graphics,13,34,42]; @symbol_param<0>_type<1> = [Dc,13,43,45]; @symbol_return<0> = [Array,13,50,55]; @symbol_return<1> = [WatchUi,13,56,63]; @symbol_return<2> = [Drawable,13,64,72]; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_bin_gen_006_B3943_00_source_Rez_mcgen_13_74_17_8_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 14 12 ]
+            [ "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_bin_gen_006_B3943_00_source_Rez_mcgen_13_74_17_8_start" "_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_bin_gen_006_B3943_00_source_Rez_mcgen_13_74_17_8_stop" ]
+            %rez_cmp_local_text_heart.1 = local;
+            symbol [ rez_cmp_local_text_heart %rez_cmp_local_text_heart.1 14 16 40 ];
+            symbol [ WatchUi %tmp.3 14 47 54 ];
+            %tmp.3 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.4 14 55 59 ];
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 6;
+            %tmp.7 = const :identifier;
+            symbol [ identifier %tmp.7 14 62 72 const ];
+            %tmp.8 = "heart";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :color;
+            symbol [ color %tmp.12 14 84 89 const ];
+            symbol [ Graphics %tmp.13 14 91 99 ];
+            %tmp.13 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLUE %tmp.14 14 100 110 ];
+            %tmp.14 = getv %tmp.13 :COLOR_BLUE;
+            %tmp.15 = dup %tmp.10;
+            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+            %tmp.18 = const :locX;
+            symbol [ locX %tmp.18 14 113 117 const ];
+            %tmp.19 = 416;
+            %tmp.20 = 0.5;
+            %tmp.21 = mul %tmp.19 %tmp.20;
+            %tmp.22 = dup %tmp.16;
+            %tmp.23 = aputv %tmp.22 %tmp.18 %tmp.21;
+            %tmp.25 = const :locY;
+            symbol [ locY %tmp.25 14 133 137 const ];
+            %tmp.26 = 416;
+            %tmp.27 = lgetv %dc;
+            symbol [ dc %tmp.27 14 147 149 ];
+            symbol [ getFontHeight %tmp.28 14 150 163 ];
+            %tmp.28 = getv function %tmp.27 :getFontHeight;
+            symbol [ Graphics %tmp.29 14 164 172 ];
+            %tmp.29 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.30 14 173 183 ];
+            %tmp.30 = getv %tmp.29 :FONT_LARGE;
+            %tmp.31 = invoke %tmp.27 %tmp.28(%tmp.30);
+            %tmp.32 = sub %tmp.26 %tmp.31;
+            %tmp.33 = 0.5;
+            %tmp.34 = mul %tmp.32 %tmp.33;
+            %tmp.35 = dup %tmp.23;
+            %tmp.36 = aputv %tmp.35 %tmp.25 %tmp.34;
+            %tmp.38 = const :justification;
+            symbol [ justification %tmp.38 14 195 208 const ];
+            symbol [ Graphics %tmp.39 14 210 218 ];
+            %tmp.39 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.40 14 219 238 ];
+            %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.44 = const :font;
+            symbol [ font %tmp.44 14 241 245 const ];
+            symbol [ Graphics %tmp.45 14 247 255 ];
+            %tmp.45 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.46 14 256 266 ];
+            %tmp.46 = getv %tmp.45 :FONT_LARGE;
+            %tmp.47 = dup %tmp.42;
+            %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
+            %tmp.1 = newc %tmp.4 (%tmp.48);
+            lputv %rez_cmp_local_text_heart.1 %tmp.1;
+            symbol [ rez_cmp_local_text_heart %rez_cmp_local_text_heart.1 14 16 40 ];
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 16 12 ]
+            %tmp.49 = newa 1 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.49 16 49 54 ];
+            symbol [ WatchUi %tmp.49 16 55 62 ];
+            symbol [ Drawable %tmp.49 16 63 71 ];
+            %tmp.50 = lgetv %rez_cmp_local_text_heart.1;
+            symbol [ rez_cmp_local_text_heart %tmp.50 16 20 44 ];
+            %tmp.51 = dup %tmp.49;
+            %tmp.52 = aputv %tmp.51 0 %tmp.50;
+            ret %tmp.52;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_bin_gen_006_B3943_00_source_Rez_mcgen_13_74_17_8_stop:
+        }
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 20; @symbol_moduledef = [Menus,20,11,16]; ]
+    module Menus {
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 20; ]
+        <init> {
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 21; @symbol_classdef = [MainMenu,21,14,22]; @symbol_extends<0> = [WatchUi,21,31,38]; @symbol_extends<1> = [Menu,21,39,43]; ]
+        class MainMenu extends WatchUi.Menu {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 21; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 21; ]
+            static
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 22; @symbol_functiondef = [initialize,22,21,31]; ]
+            function initialize() as Void {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_bin_gen_006_B3943_00_source_Rez_mcgen_22_34_25_12_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 23 16 ]
+                symbol [ Menu %tmp.2 23 16 20 ];
+                %tmp.2 = getv ? :Menu;
+                symbol [ initialize %tmp.3 23 21 31 ];
+                %tmp.3 = getv function %tmp.2 :initialize;
+                invoke %tmp.2 %tmp.3();
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 24 16 ]
+                %tmp.4 = self;
+                symbol [ addItem %tmp.5 24 16 23 ];
+                %tmp.5 = getv function %tmp.4 :addItem;
+                symbol [ WatchUi %tmp.6 24 25 32 ];
+                %tmp.6 = getm $.Toybox.WatchUi;
+                symbol [ loadResource %tmp.7 24 33 45 ];
+                %tmp.7 = getv function %tmp.6 :loadResource;
+                symbol [ $ %tmp.8 24 46 47 ];
+                %tmp.8 = getm $;
+                symbol [ Rez %tmp.9 24 48 51 ];
+                %tmp.9 = getv %tmp.8 :Rez;
+                symbol [ Strings %tmp.10 24 52 59 ];
+                %tmp.10 = getv %tmp.9 :Strings;
+                symbol [ menu_label_1 %tmp.11 24 60 72 ];
+                %tmp.11 = getv %tmp.10 :menu_label_1;
+                %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.11);
+                %tmp.13 = as %tmp.12 String;
+                symbol [ String %tmp.13 24 77 83 ];
+                %tmp.15 = const :item_1;
+                symbol [ item_1 %tmp.15 24 87 93 const ];
+                invoke %tmp.4 %tmp.5(%tmp.13, %tmp.15);
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_bin_gen_006_B3943_00_source_Rez_mcgen_22_34_25_12_stop:
+            }
+        }
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 29; @symbol_moduledef = [Strings,29,11,18]; ]
+    module Strings {
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 29; ]
+        <init> {
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [menu_label_1,30,27,39]; @symbol_type<0> = [ResourceId,30,43,53]; ]
+        var menu_label_1 as ResourceId;
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [prompt,31,27,33]; @symbol_type<0> = [ResourceId,31,37,47]; ]
+        var prompt as ResourceId;
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [AppName,32,27,34]; @symbol_type<0> = [ResourceId,32,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 35; @symbol_moduledef = [Styles,35,11,17]; ]
+    module Styles {
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 35; ]
+        <init> {
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 36; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,36,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 36; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 37; @position = 18; @symbol_constdef = [exclude,37,18,25]; @symbol_type<0> = [Boolean,37,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 40; @symbol_moduledef = [system_size__menu_header,40,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 40; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 41; @position = 18; @symbol_constdef = [width,41,18,23]; @symbol_type<0> = [Number,41,27,33]; ]
+            const width as Number = 416;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 42; @position = 18; @symbol_constdef = [height,42,18,24]; @symbol_type<0> = [Number,42,28,34]; ]
+            const height as Number = 130;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 45; @symbol_moduledef = [system_loc__hint_button_left_bottom,45,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 45; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 46; @position = 18; @symbol_constdef = [x,46,18,19]; @symbol_type<0> = [Number,46,23,29]; ]
+            const x as Number = 16;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 47; @position = 18; @symbol_constdef = [y,47,18,19]; @symbol_type<0> = [Number,47,23,29]; ]
+            const y as Number = 275;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 50; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,50,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 50; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 51; @position = 18; @symbol_constdef = [exclude,51,18,25]; @symbol_type<0> = [Boolean,51,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 54; @symbol_moduledef = [prompt_loc__body_no_title,54,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 54; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 55; @position = 18; @symbol_constdef = [x,55,18,19]; @symbol_type<0> = [Number,55,23,29]; ]
+            const x as Number = 42;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [y,56,18,19]; @symbol_type<0> = [Number,56,23,29]; ]
+            const y as Number = 42;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 59; @symbol_moduledef = [system_icon_dark__about,59,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 59; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 60; @position = 18; @symbol_constdef = [filename,60,18,26]; @symbol_type<0> = [String,60,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__about.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 61; @position = 18; @symbol_constdef = [compress,61,18,26]; @symbol_type<0> = [String,61,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 62; @position = 18; @symbol_constdef = [dithering,62,18,27]; @symbol_type<0> = [String,62,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 63; @position = 18; @symbol_constdef = [automaticPalette,63,18,34]; @symbol_type<0> = [String,63,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 66; @symbol_moduledef = [system_icon_light__question,66,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 66; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 67; @position = 18; @symbol_constdef = [filename,67,18,26]; @symbol_type<0> = [String,67,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__question.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 68; @position = 18; @symbol_constdef = [dithering,68,18,27]; @symbol_type<0> = [String,68,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 71; @symbol_moduledef = [system_loc__hint_button_left_top,71,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 71; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 72; @position = 18; @symbol_constdef = [exclude,72,18,25]; @symbol_type<0> = [Boolean,72,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 75; @symbol_moduledef = [prompt_font__title,75,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 75; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 76 18 ]
+                symbol [ Graphics %tmp.16 76 34 42 ];
+                %tmp.16 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.17 76 43 62 ];
+                %tmp.17 = getv %tmp.16 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.18 76 63 71 ];
+                %tmp.18 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.19 76 72 92 ];
+                %tmp.19 = getv %tmp.18 :TEXT_JUSTIFY_VCENTER;
+                %tmp.20 = bitor %tmp.17 %tmp.19;
+                putv self :justification %tmp.20;
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 77 18 ]
+                symbol [ Graphics %tmp.21 77 25 33 ];
+                %tmp.21 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.22 77 34 44 ];
+                %tmp.22 = getv %tmp.21 :FONT_XTINY;
+                putv self :font %tmp.22;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [justification,76,18,31]; ]
+            const justification;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 77; @position = 18; @symbol_constdef = [font,77,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 80; @symbol_moduledef = [system_icon_dark__discard,80,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 80; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 81; @position = 18; @symbol_constdef = [filename,81,18,26]; @symbol_type<0> = [String,81,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__discard.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 82; @position = 18; @symbol_constdef = [compress,82,18,26]; @symbol_type<0> = [String,82,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 83; @position = 18; @symbol_constdef = [dithering,83,18,27]; @symbol_type<0> = [String,83,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 84; @position = 18; @symbol_constdef = [automaticPalette,84,18,34]; @symbol_type<0> = [String,84,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 87; @symbol_moduledef = [system_size__menu_item,87,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 87; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 88; @position = 18; @symbol_constdef = [width,88,18,23]; @symbol_type<0> = [Number,88,27,33]; ]
+            const width as Number = 416;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [height,89,18,24]; @symbol_type<0> = [Number,89,28,34]; ]
+            const height as Number = 109;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 92; @symbol_moduledef = [system_color_dark__text,92,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 92; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 94 18 ]
+                symbol [ Graphics %tmp.23 94 31 39 ];
+                %tmp.23 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.24 94 40 57 ];
+                %tmp.24 = getv %tmp.23 :COLOR_TRANSPARENT;
+                putv self :background %tmp.24;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 93; @position = 18; @symbol_constdef = [color,93,18,23]; @symbol_type<0> = [Number,93,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [background,94,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 97; @symbol_moduledef = [system_icon_destructive__discard,97,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 97; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 98; @position = 18; @symbol_constdef = [filename,98,18,26]; @symbol_type<0> = [String,98,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_destructive__discard.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [dithering,99,18,27]; @symbol_type<0> = [String,99,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 102; @symbol_moduledef = [system_icon_dark__hint_action_menu,102,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 102; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 103; @position = 18; @symbol_constdef = [filename,103,18,26]; @symbol_type<0> = [String,103,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [dithering,104,18,27]; @symbol_type<0> = [String,104,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 107; @symbol_moduledef = [prompt_size__title,107,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 107; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 108; @position = 18; @symbol_constdef = [width,108,18,23]; @symbol_type<0> = [Number,108,27,33]; ]
+            const width as Number = 333;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [height,109,18,24]; @symbol_type<0> = [Number,109,28,34]; ]
+            const height as Number = 63;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 112; @symbol_moduledef = [confirmation_font__body,112,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 112; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 113 18 ]
+                symbol [ Graphics %tmp.25 113 34 42 ];
+                %tmp.25 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.26 113 43 62 ];
+                %tmp.26 = getv %tmp.25 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.27 113 63 71 ];
+                %tmp.27 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.28 113 72 92 ];
+                %tmp.28 = getv %tmp.27 :TEXT_JUSTIFY_VCENTER;
+                %tmp.29 = bitor %tmp.26 %tmp.28;
+                putv self :justification %tmp.29;
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 114 18 ]
+                symbol [ Graphics %tmp.30 114 25 33 ];
+                %tmp.30 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.31 114 34 43 ];
+                %tmp.31 = getv %tmp.30 :FONT_TINY;
+                putv self :font %tmp.31;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [justification,113,18,31]; ]
+            const justification;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [font,114,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 117; @symbol_moduledef = [system_color_dark__background,117,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 117; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [color,118,18,23]; @symbol_type<0> = [Number,118,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [background,119,18,28]; @symbol_type<0> = [Number,119,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 122; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,122,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 122; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [filename,123,18,26]; @symbol_type<0> = [String,123,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [dithering,124,18,27]; @symbol_type<0> = [String,124,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 127; @symbol_moduledef = [system_size__launch_icon,127,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 127; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [scaleX,128,18,24]; @symbol_type<0> = [Number,128,28,34]; ]
+            const scaleX as Number = 60;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 129; @position = 18; @symbol_constdef = [scaleY,129,18,24]; @symbol_type<0> = [Number,129,28,34]; ]
+            const scaleY as Number = 60;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 130; @position = 18; @symbol_constdef = [scaleRelativeTo,130,18,33]; @symbol_type<0> = [String,130,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 133; @symbol_moduledef = [confirmation_input__confirm,133,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 133; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 134 18 ]
+                symbol [ WatchUi %tmp.32 134 27 34 ];
+                %tmp.32 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.33 134 35 44 ];
+                %tmp.33 = getv %tmp.32 :KEY_ENTER;
+                putv self :button %tmp.33;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [button,134,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 137; @symbol_moduledef = [prompt_font__body_with_title,137,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 137; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 138 18 ]
+                symbol [ Graphics %tmp.34 138 34 42 ];
+                %tmp.34 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.35 138 43 62 ];
+                %tmp.35 = getv %tmp.34 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.35;
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 139 18 ]
+                symbol [ Graphics %tmp.36 139 25 33 ];
+                %tmp.36 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.37 139 34 43 ];
+                %tmp.37 = getv %tmp.36 :FONT_TINY;
+                putv self :font %tmp.37;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [justification,138,18,31]; ]
+            const justification;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 139; @position = 18; @symbol_constdef = [font,139,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 142; @symbol_moduledef = [confirmation_loc__body,142,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 142; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [x,143,18,19]; @symbol_type<0> = [Number,143,23,29]; ]
+            const x as Number = 83;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 144; @position = 18; @symbol_constdef = [y,144,18,19]; @symbol_type<0> = [Number,144,23,29]; ]
+            const y as Number = 83;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 147; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,147,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 147; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [filename,148,18,26]; @symbol_type<0> = [String,148,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 149; @position = 18; @symbol_constdef = [dithering,149,18,27]; @symbol_type<0> = [String,149,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 152; @symbol_moduledef = [prompt_color_dark__background,152,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 152; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [color,153,18,23]; @symbol_type<0> = [Number,153,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 154; @position = 18; @symbol_constdef = [background,154,18,28]; @symbol_type<0> = [Number,154,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 157; @symbol_moduledef = [system_icon_destructive__hint_action_menu,157,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [filename,158,18,26]; @symbol_type<0> = [String,158,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 159; @position = 18; @symbol_constdef = [dithering,159,18,27]; @symbol_type<0> = [String,159,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 162; @symbol_moduledef = [system_loc__hint_action_menu,162,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 162; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [x,163,18,19]; @symbol_type<0> = [Number,163,23,29]; ]
+            const x as Number = 360;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 164; @position = 18; @symbol_constdef = [y,164,18,19]; @symbol_type<0> = [Number,164,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 167; @symbol_moduledef = [confirmation_icon__hint_confirm,167,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 167; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [filename,168,18,26]; @symbol_type<0> = [String,168,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 169; @position = 18; @symbol_constdef = [dithering,169,18,27]; @symbol_type<0> = [String,169,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 172; @symbol_moduledef = [system_loc__hint_button_left_middle,172,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 172; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [x,173,18,19]; @symbol_type<0> = [Number,173,23,29]; ]
+            const x as Number = 4;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 174; @position = 18; @symbol_constdef = [y,174,18,19]; @symbol_type<0> = [Number,174,23,29]; ]
+            const y as Number = 173;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 177; @symbol_moduledef = [prompt_size__body_no_title,177,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 177; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [width,178,18,23]; @symbol_type<0> = [Number,178,27,33]; ]
+            const width as Number = 333;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 179; @position = 18; @symbol_constdef = [height,179,18,24]; @symbol_type<0> = [Number,179,28,34]; ]
+            const height as Number = 333;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 182; @symbol_moduledef = [system_icon_light__hint_button_left_top,182,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 182; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [filename,183,18,26]; @symbol_type<0> = [String,183,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 184; @position = 18; @symbol_constdef = [dithering,184,18,27]; @symbol_type<0> = [String,184,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 187; @symbol_moduledef = [prompt_color_light__background,187,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 187; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [color,188,18,23]; @symbol_type<0> = [Number,188,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 189; @position = 18; @symbol_constdef = [background,189,18,28]; @symbol_type<0> = [Number,189,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 192; @symbol_moduledef = [confirmation_input__delete,192,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 192; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 193 18 ]
+                symbol [ WatchUi %tmp.38 193 27 34 ];
+                %tmp.38 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.39 193 35 44 ];
+                %tmp.39 = getv %tmp.38 :KEY_ENTER;
+                putv self :button %tmp.39;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [button,193,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 196; @symbol_moduledef = [system_icon_dark__hint_button_left_top,196,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [filename,197,18,26]; @symbol_type<0> = [String,197,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [dithering,198,18,27]; @symbol_type<0> = [String,198,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 201; @symbol_moduledef = [system_input__action_menu,201,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 201; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 202 18 ]
+                symbol [ WatchUi %tmp.40 202 27 34 ];
+                %tmp.40 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.41 202 35 44 ];
+                %tmp.41 = getv %tmp.40 :KEY_ENTER;
+                putv self :button %tmp.41;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [button,202,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 205; @symbol_moduledef = [system_icon_light__save,205,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 205; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [filename,206,18,26]; @symbol_type<0> = [String,206,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__save.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [dithering,207,18,27]; @symbol_type<0> = [String,207,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 210; @symbol_moduledef = [prompt_color_light__body,210,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 210; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 212 18 ]
+                symbol [ Graphics %tmp.42 212 31 39 ];
+                %tmp.42 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.43 212 40 57 ];
+                %tmp.43 = getv %tmp.42 :COLOR_TRANSPARENT;
+                putv self :background %tmp.43;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [color,211,18,23]; @symbol_type<0> = [Number,211,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [background,212,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 215; @symbol_moduledef = [system_loc__subwindow,215,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [exclude,216,18,25]; @symbol_type<0> = [Boolean,216,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 219; @symbol_moduledef = [system_icon_light__warning,219,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [filename,220,18,26]; @symbol_type<0> = [String,220,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__warning.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [dithering,221,18,27]; @symbol_type<0> = [String,221,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 224; @symbol_moduledef = [confirmation_color_light__body,224,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 224; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 226 18 ]
+                symbol [ Graphics %tmp.44 226 31 39 ];
+                %tmp.44 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.45 226 40 57 ];
+                %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
+                putv self :background %tmp.45;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [color,225,18,23]; @symbol_type<0> = [Number,225,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [background,226,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 229; @symbol_moduledef = [confirmation_icon_light__hint_keep,229,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 229; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 230; @position = 18; @symbol_constdef = [filename,230,18,26]; @symbol_type<0> = [String,230,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [dithering,231,18,27]; @symbol_type<0> = [String,231,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 234; @symbol_moduledef = [activity_color_light__background,234,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 234; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [color,235,18,23]; @symbol_type<0> = [Number,235,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [background,236,18,28]; @symbol_type<0> = [Number,236,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 239; @symbol_moduledef = [system_icon_positive__hint_button_right_top,239,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 239; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [filename,240,18,26]; @symbol_type<0> = [String,240,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [dithering,241,18,27]; @symbol_type<0> = [String,241,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 244; @symbol_moduledef = [system_size__screen,244,15,34]; ]
+        module system_size__screen {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 244; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [width,245,18,23]; @symbol_type<0> = [Number,245,27,33]; ]
+            const width as Number = 416;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [height,246,18,24]; @symbol_type<0> = [Number,246,28,34]; ]
+            const height as Number = 416;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 249; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,249,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 249; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [filename,250,18,26]; @symbol_type<0> = [String,250,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [dithering,251,18,27]; @symbol_type<0> = [String,251,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 254; @symbol_moduledef = [system_color_light__background,254,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [color,255,18,23]; @symbol_type<0> = [Number,255,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [background,256,18,28]; @symbol_type<0> = [Number,256,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 259; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,259,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 259; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [filename,260,18,26]; @symbol_type<0> = [String,260,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [dithering,261,18,27]; @symbol_type<0> = [String,261,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 264; @symbol_moduledef = [confirmation_loc__hint_confirm,264,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 264; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [x,265,18,19]; @symbol_type<0> = [Number,265,23,29]; ]
+            const x as Number = 338;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 266; @position = 18; @symbol_constdef = [y,266,18,19]; @symbol_type<0> = [Number,266,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 269; @symbol_moduledef = [activity_color_dark__text,269,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 269; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 271 18 ]
+                symbol [ Graphics %tmp.46 271 31 39 ];
+                %tmp.46 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.47 271 40 57 ];
+                %tmp.47 = getv %tmp.46 :COLOR_TRANSPARENT;
+                putv self :background %tmp.47;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [color,270,18,23]; @symbol_type<0> = [Number,270,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 271; @position = 18; @symbol_constdef = [background,271,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 274; @symbol_moduledef = [confirmation_input__keep,274,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 274; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 275 18 ]
+                symbol [ WatchUi %tmp.48 275 27 34 ];
+                %tmp.48 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.49 275 35 43 ];
+                %tmp.49 = getv %tmp.48 :KEY_DOWN;
+                putv self :button %tmp.49;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [button,275,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 278; @symbol_moduledef = [prompt_loc__body_with_title,278,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 278; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [x,279,18,19]; @symbol_type<0> = [Number,279,23,29]; ]
+            const x as Number = 42;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [y,280,18,19]; @symbol_type<0> = [Number,280,23,29]; ]
+            const y as Number = 125;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 283; @symbol_moduledef = [system_icon_dark__search,283,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [filename,284,18,26]; @symbol_type<0> = [String,284,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__search.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [compress,285,18,26]; @symbol_type<0> = [String,285,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 286; @position = 18; @symbol_constdef = [dithering,286,18,27]; @symbol_type<0> = [String,286,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 287; @position = 18; @symbol_constdef = [automaticPalette,287,18,34]; @symbol_type<0> = [String,287,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 290; @symbol_moduledef = [activity_color_light__text,290,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 290; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 292 18 ]
+                symbol [ Graphics %tmp.50 292 31 39 ];
+                %tmp.50 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.51 292 40 57 ];
+                %tmp.51 = getv %tmp.50 :COLOR_TRANSPARENT;
+                putv self :background %tmp.51;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [color,291,18,23]; @symbol_type<0> = [Number,291,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 292; @position = 18; @symbol_constdef = [background,292,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 295; @symbol_moduledef = [confirmation_icon__hint_keep,295,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 295; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 296; @position = 18; @symbol_constdef = [filename,296,18,26]; @symbol_type<0> = [String,296,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 297; @position = 18; @symbol_constdef = [dithering,297,18,27]; @symbol_type<0> = [String,297,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 300; @symbol_moduledef = [system_icon_dark__save,300,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 300; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 301; @position = 18; @symbol_constdef = [filename,301,18,26]; @symbol_type<0> = [String,301,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__save.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 302; @position = 18; @symbol_constdef = [compress,302,18,26]; @symbol_type<0> = [String,302,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [dithering,303,18,27]; @symbol_type<0> = [String,303,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [automaticPalette,304,18,34]; @symbol_type<0> = [String,304,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 307; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,307,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 307; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [filename,308,18,26]; @symbol_type<0> = [String,308,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [dithering,309,18,27]; @symbol_type<0> = [String,309,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 312; @symbol_moduledef = [system_icon_light__search,312,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 312; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [filename,313,18,26]; @symbol_type<0> = [String,313,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__search.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [dithering,314,18,27]; @symbol_type<0> = [String,314,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 317; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,317,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [filename,318,18,26]; @symbol_type<0> = [String,318,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [dithering,319,18,27]; @symbol_type<0> = [String,319,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 322; @symbol_moduledef = [system_icon_positive__hint_button_left_top,322,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 322; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [filename,323,18,26]; @symbol_type<0> = [String,323,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [dithering,324,18,27]; @symbol_type<0> = [String,324,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 327; @symbol_moduledef = [system_loc__hint_button_right_bottom,327,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [x,328,18,19]; @symbol_type<0> = [Number,328,23,29]; ]
+            const x as Number = 360;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [y,329,18,19]; @symbol_type<0> = [Number,329,23,29]; ]
+            const y as Number = 275;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 332; @symbol_moduledef = [confirmation_icon_dark__hint_reject,332,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [filename,333,18,26]; @symbol_type<0> = [String,333,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [dithering,334,18,27]; @symbol_type<0> = [String,334,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 337; @symbol_moduledef = [confirmation_color_dark__body,337,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 337; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 339 18 ]
+                symbol [ Graphics %tmp.52 339 31 39 ];
+                %tmp.52 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.53 339 40 57 ];
+                %tmp.53 = getv %tmp.52 :COLOR_TRANSPARENT;
+                putv self :background %tmp.53;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [color,338,18,23]; @symbol_type<0> = [Number,338,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [background,339,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 342; @symbol_moduledef = [confirmation_icon_light__hint_confirm,342,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 342; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [filename,343,18,26]; @symbol_type<0> = [String,343,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [dithering,344,18,27]; @symbol_type<0> = [String,344,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 347; @symbol_moduledef = [prompt_color_dark__title,347,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 347; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 349 18 ]
+                symbol [ Graphics %tmp.54 349 31 39 ];
+                %tmp.54 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.55 349 40 57 ];
+                %tmp.55 = getv %tmp.54 :COLOR_TRANSPARENT;
+                putv self :background %tmp.55;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [color,348,18,23]; @symbol_type<0> = [Number,348,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 349; @position = 18; @symbol_constdef = [background,349,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 352; @symbol_moduledef = [system_icon_destructive__cancel,352,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 352; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [filename,353,18,26]; @symbol_type<0> = [String,353,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_destructive__cancel.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [dithering,354,18,27]; @symbol_type<0> = [String,354,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 357; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,357,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 357; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [filename,358,18,26]; @symbol_type<0> = [String,358,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 359; @position = 18; @symbol_constdef = [dithering,359,18,27]; @symbol_type<0> = [String,359,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 362; @symbol_moduledef = [prompt_loc__title,362,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 362; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [x,363,18,19]; @symbol_type<0> = [Number,363,23,29]; ]
+            const x as Number = 42;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 364; @position = 18; @symbol_constdef = [y,364,18,19]; @symbol_type<0> = [Number,364,23,29]; ]
+            const y as Number = 30;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 367; @symbol_moduledef = [confirmation_font_enhanced_readability__body,367,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 367; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [exclude,368,18,25]; @symbol_type<0> = [Boolean,368,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 371; @symbol_moduledef = [prompt_color_light__title,371,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 371; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 373 18 ]
+                symbol [ Graphics %tmp.56 373 31 39 ];
+                %tmp.56 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.57 373 40 57 ];
+                %tmp.57 = getv %tmp.56 :COLOR_TRANSPARENT;
+                putv self :background %tmp.57;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [color,372,18,23]; @symbol_type<0> = [Number,372,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [background,373,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 376; @symbol_moduledef = [system_icon_dark__hint_button_right_top,376,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 376; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [filename,377,18,26]; @symbol_type<0> = [String,377,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [dithering,378,18,27]; @symbol_type<0> = [String,378,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 381; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,381,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 381; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [filename,382,18,26]; @symbol_type<0> = [String,382,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [dithering,383,18,27]; @symbol_type<0> = [String,383,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 386; @symbol_moduledef = [confirmation_icon_dark__hint_keep,386,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 386; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [filename,387,18,26]; @symbol_type<0> = [String,387,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [dithering,388,18,27]; @symbol_type<0> = [String,388,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 391; @symbol_moduledef = [system_icon_light__cancel,391,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 391; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [filename,392,18,26]; @symbol_type<0> = [String,392,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__cancel.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [dithering,393,18,27]; @symbol_type<0> = [String,393,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 396; @symbol_moduledef = [confirmation_icon_light__hint_reject,396,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 396; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [filename,397,18,26]; @symbol_type<0> = [String,397,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 398; @position = 18; @symbol_constdef = [dithering,398,18,27]; @symbol_type<0> = [String,398,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 401; @symbol_moduledef = [system_icon_light__about,401,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 401; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [filename,402,18,26]; @symbol_type<0> = [String,402,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__about.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 403; @position = 18; @symbol_constdef = [dithering,403,18,27]; @symbol_type<0> = [String,403,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 406; @symbol_moduledef = [system_size__toast_icon,406,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [scaleX,407,18,24]; @symbol_type<0> = [Number,407,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 408; @position = 18; @symbol_constdef = [scaleY,408,18,24]; @symbol_type<0> = [Number,408,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 409; @position = 18; @symbol_constdef = [scaleRelativeTo,409,18,33]; @symbol_type<0> = [String,409,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 412; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,412,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 412; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 413; @position = 18; @symbol_constdef = [exclude,413,18,25]; @symbol_type<0> = [Boolean,413,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 416; @symbol_moduledef = [confirmation_icon__hint_reject,416,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 416; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [filename,417,18,26]; @symbol_type<0> = [String,417,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 418; @position = 18; @symbol_constdef = [dithering,418,18,27]; @symbol_type<0> = [String,418,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 421; @symbol_moduledef = [system_icon_light__hint_action_menu,421,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 421; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [filename,422,18,26]; @symbol_type<0> = [String,422,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 423; @position = 18; @symbol_constdef = [dithering,423,18,27]; @symbol_type<0> = [String,423,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 426; @symbol_moduledef = [system_icon_light__hint_button_right_middle,426,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 426; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [exclude,427,18,25]; @symbol_type<0> = [Boolean,427,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 430; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,430,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [exclude,431,18,25]; @symbol_type<0> = [Boolean,431,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 434; @symbol_moduledef = [confirmation_loc__hint_reject,434,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 434; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [x,435,18,19]; @symbol_type<0> = [Number,435,23,29]; ]
+            const x as Number = 16;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [y,436,18,19]; @symbol_type<0> = [Number,436,23,29]; ]
+            const y as Number = 275;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 437; @position = 18; @symbol_constdef = [horizontalJustification,437,18,41]; @symbol_type<0> = [String,437,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 440; @symbol_moduledef = [confirmation_icon_dark__hint_delete,440,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [filename,441,18,26]; @symbol_type<0> = [String,441,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [dithering,442,18,27]; @symbol_type<0> = [String,442,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 445; @symbol_moduledef = [activity_color_dark__background,445,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [color,446,18,23]; @symbol_type<0> = [Number,446,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [background,447,18,28]; @symbol_type<0> = [Number,447,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 450; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,450,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 450; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 451; @position = 18; @symbol_constdef = [filename,451,18,26]; @symbol_type<0> = [String,451,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 452; @position = 18; @symbol_constdef = [dithering,452,18,27]; @symbol_type<0> = [String,452,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 455; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,455,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [filename,456,18,26]; @symbol_type<0> = [String,456,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [dithering,457,18,27]; @symbol_type<0> = [String,457,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 460; @symbol_moduledef = [system_size__menu_icon,460,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [scaleX,461,18,24]; @symbol_type<0> = [Number,461,28,34]; ]
+            const scaleX as Number = 60;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [scaleY,462,18,24]; @symbol_type<0> = [Number,462,28,34]; ]
+            const scaleY as Number = 60;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 463; @position = 18; @symbol_constdef = [scaleRelativeTo,463,18,33]; @symbol_type<0> = [String,463,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 466; @symbol_moduledef = [system_icon_destructive__warning,466,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 466; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 467; @position = 18; @symbol_constdef = [filename,467,18,26]; @symbol_type<0> = [String,467,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_destructive__warning.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 468; @position = 18; @symbol_constdef = [dithering,468,18,27]; @symbol_type<0> = [String,468,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 471; @symbol_moduledef = [system_loc__hint_button_right_middle,471,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 471; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 472; @position = 18; @symbol_constdef = [exclude,472,18,25]; @symbol_type<0> = [Boolean,472,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 475; @symbol_moduledef = [system_icon_dark__cancel,475,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 475; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [filename,476,18,26]; @symbol_type<0> = [String,476,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__cancel.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 477; @position = 18; @symbol_constdef = [compress,477,18,26]; @symbol_type<0> = [String,477,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 478; @position = 18; @symbol_constdef = [dithering,478,18,27]; @symbol_type<0> = [String,478,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [automaticPalette,479,18,34]; @symbol_type<0> = [String,479,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 482; @symbol_moduledef = [prompt_size__body_with_title,482,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 482; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 483; @position = 18; @symbol_constdef = [width,483,18,23]; @symbol_type<0> = [Number,483,27,33]; ]
+            const width as Number = 333;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [height,484,18,24]; @symbol_type<0> = [Number,484,28,34]; ]
+            const height as Number = 250;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 487; @symbol_moduledef = [system_loc__hint_button_right_top,487,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 487; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 488; @position = 18; @symbol_constdef = [x,488,18,19]; @symbol_type<0> = [Number,488,23,29]; ]
+            const x as Number = 360;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [y,489,18,19]; @symbol_type<0> = [Number,489,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 492; @symbol_moduledef = [system_color_light__text,492,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 492; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 494 18 ]
+                symbol [ Graphics %tmp.58 494 31 39 ];
+                %tmp.58 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.59 494 40 57 ];
+                %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+                putv self :background %tmp.59;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [color,493,18,23]; @symbol_type<0> = [Number,493,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 494; @position = 18; @symbol_constdef = [background,494,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 497; @symbol_moduledef = [system_icon_light__check,497,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 497; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 498; @position = 18; @symbol_constdef = [filename,498,18,26]; @symbol_type<0> = [String,498,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__check.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [dithering,499,18,27]; @symbol_type<0> = [String,499,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 502; @symbol_moduledef = [confirmation_input__reject,502,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 502; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 503 18 ]
+                symbol [ WatchUi %tmp.60 503 27 34 ];
+                %tmp.60 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.61 503 35 43 ];
+                %tmp.61 = getv %tmp.60 :KEY_DOWN;
+                putv self :button %tmp.61;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [button,503,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 506; @symbol_moduledef = [system_icon_light__revert,506,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 506; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [filename,507,18,26]; @symbol_type<0> = [String,507,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__revert.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [dithering,508,18,27]; @symbol_type<0> = [String,508,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 511; @symbol_moduledef = [system_size__subwindow,511,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 511; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 512; @position = 18; @symbol_constdef = [exclude,512,18,25]; @symbol_type<0> = [Boolean,512,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 515; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,515,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 515; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [filename,516,18,26]; @symbol_type<0> = [String,516,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [dithering,517,18,27]; @symbol_type<0> = [String,517,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 520; @symbol_moduledef = [system_icon_dark__check,520,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 520; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 521; @position = 18; @symbol_constdef = [filename,521,18,26]; @symbol_type<0> = [String,521,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__check.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [compress,522,18,26]; @symbol_type<0> = [String,522,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [dithering,523,18,27]; @symbol_type<0> = [String,523,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [automaticPalette,524,18,34]; @symbol_type<0> = [String,524,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 527; @symbol_moduledef = [confirmation_loc__hint_keep,527,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 527; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 528; @position = 18; @symbol_constdef = [x,528,18,19]; @symbol_type<0> = [Number,528,23,29]; ]
+            const x as Number = 16;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 529; @position = 18; @symbol_constdef = [y,529,18,19]; @symbol_type<0> = [Number,529,23,29]; ]
+            const y as Number = 275;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [horizontalJustification,530,18,41]; @symbol_type<0> = [String,530,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 533; @symbol_moduledef = [confirmation_loc__hint_delete,533,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 533; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 534; @position = 18; @symbol_constdef = [x,534,18,19]; @symbol_type<0> = [Number,534,23,29]; ]
+            const x as Number = 338;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 535; @position = 18; @symbol_constdef = [y,535,18,19]; @symbol_type<0> = [Number,535,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 538; @symbol_moduledef = [system_icon_positive__hint_action_menu,538,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 538; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 539; @position = 18; @symbol_constdef = [filename,539,18,26]; @symbol_type<0> = [String,539,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 540; @position = 18; @symbol_constdef = [dithering,540,18,27]; @symbol_type<0> = [String,540,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 543; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,543,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 543; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 544; @position = 18; @symbol_constdef = [exclude,544,18,25]; @symbol_type<0> = [Boolean,544,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 547; @symbol_moduledef = [system_icon_light__hint_button_left_middle,547,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 547; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [filename,548,18,26]; @symbol_type<0> = [String,548,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 549; @position = 18; @symbol_constdef = [dithering,549,18,27]; @symbol_type<0> = [String,549,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 552; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,552,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 552; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [filename,553,18,26]; @symbol_type<0> = [String,553,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [dithering,554,18,27]; @symbol_type<0> = [String,554,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 557; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,557,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 557; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [filename,558,18,26]; @symbol_type<0> = [String,558,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 559; @position = 18; @symbol_constdef = [dithering,559,18,27]; @symbol_type<0> = [String,559,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 562; @symbol_moduledef = [system_icon_dark__revert,562,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 562; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 563; @position = 18; @symbol_constdef = [filename,563,18,26]; @symbol_type<0> = [String,563,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__revert.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 564; @position = 18; @symbol_constdef = [compress,564,18,26]; @symbol_type<0> = [String,564,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [dithering,565,18,27]; @symbol_type<0> = [String,565,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [automaticPalette,566,18,34]; @symbol_type<0> = [String,566,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 569; @symbol_moduledef = [confirmation_icon_light__hint_delete,569,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [filename,570,18,26]; @symbol_type<0> = [String,570,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [dithering,571,18,27]; @symbol_type<0> = [String,571,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 574; @symbol_moduledef = [system_icon_dark__question,574,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 574; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [filename,575,18,26]; @symbol_type<0> = [String,575,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__question.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [compress,576,18,26]; @symbol_type<0> = [String,576,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [dithering,577,18,27]; @symbol_type<0> = [String,577,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [automaticPalette,578,18,34]; @symbol_type<0> = [String,578,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 581; @symbol_moduledef = [system_icon_light__discard,581,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 581; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [filename,582,18,26]; @symbol_type<0> = [String,582,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__discard.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [dithering,583,18,27]; @symbol_type<0> = [String,583,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 586; @symbol_moduledef = [device_info,586,15,26]; ]
+        module device_info {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 586; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 588 18 ]
+                symbol [ Toybox %tmp.63 588 32 38 ];
+                %tmp.63 = getv ? :Toybox;
+                symbol [ System %tmp.64 588 39 45 ];
+                %tmp.64 = getv %tmp.63 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.65 588 46 64 ];
+                %tmp.65 = getv %tmp.64 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.65;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [screenWidth,587,18,29]; @symbol_type<0> = [Number,587,33,39]; ]
+            const screenWidth as Number = 416;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [screenShape,588,18,29]; ]
+            const screenShape;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [hasNightMode,589,18,30]; @symbol_type<0> = [Boolean,589,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 590; @position = 18; @symbol_constdef = [hasGpu,590,18,24]; @symbol_type<0> = [Boolean,590,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [screenHeight,591,18,30]; @symbol_type<0> = [Number,591,34,40]; ]
+            const screenHeight as Number = 416;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [hasTouchScreen,592,18,32]; @symbol_type<0> = [Boolean,592,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,593,18,44]; @symbol_type<0> = [Boolean,593,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 596; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,596,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 596; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [filename,597,18,26]; @symbol_type<0> = [String,597,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [dithering,598,18,27]; @symbol_type<0> = [String,598,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 601; @symbol_moduledef = [prompt_font__body_no_title,601,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 601; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 602 18 ]
+                symbol [ Graphics %tmp.66 602 34 42 ];
+                %tmp.66 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.67 602 43 62 ];
+                %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.68 602 63 71 ];
+                %tmp.68 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.69 602 72 92 ];
+                %tmp.69 = getv %tmp.68 :TEXT_JUSTIFY_VCENTER;
+                %tmp.70 = bitor %tmp.67 %tmp.69;
+                putv self :justification %tmp.70;
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 603 18 ]
+                symbol [ Graphics %tmp.71 603 25 33 ];
+                %tmp.71 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.72 603 34 43 ];
+                %tmp.72 = getv %tmp.71 :FONT_TINY;
+                putv self :font %tmp.72;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [justification,602,18,31]; ]
+            const justification;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [font,603,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 606; @symbol_moduledef = [prompt_size__title_icon,606,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [scaleX,607,18,24]; @symbol_type<0> = [Float,607,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 608; @position = 18; @symbol_constdef = [scaleRelativeTo,608,18,33]; @symbol_type<0> = [String,608,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 611; @symbol_moduledef = [system_icon_dark__warning,611,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 611; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [filename,612,18,26]; @symbol_type<0> = [String,612,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_dark__warning.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 613; @position = 18; @symbol_constdef = [compress,613,18,26]; @symbol_type<0> = [String,613,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [dithering,614,18,27]; @symbol_type<0> = [String,614,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [automaticPalette,615,18,34]; @symbol_type<0> = [String,615,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 618; @symbol_moduledef = [prompt_loc__title_icon,618,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 618; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 619; @position = 18; @symbol_constdef = [x,619,18,19]; @symbol_type<0> = [Number,619,23,29]; ]
+            const x as Number = 208;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 620; @position = 18; @symbol_constdef = [y,620,18,19]; @symbol_type<0> = [Number,620,23,29]; ]
+            const y as Number = 62;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [horizontalJustification,621,18,41]; @symbol_type<0> = [String,621,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [verticalJustification,622,18,39]; @symbol_type<0> = [String,622,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 625; @symbol_moduledef = [prompt_font_enhanced_readability__title,625,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 625; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [exclude,626,18,25]; @symbol_type<0> = [Boolean,626,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 629; @symbol_moduledef = [prompt_color_dark__body,629,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 629; ]
+            <init> {
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" 631 18 ]
+                symbol [ Graphics %tmp.73 631 31 39 ];
+                %tmp.73 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.74 631 40 57 ];
+                %tmp.74 = getv %tmp.73 :COLOR_TRANSPARENT;
+                putv self :background %tmp.74;
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [color,630,18,23]; @symbol_type<0> = [Number,630,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [background,631,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 634; @symbol_moduledef = [confirmation_icon__hint_delete,634,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 634; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [filename,635,18,26]; @symbol_type<0> = [String,635,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [dithering,636,18,27]; @symbol_type<0> = [String,636,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 639; @symbol_moduledef = [system_icon_light__hint_button_right_top,639,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 639; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [filename,640,18,26]; @symbol_type<0> = [String,640,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [dithering,641,18,27]; @symbol_type<0> = [String,641,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 644; @symbol_moduledef = [confirmation_size__body,644,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 644; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [width,645,18,23]; @symbol_type<0> = [Number,645,27,33]; ]
+            const width as Number = 250;
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [height,646,18,24]; @symbol_type<0> = [Number,646,28,34]; ]
+            const height as Number = 250;
+        }
+        [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 649; @symbol_moduledef = [system_icon_positive__check,649,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 649; ]
+            <init> {
+            }
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [filename,650,18,26]; @symbol_type<0> = [String,650,30,36]; ]
+            const filename as String = "/home/soup/.Garmin/ConnectIQ/Devices/epix2/system_icon_positive__check.svg";
+            [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [dithering,651,18,27]; @symbol_type<0> = [String,651,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}
