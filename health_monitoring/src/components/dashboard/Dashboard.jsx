@@ -12,7 +12,7 @@ import './styles/Dashboard.css';
 
 export default function Dashboard() {
   const { vitalsLoading, patientLoading } = useDashboard();
-  const { loadingEmergency, hasActiveEmergency } = useEmergency();
+  const { loadingEmergency, hasActiveEmergency, webSocketConnected } = useEmergency();
   const [isLoading, setIsLoading] = useState(true);
 
   // Set loading state based on all data fetching states
@@ -25,6 +25,11 @@ export default function Dashboard() {
       return () => clearTimeout(timer);
     }
   }, [vitalsLoading, patientLoading, loadingEmergency]);
+
+  // Log WebSocket connection status for debugging
+  useEffect(() => {
+    console.log("WebSocket connected:", webSocketConnected);
+  }, [webSocketConnected]);
 
   if (isLoading) {
     return <LoadingScreen />;

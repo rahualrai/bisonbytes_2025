@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useEffect } from 'react';
+import { createContext, useContext, useEffect, useState } from 'react';
 import useEmergencies from '@/hooks/useEmergencies';
 import useWebSocket from '@/hooks/useWebSocket';
 import { EMERGENCY_STATUSES, PATIENT_RESPONSE_TYPES } from '@/lib/constants';
@@ -22,15 +22,45 @@ export function EmergencyProvider({ children }) {
   // Use our custom hooks
   const emergencies = useEmergencies(3000); // Refresh every 3 seconds
   
-  // Simulated WebSocket for real-time emergency updates
-  const webSocket = useWebSocket('wss://api.example.com/emergency-alerts', {
-    simulateMessages: true,
-    messageInterval: 10000,
+  // Track timer state
+  const [timerInfo, setTimerInfo] = useState(null);
+  const [emergencyAlertActive, setEmergencyAlertActive] = useState(false);
+  
+  // Real WebSocket connection to backend
+  const backendWsUrl = process.env.NEXT_PUBLIC_BACKEND_WS_URL || 'http://localhost:4000';
+  const webSocket = useWebSocket(`${backendWsUrl}/emergency`, {
     onMessage: (data) => {
-      if (data.type === 'emergency') {
-        console.log('Emergency update received:', data);
-        // Refresh emergency data when receiving a WebSocket message
+      console.log('WebSocket message received:', data);
+      
+      // Handle different message types
+      if (data.type === 'timer-start') {
+        console.log('Timer event received:', data);
+        setTimerInfo({
+          emergencyId: data.emergencyId,
+          patientId: data.patientId,
+          endTime: data.endTime,
+          duration: data.duration,
+          startTime: Date.now()
+        });
         emergencies.refreshCurrentEmergency();
+      } 
+      else if (data.type === 'emergency-update') {
+        console.log('Emergency update received:', data);
+        emergencies.refreshCurrentEmergency();
+      } 
+      else if (data.type === 'false-alarm') {
+        console.log('False alarm received:', data);
+        setTimerInfo(null);
+        emergencies.refreshCurrentEmergency();
+      }
+      else if (data.type === 'emergency-alert') {
+        console.log('Emergency alert received:', data);
+        setEmergencyAlertActive(true);
+        emergencies.refreshCurrentEmergency();
+      }
+      else if (data.type === 'vitals-update') {
+        // Handle vitals update if needed
+        console.log('Vitals update received:', data);
       }
     }
   });
@@ -42,15 +72,32 @@ export function EmergencyProvider({ children }) {
     }
   }, [emergencies.hasActive, emergencies.currentEmergency]);
   
+  // Clear timer if emergency is resolved
+  useEffect(() => {
+    if (emergencies.currentEmergency && 
+        (emergencies.currentEmergency.status === EMERGENCY_STATUSES.RESOLVED ||
+         emergencies.currentEmergency.status === 'false_alarm')) {
+      setTimerInfo(null);
+      setEmergencyAlertActive(false);
+    }
+  }, [emergencies.currentEmergency]);
+  
   // Handle patient response to emergency
   const handlePatientResponse = async (emergencyId, response) => {
-    // In a real app, this would be an API call
     console.log(`Patient responded to emergency ${emergencyId} with: ${response}`);
+    
+    // Clear timer UI immediately
+    setTimerInfo(null);
     
     const result = await emergencies.respondToEmergency(emergencyId, {
       type: 'patientResponse',
       response: response === 'ok' ? PATIENT_RESPONSE_TYPES.OK : PATIENT_RESPONSE_TYPES.NOT_OK
     });
+    
+    // If not OK, show emergency alert
+    if (response === 'not-ok') {
+      setEmergencyAlertActive(true);
+    }
     
     // Refresh after response
     if (result) {
@@ -60,9 +107,35 @@ export function EmergencyProvider({ children }) {
     return result;
   };
   
+  // Handle timer expiration
+  const handleTimerExpiration = async (emergencyId) => {
+    console.log(`Timer expired for emergency ${emergencyId}`);
+    
+    // Make API call to backend to notify timer expiration
+    try {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/emergencies/timer-expired`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ emergencyId }),
+      });
+      
+      if (!response.ok) {
+        throw new Error('Failed to notify backend of timer expiration');
+      }
+      
+      // Update state after successful API call
+      setEmergencyAlertActive(true);
+      emergencies.refreshCurrentEmergency();
+      
+    } catch (error) {
+      console.error('Error handling timer expiration:', error);
+    }
+  };
+  
   // Handle emergency resolution by healthcare provider
   const resolveEmergency = async (emergencyId, notes) => {
-    // In a real app, this would be an API call
     console.log(`Resolving emergency ${emergencyId} with notes: ${notes}`);
     
     const result = await emergencies.respondToEmergency(emergencyId, {
@@ -71,8 +144,10 @@ export function EmergencyProvider({ children }) {
       notes
     });
     
-    // Refresh after resolution
+    // Clear states after resolution
     if (result) {
+      setTimerInfo(null);
+      setEmergencyAlertActive(false);
       emergencies.refreshCurrentEmergency();
       emergencies.refreshHistory();
     }
@@ -87,6 +162,15 @@ export function EmergencyProvider({ children }) {
     hasActiveEmergency: emergencies.hasActive,
     loadingEmergency: emergencies.loading,
     emergencyError: emergencies.error,
+    
+    // Timer state
+    timerInfo,
+    clearTimer: () => setTimerInfo(null),
+    handleTimerExpiration,
+    
+    // Emergency alert state
+    emergencyAlertActive,
+    setEmergencyAlertActive,
     
     // Emergency history
     emergencyHistory: emergencies.history,

@@ -7,7 +7,84 @@ import Button from '@/components/ui/Button';
 import StatusBadge from '@/components/ui/StatusBadge';
 import { formatDate, formatTimeAgo } from '@/lib/utils';
 import { EMERGENCY_STATUSES, CALL_STATUSES } from '@/lib/constants';
-import { AlertTriangle, Clock, CheckCircle, XCircle } from 'lucide-react';
+import { AlertTriangle, Clock, CheckCircle, XCircle, Play } from 'lucide-react';
+import EmergencyTimer from '@/components/EmergencyTimer';
+
+// Test controls component to trigger test events (development only)
+function TestControls() {
+  const [isLoading, setIsLoading] = useState(false);
+  const [result, setResult] = useState(null);
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+
+  
+  const handleTestTimer = async () => {
+    try {
+      setIsLoading(true);
+      setResult(null);
+      
+      // You'll need to use a valid patient ID from your system
+      const patientId = "test-patient-123"; // Replace with a valid ID
+      
+      const response = await fetch(`${apiUrl}/api/emergencies/test/trigger-timer`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ patientId }),
+      });
+      
+      const data = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to trigger test timer');
+      }
+      
+      setResult({
+        success: true,
+        message: data.message,
+        emergencyId: data.emergencyId
+      });
+      
+      console.log("Test timer triggered:", data);
+    } catch (error) {
+      console.error('Error triggering test timer:', error);
+      setResult({
+        success: false,
+        message: error.message
+      });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+  
+  return (
+    <div className="mt-6 p-4 border rounded-lg bg-slate-50 dark:bg-slate-800/50">
+      <h3 className="font-medium mb-2">Development Testing</h3>
+      
+      <Button 
+        onClick={handleTestTimer}
+        disabled={isLoading}
+        className="bg-purple-100 border-purple-300 hover:bg-purple-200 dark:bg-purple-900/30 dark:border-purple-700"
+      >
+        <Play size={16} className="mr-2" />
+        Trigger Test Emergency Timer
+      </Button>
+      
+      {isLoading && (
+        <p className="mt-2 text-sm opacity-70">Triggering test timer...</p>
+      )}
+      
+      {result && (
+        <div className={`mt-2 p-2 text-sm rounded ${result.success ? 'bg-green-100 dark:bg-green-900/20' : 'bg-red-100 dark:bg-red-900/20'}`}>
+          <p>{result.success ? `✅ ${result.message}` : `❌ ${result.message}`}</p>
+          {result.emergencyId && (
+            <p className="text-xs mt-1 opacity-70">Emergency ID: {result.emergencyId}</p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function CurrentEmergencyContent() {
   const { 
@@ -16,12 +93,18 @@ export default function CurrentEmergencyContent() {
     loadingEmergency, 
     refreshEmergencies, 
     resolveEmergency,
-    respondToEmergency
+    timerInfo,
+    handlePatientResponse
   } = useEmergency();
   
   const [countdown, setCountdown] = useState(null);
   const [resolutionNote, setResolutionNote] = useState('');
   const [isResolving, setIsResolving] = useState(false);
+  const { 
+    timestamps = {}, 
+    patientResponse = {},
+    vitalsSnapshot = {},
+  } = currentEmergency || {};
 
   // Handle countdown timer for active emergencies
   useEffect(() => {
@@ -66,89 +149,91 @@ export default function CurrentEmergencyContent() {
     setResolutionNote('');
   };
 
+  // Show loading state
   if (loadingEmergency) {
     return (
-      <div className="h-full flex items-center justify-center">
-        <div className="animate-pulse flex flex-col items-center">
-          <div className="h-4 w-24 bg-gray-200 rounded mb-4"></div>
-          <div className="h-8 w-40 bg-gray-200 rounded mb-4"></div>
-          <div className="h-4 w-32 bg-gray-200 rounded"></div>
-        </div>
+      <div className="p-4 text-center">
+        <div className="animate-pulse">Loading emergency information...</div>
       </div>
     );
   }
 
-  if (!hasActiveEmergency) {
+  // Show no active emergencies state
+  if (!hasActiveEmergency && !timerInfo) {
     return (
-      <div className="flex flex-col items-center justify-center h-full text-center p-4">
-        <CheckCircle size={48} style={{ color: 'var(--color-success)' }} className="mb-4" />
-        <h3 className="text-xl font-medium mb-2">No Active Emergencies</h3>
-        <p className="text-gray-600 dark:text-gray-400">
-          There are currently no active emergency alerts for this patient.
-        </p>
-      </div>
-    );
-  }
-
-  return (
-    <div className="h-full overflow-y-auto">
-      <Alert 
-        variant="warning" 
-        title={`${currentEmergency.type.replace(/([A-Z])/g, ' $1').trim()} Alert`}
-      >
-        {currentEmergency.detectedValue.type === "heartRate" && 
-          `Patient's heart rate reached ${currentEmergency.detectedValue.value} bpm, exceeding the threshold of ${currentEmergency.detectedValue.threshold} bpm.`
-        }
-        {currentEmergency.detectedValue.type === "bloodPressure" && 
-          `Patient's blood pressure reached ${currentEmergency.detectedValue.value.systolic}/${currentEmergency.detectedValue.value.diastolic} mmHg, outside the safe range.`
-        }
-        {currentEmergency.detectedValue.type === "spO2" && 
-          `Patient's oxygen saturation dropped to ${currentEmergency.detectedValue.value}%, below the threshold of ${currentEmergency.detectedValue.threshold}%.`
-        }
-        {currentEmergency.detectedValue.type === "fall" && 
-          `Fall detected at ${formatDate(currentEmergency.createdAt, { includeTime: true })}.`
-        }
-      </Alert>
-      
-      <div className="mt-4">
-        <div className="flex items-center justify-between mb-2">
-          <h3 className="font-medium">Emergency Details</h3>
-          <div className="text-sm text-gray-500 dark:text-gray-400">
-            {formatTimeAgo(currentEmergency.createdAt)}
+      <div className="p-4">
+        <div className="text-center py-8">
+          <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/20 mb-3">
+            <CheckCircle className="text-green-600 dark:text-green-500" />
           </div>
+          <h3 className="text-lg font-medium mb-1">No Active Emergencies</h3>
+          <p className="text-muted-foreground">
+            The patient is currently not experiencing any emergency situations.
+          </p>
         </div>
         
-        <div className="grid grid-cols-2 gap-3 mb-4">
-          <div className="p-3 bg-gray-50 dark:bg-gray-800 rounded">
-            <div className="text-sm text-gray-500 dark:text-gray-400 mb-1">Status</div>
-            <div className="font-medium flex items-center">
-              <StatusBadge status={currentEmergency.status.toLowerCase()} />
+        {/* Development testing controls */}
+        {process.env.NODE_ENV === 'development' && <TestControls />}
+      </div>
+    );
+  }
+
+  // Display active emergency timer from WebSocket
+  if (timerInfo) {
+    return (
+      <div className="p-4">
+        <div className="emergency-timer-container mt-2 p-4 border border-orange-300 rounded-lg bg-orange-50 dark:bg-orange-900/20">
+          <h3 className="text-lg font-medium mb-2 flex items-center">
+            <Clock className="mr-2" size={20} />
+            Emergency Alert - Response Required
+          </h3>
+          
+          <EmergencyTimer />
+        </div>
+        
+        {/* Development testing controls */}
+        {process.env.NODE_ENV === 'development' && <TestControls />}
+      </div>
+    );
+  }
+
+  // Display active emergency information
+  return (
+    <div className="p-4">
+      {currentEmergency && (
+        <>
+          {/* Emergency Details */}
+          <div className="mb-4">
+            <div className="flex justify-between items-start mb-2">
+              <h3 className="text-lg font-medium">Emergency Details</h3>
+              <StatusBadge status={currentEmergency.status} />
+            </div>
+            
+            <div className="grid grid-cols-2 gap-2 mb-3">
+              <div>
+                <span className="text-xs opacity-70">Triggered</span>
+                <div>{formatDate(currentEmergency.timestamps.triggeredAt)}</div>
+              </div>
+              <div>
+                <span className="text-xs opacity-70">Type</span>
+                <div className="capitalize">{currentEmergency.anomalyType}</div>
+              </div>
+              <div>
+                <span className="text-xs opacity-70">Value</span>
+                <div>{currentEmergency.anomalyValue}</div>
+              </div>
+              <div>
+                <span className="text-xs opacity-70">Status</span>
+                <div>{currentEmergency.status}</div>
+              </div>
             </div>
           </div>
           
-          <div className="p-3 bg-gray-50 dark:bg-gray-800 rounded">
-            <div className="text-sm text-gray-500 dark:text-gray-400 mb-1">Detected Value</div>
-            <div className="font-medium">
-              {currentEmergency.detectedValue.type === "heartRate" && 
-                `${currentEmergency.detectedValue.value} bpm`
-              }
-              {currentEmergency.detectedValue.type === "bloodPressure" && 
-                `${currentEmergency.detectedValue.value.systolic}/${currentEmergency.detectedValue.value.diastolic} mmHg`
-              }
-              {currentEmergency.detectedValue.type === "spO2" && 
-                `${currentEmergency.detectedValue.value}%`
-              }
-              {currentEmergency.detectedValue.type === "fall" && 
-                `Fall detected`
-              }
-            </div>
-          </div>
-        </div>
-        
-        <div className="mb-4 p-4 rounded" style={{ 
-  border: '1px solid var(--panel-border)',
-  background: 'var(--panel-background)'
-}}>
+          {/* Patient Response Section */}
+          <div className="mb-4 p-3 rounded-lg" style={{
+            backgroundColor: 'var(--accent)',
+            border: '1px solid var(--accent-border)'
+          }}>
           <h3 className="font-medium mb-2">Patient Response</h3>
           
           {currentEmergency.patientResponse && currentEmergency.patientResponse.timestamp ? (
@@ -167,20 +252,20 @@ export default function CurrentEmergencyContent() {
               </p>
               <div className="mt-3 flex justify-center space-x-3">
                 <Button 
-                  onClick={() => respondToEmergency('ok')}
+                  onClick={() => handlePatientResponse(currentEmergency.id, 'ok')}
                   variant="outline"
                   className="response-ok"
                 >
-                  <CheckCircle size={16} />
+                  <CheckCircle size={16} className="mr-1" />
                   I'm okay
                 </Button>
                 
                 <Button 
-                  onClick={() => respondToEmergency('help')}
+                  onClick={() => handlePatientResponse(currentEmergency.id, 'not-ok')}
                   variant="filled"
                   className="response-help"
                 >
-                  <XCircle size={16} />
+                  <XCircle size={16} className="mr-1" />
                   I need help
                 </Button>
               </div>
@@ -188,72 +273,58 @@ export default function CurrentEmergencyContent() {
           ) : (
             <p>Patient did not respond to the alert.</p>
           )}
-        </div>
-        
-        <div className="mt-4">
-          <h3 className="font-medium mb-2">Emergency Contacts Notified:</h3>
-          <div className="space-y-3">
-            {currentEmergency.contactsNotified.map((contact, index) => (
-              <div key={index} className="flex justify-between items-center p-3 rounded" 
-              style={{ background: 'var(--color-primary-light)' }}>
-                <div>
-                  <div className="font-medium">{contact.name}</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">{contact.phone}</div>
-                </div>
-                <div className="text-right">
-                  <StatusBadge 
-                    status={
-                      contact.status === CALL_STATUSES.COMPLETED 
-                        ? 'normal' 
-                        : contact.status === CALL_STATUSES.IN_PROGRESS 
-                          ? 'pending' 
-                          : 'warning'
-                    } 
-                  />
-                  <div className="text-xs text-gray-500 mt-1">
-                    {contact.timestamp && formatTimeAgo(contact.timestamp)}
-                  </div>
-                </div>
+          </div>
+          
+          {/* Emergency Calls Section */}
+          {currentEmergency.calls && currentEmergency.calls.length > 0 && (
+            <div className="mb-4">
+              <h3 className="font-medium mb-2">Emergency Calls</h3>
+              <ul className="space-y-2">
+                {currentEmergency.calls.map((call, index) => (
+                  <li key={index} className="flex justify-between p-2 bg-slate-50 dark:bg-slate-800/50 rounded">
+                    <div>
+                      <div>{call.contactName}</div>
+                      <div className="text-xs opacity-70">{call.contactPhone}</div>
+                    </div>
+                    <div>
+                      <StatusBadge 
+                        status={call.status} 
+                        statusMap={CALL_STATUSES}
+                      />
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          
+          {/* Emergency Resolution Section */}
+          {currentEmergency.status === EMERGENCY_STATUSES.ACTIVE && (
+            <div className="mt-6">
+              <h3 className="font-medium mb-2">Emergency Resolution</h3>
+              <div className="space-y-3">
+                <textarea
+                  className="w-full p-2 border rounded dark:bg-slate-800 dark:border-slate-700"
+                  rows={3}
+                  placeholder="Enter notes about the emergency resolution..."
+                  value={resolutionNote}
+                  onChange={(e) => setResolutionNote(e.target.value)}
+                />
+                <Button
+                  onClick={handleResolveEmergency}
+                  disabled={isResolving}
+                  className="w-full"
+                >
+                  {isResolving ? 'Resolving...' : 'Resolve Emergency'}
+                </Button>
               </div>
-            ))}
-          </div>
-        </div>
-        
-        {currentEmergency.status === EMERGENCY_STATUSES.ACTIVE && (
-          <div className="mt-6 p-4 rounded" style={{ background: 'var(--color-primary-light)' }}>
-            <h3 className="font-medium mb-3">Resolve Emergency</h3>
-            <div className="mb-3">
-              <label htmlFor="resolution-note" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                Resolution Note:
-              </label>
-              <textarea
-                id="resolution-note"
-                rows="2"
-                className="w-full px-3 py-2 text-sm rounded-md shadow-sm focus:outline-none"
-                style={{ 
-                  background: 'var(--panel-background)',
-                  border: '1px solid var(--panel-border)',
-                  color: 'var(--foreground)'
-                }}
-                placeholder="Enter details about how the emergency was resolved..."
-                value={resolutionNote}
-                onChange={(e) => setResolutionNote(e.target.value)}
-              ></textarea>
             </div>
-            <div className="flex space-x-2">
-              <Button 
-                onClick={handleResolveEmergency} 
-                disabled={isResolving || !resolutionNote.trim()}
-              >
-                {isResolving ? 'Resolving...' : 'Mark as Resolved'}
-              </Button>
-              <Button variant="secondary" onClick={refreshEmergencies}>
-                Refresh Status
-              </Button>
-            </div>
-          </div>
-        )}
-      </div>
+          )}
+          
+          {/* Development testing controls */}
+          {process.env.NODE_ENV === 'development' && <TestControls />}
+        </>
+      )}
     </div>
   );
 }
