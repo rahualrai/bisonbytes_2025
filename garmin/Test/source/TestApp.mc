@@ -3,7 +3,8 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 
 class TestApp extends Application.AppBase {
-    private var myView;
+    private var testView;
+    private var testDelegate;
 
     function initialize() {
         AppBase.initialize();
@@ -19,7 +20,11 @@ class TestApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView(){
-        return  [new TestView(), new TestDelegate()];
+        testView = new TestView();
+        testDelegate = new TestDelegate();
+        testDelegate.initTestView(testView);
+
+        return  [testView, testDelegate];
     }
 
 }

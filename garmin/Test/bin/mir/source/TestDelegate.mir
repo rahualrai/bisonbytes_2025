@@ -11,44 +11,81 @@ class TestDelegate extends WatchUi.BehaviorDelegate {
     static
     <init> {
     }
-    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc"; @line = 6; @position = 16; @symbol_vardef = [testView,6,16,24]; ]
+    private
+    var testView;
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc"; @line = 7; @position = 16; @symbol_vardef = [testMenuDelegate,7,16,32]; ]
+    private
+    var testMenuDelegate;
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
     function initialize() as Void {
-_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestDelegate_mc_6_26_8_4_start:
-[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" 7 8 ]
-        symbol [ BehaviorDelegate %tmp.2 7 8 24 ];
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestDelegate_mc_8_26_10_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" 9 8 ]
+        symbol [ BehaviorDelegate %tmp.2 9 8 24 ];
         %tmp.2 = getv ? :BehaviorDelegate;
-        symbol [ initialize %tmp.3 7 25 35 ];
+        symbol [ initialize %tmp.3 9 25 35 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestDelegate_mc_6_26_8_4_stop:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestDelegate_mc_8_26_10_4_stop:
     }
-    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc"; @line = 10; @symbol_functiondef = [onMenu,10,13,19]; @symbol_return<0> = [Boolean,10,25,32]; ]
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc"; @line = 12; @symbol_functiondef = [initTestView,12,13,25]; @symbol_param<0> = [view,12,26,30]; ]
+    function initTestView(view) {
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestDelegate_mc_12_32_15_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" 13 8 ]
+        %tmp.1 = lgetv %view;
+        symbol [ view %tmp.1 13 19 23 ];
+        symbol [ testView ? 13 8 16 ];
+        putv self :testView %tmp.1;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestDelegate_mc_12_32_15_4_stop:
+    }
+    [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc"; @line = 17; @symbol_functiondef = [onMenu,17,13,19]; @symbol_return<0> = [Boolean,17,25,32]; ]
     function onMenu() as Boolean {
-_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestDelegate_mc_10_33_13_4_start:
-[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" 11 8 ]
-        symbol [ WatchUi %tmp.1 11 8 15 ];
-        %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.2 11 16 24 ];
-        %tmp.2 = getv function %tmp.1 :pushView;
-        symbol [ Rez %tmp.6 11 29 32 ];
-        %tmp.6 = getv ? :Rez;
-        symbol [ Menus %tmp.7 11 33 38 ];
-        %tmp.7 = getv %tmp.6 :Menus;
-        symbol [ MainMenu %tmp.8 11 39 47 ];
-        %tmp.8 = getv function ? %tmp.7 :MainMenu;
-        %tmp.3 = newc %tmp.8 ();
-        symbol [ TestMenuDelegate %tmp.12 11 55 71 ];
-        %tmp.12 = getv ? :TestMenuDelegate;
-        %tmp.9 = newc %tmp.12 ();
-        symbol [ WatchUi %tmp.13 11 75 82 ];
-        %tmp.13 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_UP %tmp.14 11 83 91 ];
-        %tmp.14 = getv %tmp.13 :SLIDE_UP;
-        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.9, %tmp.14);
-[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" 12 8 ]
-        %tmp.15 = true;
-        ret %tmp.15;
-_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestDelegate_mc_10_33_13_4_stop:
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestDelegate_mc_17_33_23_4_start:
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" 18 8 ]
+        symbol [ TestMenuDelegate %tmp.4 18 31 47 ];
+        %tmp.4 = getv ? :TestMenuDelegate;
+        %tmp.1 = newc %tmp.4 ();
+        symbol [ testMenuDelegate ? 18 8 24 ];
+        putv self :testMenuDelegate %tmp.1;
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" 19 8 ]
+        symbol [ testMenuDelegate %tmp.6 19 8 24 ];
+        %tmp.6 = getv ? :testMenuDelegate;
+        symbol [ initTestView %tmp.7 19 25 37 ];
+        %tmp.7 = getv function %tmp.6 :initTestView;
+        symbol [ testView %tmp.9 19 38 46 ];
+        %tmp.9 = getv ? :testView;
+        invoke %tmp.6 %tmp.7(%tmp.9);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" 20 8 ]
+        symbol [ testMenuDelegate %tmp.11 20 8 24 ];
+        %tmp.11 = getv ? :testMenuDelegate;
+        symbol [ initTestDelegate %tmp.12 20 25 41 ];
+        %tmp.12 = getv function %tmp.11 :initTestDelegate;
+        %tmp.13 = self;
+        symbol [ self %tmp.13 20 42 46 ];
+        invoke %tmp.11 %tmp.12(%tmp.13);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" 21 8 ]
+        symbol [ WatchUi %tmp.14 21 8 15 ];
+        %tmp.14 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.15 21 16 24 ];
+        %tmp.15 = getv function %tmp.14 :pushView;
+        symbol [ Rez %tmp.19 21 29 32 ];
+        %tmp.19 = getv ? :Rez;
+        symbol [ Menus %tmp.20 21 33 38 ];
+        %tmp.20 = getv %tmp.19 :Menus;
+        symbol [ MainMenu %tmp.21 21 39 47 ];
+        %tmp.21 = getv function ? %tmp.20 :MainMenu;
+        %tmp.16 = newc %tmp.21 ();
+        symbol [ testMenuDelegate %tmp.23 21 51 67 ];
+        %tmp.23 = getv ? :testMenuDelegate;
+        symbol [ WatchUi %tmp.24 21 69 76 ];
+        %tmp.24 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.25 21 77 85 ];
+        %tmp.25 = getv %tmp.24 :SLIDE_UP;
+        invoke %tmp.14 %tmp.15(%tmp.16, %tmp.23, %tmp.25);
+[ "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" 22 8 ]
+        %tmp.26 = true;
+        ret %tmp.26;
+_home_soup_programming_bison_bytes_bisonbytes_2025_garmin_Test_source_TestDelegate_mc_17_33_23_4_stop:
     }
 }
 [ @file = "/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc"; @line = 1; ]

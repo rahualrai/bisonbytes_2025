@@ -15,19 +15,27 @@ module Rez {
 
             return [rez_cmp_local_text_heart] as Array<WatchUi.Drawable>;
         }
+
+        function TimerLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_Timer = new WatchUi.Text({:identifier=>"Timer", :color=>Graphics.COLOR_BLUE, :locX=>(416 * 0.5), :locY=>((416 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :text=>"10", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_text_Timer] as Array<WatchUi.Drawable>;
+        }
     } // Layouts
 
     module Menus {
         class MainMenu extends WatchUi.Menu {
             function initialize() {
                 Menu.initialize();
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_1) as String), :item_1);
+                addItem("Simulator On", :item_1);
+                addItem("Simulator Off", :item_2);
             }
         }
     } // Menus
 
     module Strings {
         (:initialized) var menu_label_1 as ResourceId;
+        (:initialized) var menu_label_2 as ResourceId;
         (:initialized) var prompt as ResourceId;
         (:initialized) var AppName as ResourceId;
     } // Strings

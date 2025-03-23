@@ -11,12 +11,17 @@ class TestView extends WatchUi.View {
     private var hrNum = 0;
     private var temperature = 0;
     private var bloodOx = 0;
+    private var isEmergencySimulation = false;
     var info = ActivityMonitor.getInfo();
 
     function initialize() {
         View.initialize();
         Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE, Sensor.SENSOR_TEMPERATURE, Sensor.SENSOR_PULSE_OXIMETRY]);
         Sensor.enableSensorEvents(method(:onSnsr));
+    }
+
+    function setIsEmergency(emergency) as Void {
+        isEmergencySimulation = emergency;
     }
 
     //! Handle sensor updates
@@ -45,7 +50,7 @@ class TestView extends WatchUi.View {
         } 
 
         self.requestUpdate();
-        makeRequest();
+        // makeRequest();
     }
 
     // Load your resources here
@@ -57,6 +62,7 @@ class TestView extends WatchUi.View {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() as Void {
+        makeRequest();
     }
 
     // Update the view
@@ -77,6 +83,13 @@ class TestView extends WatchUi.View {
            System.println("Response: " + responseCode);            // print response code
        }
 
+       var emergencyDetected = data["emergency_detected"] as Boolean;
+
+         System.println(emergencyDetected);
+         if (emergencyDetected) {
+              WatchUi.pushView(new TimerView(), null, WatchUi.SLIDE_UP);
+         }
+
 
 
 
@@ -87,10 +100,23 @@ class TestView extends WatchUi.View {
     var params = {
         "heartRate" => hrNum,
         "temperature" => temperature,
-        "bloodOx" => bloodOx,
+        "oxygenSaturation" => bloodOx,
         "respirationRate" => info.respirationRate,
         "stressScore" => info.stressScore
     };
+
+    if (isEmergencySimulation) {
+        params = {
+        "heartRate" => 150,
+        "temperature" =>39 ,
+        "oxygenSaturation" => 91,
+        "respirationRate" => 30,
+        "stressScore" => 92
+    };
+
+    }
+
+
     var options = {
         :method => Communications.HTTP_REQUEST_METHOD_POST,
         :headers => {

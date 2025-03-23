@@ -4,174 +4,248 @@
     <pcToLineNum>
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="1" lineNum="5" parent="globals/TestApp" pc="268435460" symbol="&lt;init&gt;"/>
         <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="2" lineNum="4" parent="globals/TestDelegate" pc="268435472" symbol="&lt;init&gt;"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="3" lineNum="27" parent="globals" pc="268435484" symbol="getApp"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="3" lineNum="28" parent="globals" pc="268435494" symbol="getApp"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="5" lineNum="8" parent="globals/TestView" pc="268435525" symbol="&lt;init&gt;"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="5" lineNum="14" parent="globals/TestView" pc="268435536" symbol="&lt;init&gt;"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="6" lineNum="5" parent="globals/TestMenuDelegate" pc="268435554" symbol="&lt;init&gt;"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="7" lineNum="13" parent="globals/TestApp" pc="268435566" symbol="onStart"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="8" lineNum="21" parent="globals/TestApp" pc="268435569" symbol="getInitialView"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="8" lineNum="22" parent="globals/TestApp" pc="268435571" symbol="getInitialView"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="9" lineNum="8" parent="globals/TestApp" pc="268435626" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="9" lineNum="9" parent="globals/TestApp" pc="268435628" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="10" lineNum="17" parent="globals/TestApp" pc="268435641" symbol="onStop"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="11" lineNum="10" parent="globals/TestDelegate" pc="268435644" symbol="onMenu"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="11" lineNum="11" parent="globals/TestDelegate" pc="268435646" symbol="onMenu"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="11" lineNum="12" parent="globals/TestDelegate" pc="268435715" symbol="onMenu"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="12" lineNum="6" parent="globals/TestDelegate" pc="268435717" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="12" lineNum="7" parent="globals/TestDelegate" pc="268435719" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="24" parent="globals/TestView" pc="268435732" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="25" parent="globals/TestView" pc="268435735" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="26" parent="globals/TestView" pc="268435743" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="27" parent="globals/TestView" pc="268435751" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="30" parent="globals/TestView" pc="268435759" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="31" parent="globals/TestView" pc="268435765" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="32" parent="globals/TestView" pc="268435786" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="37" parent="globals/TestView" pc="268435798" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="38" parent="globals/TestView" pc="268435804" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="41" parent="globals/TestView" pc="268435816" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="42" parent="globals/TestView" pc="268435822" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="43" parent="globals/TestView" pc="268435831" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="47" parent="globals/TestView" pc="268435843" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="14" lineNum="48" parent="globals/TestView" pc="268435850" symbol="onSnsr"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="15" lineNum="52" parent="globals/TestView" pc="268435858" symbol="onLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="15" lineNum="53" parent="globals/TestView" pc="268435860" symbol="onLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="16" lineNum="70" parent="globals/TestView" pc="268435894" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="16" lineNum="71" parent="globals/TestView" pc="268435896" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="16" lineNum="73" parent="globals/TestView" pc="268435907" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="16" lineNum="74" parent="globals/TestView" pc="268435916" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="16" lineNum="77" parent="globals/TestView" pc="268435937" symbol="onReceive"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="17" lineNum="85" parent="globals/TestView" pc="268435959" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="17" lineNum="86" parent="globals/TestView" pc="268435962" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="17" lineNum="87" parent="globals/TestView" pc="268435969" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="17" lineNum="94" parent="globals/TestView" pc="268436041" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="17" lineNum="101" parent="globals/TestView" pc="268436067" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="17" lineNum="102" parent="globals/TestView" pc="268436082" symbol="makeRequest"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="18" lineNum="16" parent="globals/TestView" pc="268436104" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="18" lineNum="17" parent="globals/TestView" pc="268436106" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="18" lineNum="18" parent="globals/TestView" pc="268436118" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="18" lineNum="19" parent="globals/TestView" pc="268436136" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="20" lineNum="63" parent="globals/TestView" pc="268436163" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="20" lineNum="65" parent="globals/TestView" pc="268436166" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="20" lineNum="66" parent="globals/TestView" pc="268436186" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="20" lineNum="67" parent="globals/TestView" pc="268436201" symbol="onUpdate"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="21" lineNum="11" parent="globals/TestMenuDelegate" pc="268436218" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="21" lineNum="12" parent="globals/TestMenuDelegate" pc="268436220" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="21" lineNum="13" parent="globals/TestMenuDelegate" pc="268436231" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="21" lineNum="14" parent="globals/TestMenuDelegate" pc="268436252" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="21" lineNum="15" parent="globals/TestMenuDelegate" pc="268436263" symbol="onMenuItem"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="22" lineNum="7" parent="globals/TestMenuDelegate" pc="268436285" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="22" lineNum="8" parent="globals/TestMenuDelegate" pc="268436287" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="23" lineNum="13" parent="globals/Rez/Layouts" pc="268436300" symbol="MainLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="23" lineNum="14" parent="globals/Rez/Layouts" pc="268436311" symbol="MainLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="23" lineNum="16" parent="globals/Rez/Layouts" pc="268436415" symbol="MainLayout"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="24" lineNum="21" parent="globals/Rez/Menus/MainMenu" pc="268436425" symbol="&lt;init&gt;"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="25" lineNum="22" parent="globals/Rez/Menus/MainMenu" pc="268436437" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="25" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268436439" symbol="initialize"/>
-        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="25" lineNum="24" parent="globals/Rez/Menus/MainMenu" pc="268436451" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="3" lineNum="32" parent="globals" pc="268435484" symbol="getApp"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="3" lineNum="33" parent="globals" pc="268435494" symbol="getApp"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="4" lineNum="9" parent="globals/TimerView" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435517" symbol="&lt;init&gt;"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="6" lineNum="8" parent="globals/TestView" pc="268435537" symbol="&lt;init&gt;"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="6" lineNum="15" parent="globals/TestView" pc="268435548" symbol="&lt;init&gt;"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="7" lineNum="5" parent="globals/TestMenuDelegate" pc="268435566" symbol="&lt;init&gt;"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="8" lineNum="14" parent="globals/TestApp" pc="268435578" symbol="onStart"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="9" lineNum="22" parent="globals/TestApp" pc="268435581" symbol="getInitialView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="9" lineNum="23" parent="globals/TestApp" pc="268435583" symbol="getInitialView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="9" lineNum="24" parent="globals/TestApp" pc="268435612" symbol="getInitialView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="9" lineNum="25" parent="globals/TestApp" pc="268435641" symbol="getInitialView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="9" lineNum="27" parent="globals/TestApp" pc="268435660" symbol="getInitialView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="10" lineNum="9" parent="globals/TestApp" pc="268435681" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="10" lineNum="10" parent="globals/TestApp" pc="268435683" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestApp.mc" id="11" lineNum="18" parent="globals/TestApp" pc="268435696" symbol="onStop"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="12" lineNum="17" parent="globals/TestDelegate" pc="268435699" symbol="onMenu"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="12" lineNum="18" parent="globals/TestDelegate" pc="268435701" symbol="onMenu"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="12" lineNum="19" parent="globals/TestDelegate" pc="268435730" symbol="onMenu"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="12" lineNum="20" parent="globals/TestDelegate" pc="268435749" symbol="onMenu"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="12" lineNum="21" parent="globals/TestDelegate" pc="268435764" symbol="onMenu"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="12" lineNum="22" parent="globals/TestDelegate" pc="268435816" symbol="onMenu"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="13" lineNum="12" parent="globals/TestDelegate" pc="268435818" symbol="initTestView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="13" lineNum="13" parent="globals/TestDelegate" pc="268435820" symbol="initTestView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="14" lineNum="8" parent="globals/TestDelegate" pc="268435830" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestDelegate.mc" id="14" lineNum="9" parent="globals/TestDelegate" pc="268435832" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="16" lineNum="27" parent="globals/TimerView" pc="268435845" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="16" lineNum="28" parent="globals/TimerView" pc="268435847" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="16" lineNum="29" parent="globals/TimerView" pc="268435880" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="17" lineNum="13" parent="globals/TimerView" pc="268435912" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="17" lineNum="14" parent="globals/TimerView" pc="268435914" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="17" lineNum="15" parent="globals/TimerView" pc="268435926" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="19" lineNum="40" parent="globals/TimerView" pc="268435956" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="19" lineNum="42" parent="globals/TimerView" pc="268435959" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="19" lineNum="43" parent="globals/TimerView" pc="268435979" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="19" lineNum="44" parent="globals/TimerView" pc="268436000" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="20" lineNum="18" parent="globals/TimerView" pc="268436017" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="20" lineNum="19" parent="globals/TimerView" pc="268436019" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="20" lineNum="20" parent="globals/TimerView" pc="268436034" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="20" lineNum="21" parent="globals/TimerView" pc="268436044" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TimerView.mc" id="20" lineNum="23" parent="globals/TimerView" pc="268436059" symbol="timerCallback"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="21" lineNum="64" parent="globals/TestView" pc="268436067" symbol="onShow"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="21" lineNum="65" parent="globals/TestView" pc="268436069" symbol="onShow"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="29" parent="globals/TestView" pc="268436077" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="30" parent="globals/TestView" pc="268436080" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="31" parent="globals/TestView" pc="268436088" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="32" parent="globals/TestView" pc="268436096" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="35" parent="globals/TestView" pc="268436104" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="36" parent="globals/TestView" pc="268436110" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="37" parent="globals/TestView" pc="268436131" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="42" parent="globals/TestView" pc="268436143" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="43" parent="globals/TestView" pc="268436149" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="46" parent="globals/TestView" pc="268436161" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="47" parent="globals/TestView" pc="268436167" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="48" parent="globals/TestView" pc="268436176" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="22" lineNum="52" parent="globals/TestView" pc="268436188" symbol="onSnsr"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="23" lineNum="57" parent="globals/TestView" pc="268436196" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="23" lineNum="58" parent="globals/TestView" pc="268436198" symbol="onLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="24" lineNum="76" parent="globals/TestView" pc="268436232" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="24" lineNum="77" parent="globals/TestView" pc="268436235" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="24" lineNum="79" parent="globals/TestView" pc="268436246" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="24" lineNum="80" parent="globals/TestView" pc="268436255" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="24" lineNum="83" parent="globals/TestView" pc="268436276" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="24" lineNum="86" parent="globals/TestView" pc="268436297" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="24" lineNum="88" parent="globals/TestView" pc="268436307" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="24" lineNum="89" parent="globals/TestView" pc="268436322" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="24" lineNum="90" parent="globals/TestView" pc="268436327" symbol="onReceive"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="25" lineNum="98" parent="globals/TestView" pc="268436369" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="25" lineNum="99" parent="globals/TestView" pc="268436372" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="25" lineNum="100" parent="globals/TestView" pc="268436379" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="25" lineNum="108" parent="globals/TestView" pc="268436451" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="25" lineNum="109" parent="globals/TestView" pc="268436459" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="25" lineNum="120" parent="globals/TestView" pc="268436469" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="25" lineNum="127" parent="globals/TestView" pc="268436495" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="25" lineNum="128" parent="globals/TestView" pc="268436510" symbol="makeRequest"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="26" lineNum="23" parent="globals/TestView" pc="268436532" symbol="setIsEmergency"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="26" lineNum="24" parent="globals/TestView" pc="268436534" symbol="setIsEmergency"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="27" lineNum="17" parent="globals/TestView" pc="268436544" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="27" lineNum="18" parent="globals/TestView" pc="268436546" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="27" lineNum="19" parent="globals/TestView" pc="268436558" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="27" lineNum="20" parent="globals/TestView" pc="268436576" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="29" lineNum="69" parent="globals/TestView" pc="268436603" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="29" lineNum="71" parent="globals/TestView" pc="268436606" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="29" lineNum="72" parent="globals/TestView" pc="268436626" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestView.mc" id="29" lineNum="73" parent="globals/TestView" pc="268436641" symbol="onUpdate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="30" lineNum="16" parent="globals/TestMenuDelegate" pc="268436658" symbol="initTestDelegate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="30" lineNum="17" parent="globals/TestMenuDelegate" pc="268436660" symbol="initTestDelegate"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="31" lineNum="13" parent="globals/TestMenuDelegate" pc="268436670" symbol="initTestView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="31" lineNum="14" parent="globals/TestMenuDelegate" pc="268436672" symbol="initTestView"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="32" lineNum="19" parent="globals/TestMenuDelegate" pc="268436682" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="32" lineNum="20" parent="globals/TestMenuDelegate" pc="268436684" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="32" lineNum="21" parent="globals/TestMenuDelegate" pc="268436695" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="32" lineNum="22" parent="globals/TestMenuDelegate" pc="268436710" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="32" lineNum="23" parent="globals/TestMenuDelegate" pc="268436735" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="32" lineNum="25" parent="globals/TestMenuDelegate" pc="268436756" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="32" lineNum="26" parent="globals/TestMenuDelegate" pc="268436767" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="32" lineNum="27" parent="globals/TestMenuDelegate" pc="268436782" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="32" lineNum="28" parent="globals/TestMenuDelegate" pc="268436807" symbol="onMenuItem"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="33" lineNum="9" parent="globals/TestMenuDelegate" pc="268436829" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/source/TestMenuDelegate.mc" id="33" lineNum="10" parent="globals/TestMenuDelegate" pc="268436831" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="34" lineNum="19" parent="globals/Rez/Layouts" pc="268436844" symbol="TimerLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="34" lineNum="20" parent="globals/Rez/Layouts" pc="268436855" symbol="TimerLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="34" lineNum="22" parent="globals/Rez/Layouts" pc="268436970" symbol="TimerLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="35" lineNum="13" parent="globals/Rez/Layouts" pc="268436980" symbol="MainLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="35" lineNum="14" parent="globals/Rez/Layouts" pc="268436991" symbol="MainLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="35" lineNum="16" parent="globals/Rez/Layouts" pc="268437095" symbol="MainLayout"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="36" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268437105" symbol="&lt;init&gt;"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="37" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268437117" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="37" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268437119" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="37" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268437131" symbol="initialize"/>
+        <entry filename="/home/soup/programming/bison_bytes/bisonbytes_2025/garmin/Test/bin/gen/006-B3943-00/source/Rez.mcgen" id="37" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268437150" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="14" symbol="&lt;globals/TestView/&lt;&gt;_hrString&gt;"/>
+        <entry field="true" id="22" symbol="&lt;globals/TestView/&lt;&gt;_hrString&gt;"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="11" symbol="&lt;globals/TestApp/&lt;&gt;myView&gt;"/>
+        <entry id="11" object="true" symbol="TimerView"/>
+        <entry id="8389346" symbol="text"/>
         <entry field="true" id="8388936" method="true" symbol="info"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/Menus"/>
         <entry id="7" object="true" symbol="TestApp"/>
-        <entry id="22" method="true" symbol="MainLayout"/>
+        <entry field="true" id="33" symbol="&lt;globals/TestMenuDelegate/&lt;&gt;testView&gt;"/>
+        <entry id="35" method="true" symbol="MainLayout"/>
+        <entry field="true" id="16" symbol="&lt;globals/TestDelegate/&lt;&gt;testView&gt;"/>
+        <entry field="true" id="32" symbol="&lt;globals/TestMenuDelegate/&lt;&gt;testDelegate&gt;"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="24" symbol="AppName"/>
+        <entry field="true" id="38" symbol="AppName"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389594" symbol="headers"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="36" method="true" symbol="TimerLayout"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="26" symbol="prompt"/>
+        <entry field="true" id="41" symbol="prompt"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="28" symbol="item_2"/>
-        <entry id="27" symbol="item_1"/>
-        <entry id="13" module="true" symbol="Menus"/>
+        <entry id="43" symbol="item_2"/>
+        <entry id="42" symbol="item_1"/>
+        <entry id="21" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="18" symbol="&lt;globals/TimerView/&lt;&gt;myTimer&gt;"/>
+        <entry id="29" method="true" symbol="setIsEmergency"/>
         <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="25" symbol="&lt;globals/TestView/&lt;&gt;isEmergencySimulation&gt;"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="17" method="true" symbol="makeRequest"/>
+        <entry id="26" method="true" symbol="makeRequest"/>
         <entry id="10" object="true" symbol="TestView"/>
         <entry id="8388637" module="true" symbol="Communications"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="23" object="true" symbol="MainMenu"/>
+        <entry id="37" object="true" symbol="MainMenu"/>
+        <entry field="true" id="15" symbol="&lt;globals/TestDelegate/&lt;&gt;testMenuDelegate&gt;"/>
         <entry id="8388786" method="true" symbol="method"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry field="true" id="20" symbol="&lt;globals/TestView/&lt;&gt;temperature&gt;"/>
+        <entry field="true" id="30" symbol="&lt;globals/TestView/&lt;&gt;temperature&gt;"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="18" method="true" symbol="onReceive"/>
+        <entry id="27" method="true" symbol="onReceive"/>
+        <entry id="19" method="true" symbol="timerCallback"/>
         <entry id="8" object="true" symbol="TestDelegate"/>
+        <entry field="true" id="13" symbol="&lt;globals/TestApp/&lt;&gt;testView&gt;"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="21" symbol="LauncherIcon"/>
+        <entry id="31" method="true" symbol="initTestDelegate"/>
+        <entry field="true" id="34" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8388643" module="true" symbol="Sensor"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry id="19" method="true" symbol="onSnsr"/>
+        <entry id="28" method="true" symbol="onSnsr"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="12" symbol="&lt;globals/TestApp/&lt;&gt;testDelegate&gt;"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="15" symbol="&lt;globals/TestView/&lt;&gt;bloodOx&gt;"/>
+        <entry field="true" id="23" symbol="&lt;globals/TestView/&lt;&gt;bloodOx&gt;"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="14" method="true" symbol="initTestView"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="8389347" symbol="color"/>
         <entry id="9" object="true" symbol="TestMenuDelegate"/>
-        <entry field="true" id="16" symbol="&lt;globals/TestView/&lt;&gt;hrNum&gt;"/>
-        <entry id="12" module="true" symbol="Layouts"/>
+        <entry field="true" id="24" symbol="&lt;globals/TestView/&lt;&gt;hrNum&gt;"/>
+        <entry field="true" id="17" symbol="&lt;globals/TimerView/&lt;&gt;myCount&gt;"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="20" module="true" symbol="Layouts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="25" symbol="menu_label_1"/>
+        <entry field="true" id="40" symbol="menu_label_2"/>
+        <entry field="true" id="39" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435857" name="sensorInfo" stackId="1" startPc="268435732"/>
-        <entry endPc="268435856" name="heartRate" stackId="2" startPc="268435735"/>
-        <entry endPc="268435856" name="temp" stackId="3" startPc="268435735"/>
-        <entry endPc="268435856" name="ox" stackId="4" startPc="268435735"/>
-        <entry arg="true" endPc="268435893" name="dc" stackId="1" startPc="268435858"/>
-        <entry arg="true" endPc="268435958" name="responseCode" stackId="1" startPc="268435894"/>
-        <entry arg="true" endPc="268435958" name="data" stackId="2" startPc="268435894"/>
-        <entry endPc="268436102" name="url" stackId="1" startPc="268435962"/>
-        <entry endPc="268436102" name="params" stackId="2" startPc="268435962"/>
-        <entry endPc="268436102" name="options" stackId="3" startPc="268435962"/>
-        <entry endPc="268436102" name="responseCallback" stackId="4" startPc="268435962"/>
-        <entry arg="true" endPc="268436217" name="dc" stackId="1" startPc="268436163"/>
-        <entry endPc="268436216" name="view" stackId="2" startPc="268436166"/>
-        <entry arg="true" endPc="268436284" name="item" stackId="1" startPc="268436218"/>
-        <entry arg="true" endPc="268436424" name="dc" stackId="1" startPc="268436300"/>
-        <entry endPc="268436424" name="rez_cmp_local_text_heart" stackId="2" startPc="268436311"/>
+        <entry arg="true" endPc="268435829" name="view" stackId="1" startPc="268435818"/>
+        <entry arg="true" endPc="268435911" name="dc" stackId="1" startPc="268435845"/>
+        <entry arg="true" endPc="268436016" name="dc" stackId="1" startPc="268435956"/>
+        <entry endPc="268436015" name="timerLabel" stackId="2" startPc="268435959"/>
+        <entry arg="true" endPc="268436195" name="sensorInfo" stackId="1" startPc="268436077"/>
+        <entry endPc="268436194" name="heartRate" stackId="2" startPc="268436080"/>
+        <entry endPc="268436194" name="temp" stackId="3" startPc="268436080"/>
+        <entry endPc="268436194" name="ox" stackId="4" startPc="268436080"/>
+        <entry arg="true" endPc="268436231" name="dc" stackId="1" startPc="268436196"/>
+        <entry arg="true" endPc="268436368" name="responseCode" stackId="1" startPc="268436232"/>
+        <entry arg="true" endPc="268436368" name="data" stackId="2" startPc="268436232"/>
+        <entry endPc="268436367" name="emergencyDetected" stackId="3" startPc="268436235"/>
+        <entry endPc="268436530" name="url" stackId="1" startPc="268436372"/>
+        <entry endPc="268436530" name="params" stackId="2" startPc="268436372"/>
+        <entry endPc="268436530" name="options" stackId="3" startPc="268436372"/>
+        <entry endPc="268436530" name="responseCallback" stackId="4" startPc="268436372"/>
+        <entry arg="true" endPc="268436543" name="emergency" stackId="1" startPc="268436532"/>
+        <entry arg="true" endPc="268436657" name="dc" stackId="1" startPc="268436603"/>
+        <entry endPc="268436656" name="view" stackId="2" startPc="268436606"/>
+        <entry arg="true" endPc="268436669" name="delegate" stackId="1" startPc="268436658"/>
+        <entry arg="true" endPc="268436681" name="view" stackId="1" startPc="268436670"/>
+        <entry arg="true" endPc="268436828" name="item" stackId="1" startPc="268436682"/>
+        <entry arg="true" endPc="268436979" name="dc" stackId="1" startPc="268436844"/>
+        <entry endPc="268436979" name="rez_cmp_local_text_Timer" stackId="2" startPc="268436855"/>
+        <entry arg="true" endPc="268437104" name="dc" stackId="1" startPc="268436980"/>
+        <entry endPc="268437104" name="rez_cmp_local_text_heart" stackId="2" startPc="268436991"/>
     </localVars>
     <deviceInfo deviceVersion="6dcd7b8e5f5b4076e877ee6ed9889becbccbd260" partNumber="006-B3943-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/TestApp" offset="152" parentId="globals" symbolId="TestApp" type="class"/>
-        <dataEntry label="globals/TestDelegate" offset="232" parentId="globals" symbolId="TestDelegate" type="class"/>
-        <dataEntry label="globals/Rez" offset="285" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/TestView" offset="347" parentId="globals" symbolId="TestView" type="class"/>
-        <dataEntry label="globals/TestMenuDelegate" offset="499" parentId="globals" symbolId="TestMenuDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="552" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="587" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="622" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="657" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="710" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/TestApp" offset="161" parentId="globals" symbolId="TestApp" type="class"/>
+        <dataEntry label="globals/TestDelegate" offset="250" parentId="globals" symbolId="TestDelegate" type="class"/>
+        <dataEntry label="globals/TimerView" offset="330" parentId="globals" symbolId="TimerView" type="class"/>
+        <dataEntry label="globals/Rez" offset="437" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/TestView" offset="499" parentId="globals" symbolId="TestView" type="class"/>
+        <dataEntry label="globals/TestMenuDelegate" offset="669" parentId="globals" symbolId="TestMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="758" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="793" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="837" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="872" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="934" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="TestApp" startPc="268435460">
@@ -183,33 +257,60 @@
         <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435484">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+        <functionEntry accessMode="public" endPc="268435516" name="&lt;init&gt;" parent="TimerView" startPc="268435505">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435553" name="&lt;init&gt;" parent="TestView" startPc="268435525">
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="Rez" startPc="268435517">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435565" name="&lt;init&gt;" parent="TestMenuDelegate" startPc="268435554">
+        <functionEntry accessMode="public" endPc="268435565" name="&lt;init&gt;" parent="TestView" startPc="268435537">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435568" name="onStart" parent="TestApp" startPc="268435566">
+        <functionEntry accessMode="public" endPc="268435577" name="&lt;init&gt;" parent="TestMenuDelegate" startPc="268435566">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435580" name="onStart" parent="TestApp" startPc="268435578">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435625" name="getInitialView" parent="TestApp" startPc="268435569">
+        <functionEntry accessMode="public" endPc="268435680" name="getInitialView" parent="TestApp" startPc="268435581">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435640" name="initialize" parent="TestApp" startPc="268435626">
+        <functionEntry accessMode="public" endPc="268435695" name="initialize" parent="TestApp" startPc="268435681">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435643" name="onStop" parent="TestApp" startPc="268435641">
+        <functionEntry accessMode="public" endPc="268435698" name="onStop" parent="TestApp" startPc="268435696">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435716" name="onMenu" parent="TestDelegate" startPc="268435644">
+        <functionEntry accessMode="public" endPc="268435817" name="onMenu" parent="TestDelegate" startPc="268435699">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435731" name="initialize" parent="TestDelegate" startPc="268435717">
+        <functionEntry accessMode="public" endPc="268435829" name="initTestView" parent="TestDelegate" startPc="268435818">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435844" name="initialize" parent="TestDelegate" startPc="268435830">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="TimerView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435911" name="onLayout" parent="TimerView" startPc="268435845">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435955" name="initialize" parent="TimerView" startPc="268435912">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="TimerView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436016" name="onUpdate" parent="TimerView" startPc="268435956">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436066" name="timerCallback" parent="TimerView" startPc="268436017">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -224,50 +325,66 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onShow" parent="TestView">
+        <functionEntry accessMode="public" endPc="268436076" name="onShow" parent="TestView" startPc="268436067">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435857" name="onSnsr" parent="TestView" startPc="268435732">
+        <functionEntry accessMode="public" endPc="268436195" name="onSnsr" parent="TestView" startPc="268436077">
             <param id="sensorInfo"/>
             <documentation><![CDATA[<div class="description"> Handle sensor updates<br/> <div class="param"> sensorInfo Updated sensor data</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435893" name="onLayout" parent="TestView" startPc="268435858">
+        <functionEntry accessMode="public" endPc="268436231" name="onLayout" parent="TestView" startPc="268436196">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435958" name="onReceive" parent="TestView" startPc="268435894">
+        <functionEntry accessMode="public" endPc="268436368" name="onReceive" parent="TestView" startPc="268436232">
             <param id="responseCode"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436103" name="makeRequest" parent="TestView" startPc="268435959">
+        <functionEntry accessMode="public" endPc="268436531" name="makeRequest" parent="TestView" startPc="268436369">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436162" name="initialize" parent="TestView" startPc="268436104">
+        <functionEntry accessMode="public" endPc="268436543" name="setIsEmergency" parent="TestView" startPc="268436532">
+            <param id="emergency"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436602" name="initialize" parent="TestView" startPc="268436544">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="TestView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436217" name="onUpdate" parent="TestView" startPc="268436163">
+        <functionEntry accessMode="public" endPc="268436657" name="onUpdate" parent="TestView" startPc="268436603">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436284" name="onMenuItem" parent="TestMenuDelegate" startPc="268436218">
+        <functionEntry accessMode="public" endPc="268436669" name="initTestDelegate" parent="TestMenuDelegate" startPc="268436658">
+            <param id="delegate"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436681" name="initTestView" parent="TestMenuDelegate" startPc="268436670">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436828" name="onMenuItem" parent="TestMenuDelegate" startPc="268436682">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436299" name="initialize" parent="TestMenuDelegate" startPc="268436285">
+        <functionEntry accessMode="public" endPc="268436843" name="initialize" parent="TestMenuDelegate" startPc="268436829">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436424" name="MainLayout" parent="Layouts" startPc="268436300">
+        <functionEntry accessMode="public" endPc="268436979" name="TimerLayout" parent="Layouts" startPc="268436844">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436436" name="&lt;init&gt;" parent="MainMenu" startPc="268436425">
+        <functionEntry accessMode="public" endPc="268437104" name="MainLayout" parent="Layouts" startPc="268436980">
+            <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436496" name="initialize" parent="MainMenu" startPc="268436437">
+        <functionEntry accessMode="public" endPc="268437116" name="&lt;init&gt;" parent="MainMenu" startPc="268437105">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437169" name="initialize" parent="MainMenu" startPc="268437117">
             <documentation/>
         </functionEntry>
     </functions>
