@@ -44,7 +44,7 @@ export const triggerEmergencyFromWatch = async (req, res) => {
 
   try {
     // if called, call the Twilio test call function and pass the vitals
-    const twilioResponse = await `callTwilio`(vitals);
+    const twilioResponse = await callTwilio();
     if (twilioResponse.success) {
       res.status(200).json({ message: "Twilio call initiated.", sid: twilioResponse.sid });
     } else {
