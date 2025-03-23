@@ -6,6 +6,7 @@ import { createServer } from "http";
 import { initSocketServer } from "./websocket/socketServer.js";
 import twilioHandlers from "./controllers/twilioController.js";
 import watchRoutes from "./watch/watchRoutes.js";
+import mlHandlers from "./controllers/mlController.js";
 import emergencyRoutes from "./routes/emergencyRoutes.js";
 import patientRoutes from "./routes/patientRoutes.js";
 import twilioRoutes from "./routes/twilioRoutes.js";
@@ -36,6 +37,9 @@ app.get("/api/healthcheck", (req, res) => {
   const connected = dbState === 1 ? "connected" : "disconnected";
   res.json({ status: "ok", mongodb: connected });
 });
+
+// ML Prediction endpoint
+app.post("/api/predict-emergency", mlHandlers.predictEmergency);
 
 export const server = createServer(app);
 initSocketServer(server);
