@@ -6,16 +6,16 @@ import { callTwilio } from "./twilioController.js";
 
 export const triggerEmergencyFromWatch = async (req, res) => {
 
-  // expect a responseID from the watch
-  if (!req.body.responseID) {
-    return res.status(400).json({ error: "Invalid input. Expected a responseID." });
+  // expect a responseId from the watch
+  if (!req.body.responseId) {
+    return res.status(400).json({ error: "Invalid input. Expected a responseId." });
   };
 
   console.log("Emergency triggered from watch");
 
   try {
-    // if called, pull the vitals from the database using responseID
-    const vitals = await VitalsTesting.findOne({ responseID: req.body.responseID });
+    // if called, pull the vitals from the database using responseId
+    const vitals = await VitalsTesting.findOne({ responseId: req.body.responseId });
     console.log("Vitals from database:", vitals);
   } catch (error) {
     console.error("Error getting vitals from database:", error);
@@ -39,7 +39,7 @@ export const triggerEmergencyFromWatch = async (req, res) => {
   const testemergency = new testEmergency({
     status: "initiated",
     timestamps: { triggeredAt: new Date() },
-    responseID: req.body.responseID
+    responseId: req.body.responseId
   });
 
   await testemergency.save();

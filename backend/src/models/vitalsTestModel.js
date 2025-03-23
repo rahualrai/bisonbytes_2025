@@ -26,7 +26,7 @@ const vitalsTestSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-  responseID: {
+  responseId: {
     type: String,
     required: true,
   },

@@ -15,7 +15,7 @@ const TestEmergencySchema = new mongoose.Schema(
       escalatedAt: Date,
       resolvedAt: Date,
     },
-    responseID: {
+    responseId: {
       type: String,
       required: true
     }

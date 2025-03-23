@@ -31,7 +31,7 @@ router.post("/update-vitals", async (req, res) => {
 
   try {
 
-    const responseID = uuidv4();
+    const responseId = uuidv4();
 
     const vitals = new VitalsTesting({
       heartRate,
@@ -39,7 +39,7 @@ router.post("/update-vitals", async (req, res) => {
       oxygenSaturation,
       respirationRate,
       temperature,
-      responseID,
+      responseId,
     });
     console.log("Saving to database:", vitals);
     await vitals.save();
@@ -64,7 +64,7 @@ router.post("/update-vitals", async (req, res) => {
       message: "Data saved successfully",
       emergency_probability: predictionResponse.emergency_probability,
       emergency_detected: emergencyDetected,
-      responseID: responseID
+      responseId: responseId
     });
   } catch (error) {
     console.error("Error saving to database:", error);
