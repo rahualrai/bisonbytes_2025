@@ -5,7 +5,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import { createServer } from "http";
 import { initSocketServer } from "./websocket/socketServer.js";
-import { triggerEmergencyFromWatch } from "./controllers/emergencyController.js";
+import {isEmergency} from "./controllers/emergencyController.js";
 import twilioHandlers from "./controllers/twilioController.js";
 import watchRoutes from "./watch/watchRoutes.js";
 import mlHandlers from "./controllers/mlController.js";
@@ -32,7 +32,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 
 app.use("/", watchRoutes);
 app.use("/api/emergencies", emergencyRoutes);
-app.post("/trigger-emergency", triggerEmergencyFromWatch);
+app.post("/trigger-emergency", isEmergency);
 app.use("/api/patients", patientRoutes);
 app.use("/api/twilio", twilioRoutes);
 app.use("/api/vitals", vitalsRoutes);

@@ -5,8 +5,8 @@ const TestEmergencySchema = new mongoose.Schema(
   {
     status: {
       type: String,
-      enum: ['initiated', 'pending', 'active', 'escalating', 'resolved', 'false_alarm'],
-      default: 'pending'
+      enum: ['initiated', 'escalated', 'false_alarm'],
+      default: 'initiated'
     },
     timestamps: {
       triggeredAt: Date,
@@ -16,6 +16,10 @@ const TestEmergencySchema = new mongoose.Schema(
       resolvedAt: Date,
     },
     responseId: {
+      type: String,
+      required: true
+    },
+    address: {
       type: String,
       required: true
     }

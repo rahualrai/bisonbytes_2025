@@ -5,9 +5,14 @@ import { emitEmergencyUpdate } from "../websocket/socketServer.js";
 import { callTwilio } from "./twilioController.js";
 import getAddress from "../services/geocodingService.js";
 
-export const triggerEmergencyFromWatch = async (req, res) => {
+export const isEmergency = async (req, res) => {
 
   console.log(req.body);
+
+  if (!req.body.emergencyTriggered) {
+    console.log("Invalid input. Expected a boolean value.");
+    return res.status(400).json({ error: "Invalid input. Expected a boolean value." });
+  }
 
   // expect a responseId from the watch
   if (!req.body.responseId) {
@@ -21,16 +26,18 @@ export const triggerEmergencyFromWatch = async (req, res) => {
     return res.status(400).json({ error: "Invalid input. Expected a latitude and longitude." });
   }
 
+  const coordinates = req.body.latitude.toString() + ", " + req.body.longitude.toString(); 
   console.log("Emergency triggered from watch");
 
+  let address;
   try {
     // if called, use google maps api to get the address from the lat and long
-    const address = await getAddress(req.body.latitude, req.body.longitude);
+    address = await getAddress(req.body.latitude, req.body.longitude);
     console.log("Address from Google Maps API:", address);
   }
   catch (error) {
+    address = coordinates;
     console.error("Error getting address from Google Maps API:", error);
-    return res.status(500).json({ error: "Failed to get address from Google Maps API." });
   }
 
   try {
@@ -42,24 +49,30 @@ export const triggerEmergencyFromWatch = async (req, res) => {
     return res.status(500).json({ error: "Failed to get vitals from database." });
   }
 
-  try {
-    // if called, call the Twilio test call function and pass the vitals
-    const twilioResponse = await callTwilio();
-    if (twilioResponse.success) {
-      res.status(200).json({ message: "Twilio call initiated.", sid: twilioResponse.sid });
-    } else {
-      res.status(500).json({ error: twilioResponse.error });
+  if (req.body.emergencyTriggered) {
+    try {
+      // if called, call the Twilio test call function and pass the vitals
+      const twilioResponse = await callTwilio();
+      if (twilioResponse.success) {
+        res.status(200).json({ message: "Twilio call initiated.", sid: twilioResponse.sid });
+      } else {
+        res.status(500).json({ error: twilioResponse.error });
+      }
+    } catch (error) {
+      console.error("Error triggering emergency:", error);
+      res.status(500).json({ error: "Failed to trigger emergency." });
     }
-  } catch (error) {
-    console.error("Error triggering emergency:", error);
-    res.status(500).json({ error: "Failed to trigger emergency." });
+  }else{
+    console.log("No emergency triggered.");
+    res.status(200).json({ message: "No emergency triggered." });
   }
 
   // save the emergency to the database
   const testemergency = new testEmergency({
-    status: "initiated",
+    status: req.body.emergencyTriggered ? "escalated" : "false_alarm",
     timestamps: { triggeredAt: new Date() },
-    responseId: req.body.responseId
+    responseId: req.body.responseId,
+    address: address
   });
 
   await testemergency.save();
