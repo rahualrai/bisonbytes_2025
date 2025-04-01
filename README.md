@@ -60,4 +60,4 @@ Our future plans include:
 
 ## Devpost Link
 
-Check out our project on Devpost: [Emergency Guardian on Devpost](https://devpost.com/software/guradianai)
+Check out our project on Devpost: [GuardianAI on Devpost](https://devpost.com/software/guradianai)
