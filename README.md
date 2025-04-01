@@ -1,14 +1,14 @@
-# Emergency Guardian
+# GuardianAI
 
-Emergency Guardian is a real-time health monitoring and emergency response system that leverages wearable devices, AI, and automation to ensure users receive immediate help during emergencies.
+GuardianAI is a real-time health monitoring and emergency response system that leverages wearable devices, AI, and automation to ensure users receive immediate help during emergencies.
 
 ## Inspiration
 
-Every day, wearable devices collect vast amounts of personal health data, but much of it remains underutilized. Emergency Guardian transforms this passive data collection into active, life-saving care. By leveraging wearable technology, we ensure that users are protected when they need help the most.
+Every day, wearable devices collect vast amounts of personal health data, but much of it remains underutilized. GuardianAI transforms this passive data collection into active, life-saving care. By leveraging wearable technology, we ensure that users are protected when they need help the most.
 
 ## What It Does
 
-Emergency Guardian integrates with Garmin smartwatches to monitor users' health and detect emergencies automatically. Here's how it works:
+GuardianAI integrates with Garmin smartwatches to monitor users' health and detect emergencies automatically. Here's how it works:
 
 1. **Health Monitoring**: Garmin smartwatches send health data and alerts to our server.
 2. **Data Storage**: MongoDB securely stores health data for tracking and analysis.
@@ -22,7 +22,7 @@ Emergency Guardian integrates with Garmin smartwatches to monitor users' health 
 
 ## How We Built It
 
-Emergency Guardian was built using the following technologies:
+GuardianAI was built using the following technologies:
 
 - **Wearable Integration**: API to collect data from Garmin smartwatches.
 - **Backend**: Node.js for real-time health data management.
